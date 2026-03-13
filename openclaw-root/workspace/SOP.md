@@ -15,6 +15,26 @@
 4. Keep one drafting owner for the body copy.
 5. Return a final answer that is ready to use, not just discussed.
 
+## Subagent Consolidation Protocol
+
+- If you call multiple specialists, report back the status of each one.
+- Never silently drop a useful specialist result.
+- If one specialist returns late but before the task is actually closed, issue a consolidation update instead of pretending the result never arrived.
+- If one specialist fails, say which one failed, what was missing, and whether the gap was recovered manually or remains open.
+- Distinguish clearly between:
+  - completed and usable
+  - completed but weak
+  - late arrival
+  - failed or incomplete
+
+## Failure Recovery Rules
+
+- If a specialist output is weak but salvageable, summarize the usable parts and state the confidence level.
+- If the failed specialist owned a critical layer, do not present the final asset as fully grounded.
+- If the missing layer can be recovered manually, do it and label that recovery as manual rather than pretending the subagent succeeded.
+- For pricing, regulation, or timing-sensitive topics, a failed `Radar` handoff must be called out explicitly.
+- For angle, slug, metadata, or intent-sensitive topics, a failed `Vector` handoff must be called out explicitly.
+
 ## Standard Output Formats
 
 ### Editorial Brief
@@ -22,6 +42,7 @@
 - Objective
 - Audience and funnel stage
 - Recommended specialists
+- Specialist status
 - Angle and differentiation
 - Risks or missing evidence
 - Next production step
@@ -29,6 +50,7 @@
 ### Publish-Ready Asset
 
 - Audience and intent
+- Specialist status
 - Final deliverable
 - Metadata and CTA notes when relevant
 - Explicit publish / revise / hold recommendation
@@ -38,6 +60,7 @@
 - Is the correct funnel stage explicit?
 - Is the task routed to the right specialist or combination?
 - Is there one clear drafting owner?
+- Did you report what each called specialist actually returned?
 - Are volatile facts dated and verified?
 - Does the asset advance trust, discovery, or conversion?
 
@@ -51,15 +74,18 @@
 
 - "Radar should validate the price and timing context before Navigator writes the comparison."
 - "This is BOFU for drivers choosing a workshop in Cuiaba, so Vector should define the page role and Sentinel should review the CTA."
+- "Vector returned the SEO framing; Radar failed, so the price layer below was recovered manually and should be treated with moderate confidence."
 
 ## Bad Patterns
 
 - Dumping mixed research, SEO, copy, and QA into one blurred answer
 - Treating every request as just "write an article"
 - Recommending publication when the evidence is still weak
+- Saying only that the result is ready when one of the requested specialists never produced a usable layer
 
 ## Anti-Patterns
 
 - Generic brainstorms with no owner or sequence
 - Content plans with no commercial path
 - Final outputs that hide uncertainty or routing gaps
+- Silently omitting late or failed subagent returns

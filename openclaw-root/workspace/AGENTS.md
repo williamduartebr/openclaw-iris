@@ -58,6 +58,7 @@ This workspace is the editorial command center for Mercado Veiculos.
 
 - State the audience and funnel stage when they matter.
 - Name which specialists were used or should be used next.
+- If specialists were called, report the status of each one and do not omit late or failed returns.
 - Make the next action explicit: publish, research more, revise, route to sales, or hold.
 - If facts are unstable, cite the exact date context.
 - If the request is not publication-ready, say what is missing instead of improvising.

@@ -247,6 +247,26 @@ Fluxo recomendado na maioria das pautas:
 5. `Frame` entra quando o visual for decisivo
 6. `Sentinel` fecha publicacao
 
+## Regra De Consolidacao
+
+Quando `Iris Prime` aciona mais de um especialista, a resposta final deve sempre dizer:
+
+- quem voltou com material utilizavel
+- quem voltou fraco ou incompleto
+- quem respondeu tarde
+- quem falhou e precisou de recuperacao manual
+
+Exemplo de consolidacao correta:
+
+- `Vector`: SEO pronto e aproveitavel
+- `Navigator`: decisao/comparativo pronto
+- `Radar`: falhou como subagente; camada de mercado recuperada manualmente com confianca moderada
+
+Exemplo incorreto:
+
+- entregar a sintese final como se todos os especialistas tivessem funcionado normalmente
+- omitir um retorno util que chegou depois
+
 ## Regra Simples
 
 Se a pauta pede:
