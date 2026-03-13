@@ -6,6 +6,7 @@ OpenClaw setup for Mercado Veiculos with an editorial orchestrator (`Iris Prime`
 
 - `Dockerfile`: OpenClaw runtime image
 - `docker-compose.yml`: local Docker service using a bind mount in this repo
+- `docs/`: migration and agent operation documentation
 - `openclaw-root/`: versioned agent workspaces and templates
 
 ## Agents
@@ -28,3 +29,8 @@ To bootstrap a fresh environment, copy `openclaw-root/openclaw.json.example` to 
 ```bash
 docker compose up -d
 ```
+
+## Docs
+
+- `docs/MIGRATION.md`: future VPS migration and restore guide
+- `docs/AGENTS.md`: what each agent does, when it enters, and which categories it owns best

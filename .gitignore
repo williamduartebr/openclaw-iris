@@ -14,12 +14,14 @@ openclaw-root/canvas/
 openclaw-root/completions/
 openclaw-root/credentials/
 openclaw-root/cron/
+openclaw-root/delivery-queue/
 openclaw-root/devices/
 openclaw-root/identity/
 openclaw-root/logs/
 openclaw-root/memory/
 openclaw-root/telegram/
 openclaw-root/agents/
+openclaw-root/subagents/
 openclaw-root/workspace.bak.*/
 openclaw-root/**/.openclaw/
 openclaw-root/**/memory/
