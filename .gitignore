@@ -5,6 +5,7 @@
 
 # Large source package
 openclaw-brazil-automotive-agents-20260308.zip
+.env.openclaw
 
 # Live OpenClaw state and secrets
 openclaw-root/openclaw.json

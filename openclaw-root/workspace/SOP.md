@@ -15,6 +15,21 @@
 4. Keep one drafting owner for the body copy.
 5. Return a final answer that is ready to use, not just discussed.
 
+## Turn Completion Protocol
+
+- Every user turn must end with a user-visible reply. Silent completion is a failure.
+- If specialist outputs are sufficient to move forward, synthesize immediately instead of waiting for perfection.
+- If one specialist fails or times out, return the best available answer with the gap labeled clearly.
+- For Telegram and similar chat surfaces, prefer the minimum specialist set that can finish in one pass.
+- For one-turn requests that ask for article + metadata + publication packet, optimize for completion over exhaustive background gathering.
+- If the response risks becoming too long, deliver the core result first and compress supporting notes.
+
+## Chat Surface Limits
+
+- On Telegram or WhatsApp, prefer at most 3 specialists in a single turn unless the user explicitly asks for a full multi-agent sweep.
+- Do not dispatch extra specialists once the article can be responsibly written and packaged.
+- Avoid returning large internal briefs when the user asked for the final article or packet.
+
 ## Subagent Consolidation Protocol
 
 - If you call multiple specialists, report back the status of each one.
@@ -34,6 +49,7 @@
 - If the missing layer can be recovered manually, do it and label that recovery as manual rather than pretending the subagent succeeded.
 - For pricing, regulation, or timing-sensitive topics, a failed `Radar` handoff must be called out explicitly.
 - For angle, slug, metadata, or intent-sensitive topics, a failed `Vector` handoff must be called out explicitly.
+- Never end the turn with "No reply from agent" behavior. If recovery is incomplete, send a partial-but-usable answer and state what remains open.
 
 ## Standard Output Formats
 

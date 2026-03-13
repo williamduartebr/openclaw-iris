@@ -127,7 +127,20 @@
     ]
   },
   "tools": {
-    "profile": "coding"
+    "profile": "coding",
+    "web": {
+      "search": {
+        "enabled": true,
+        "provider": "gemini",
+        "maxResults": 5,
+        "timeoutSeconds": 45,
+        "cacheTtlMinutes": 0,
+        "gemini": {
+          "apiKey": "__SET_GEMINI_API_KEY__",
+          "model": "gemini-2.5-flash"
+        }
+      }
+    }
   },
   "commands": {
     "native": "auto",

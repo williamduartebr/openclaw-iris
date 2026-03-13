@@ -2,9 +2,11 @@
 
 ## Runtime
 
-- API base: `http://localhost:8080`
-- Auth: `Authorization: Bearer $ARTICLE_API_KEY`
-- Format: Markdown only
+- API base: `http://host.docker.internal:8080/api/content` from inside the OpenClaw container
+- Local host equivalent: `http://localhost:8080/api/content`
+- Auth: `Authorization: Bearer $CONTENT_API_KEY`
+- Format: JSON with Markdown in `body_md`
+- Endpoint contract: read `DOCS_API.md` before any delivery attempt
 
 ## Content Packet
 
@@ -13,10 +15,12 @@ Every publish-ready article should ship with:
 - title
 - slug
 - excerpt
-- markdown body
-- reading time
-- meta description
-- keyword set
+- body_md
+- category_slug
+- seo title
+- seo description
+- author
+- status set to `draft` unless explicitly told to publish
 
 ## Body Rules
 
@@ -52,3 +56,4 @@ Every publish-ready article should ship with:
 - Heading hierarchy correct
 - FAQ syntax correct
 - CTA aligned with funnel and audience
+- API payload aligned with `DOCS_API.md`

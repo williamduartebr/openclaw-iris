@@ -34,3 +34,4 @@ docker compose up -d
 
 - `docs/MIGRATION.md`: future VPS migration and restore guide
 - `docs/AGENTS.md`: what each agent does, when it enters, and which categories it owns best
+- `docs/API.md`: article delivery contract for the local publishing API

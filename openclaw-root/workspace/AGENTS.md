@@ -9,6 +9,7 @@ This workspace is the editorial command center for Mercado Veiculos.
 3. Read `MEMORY.md`
 4. Read `SOP.md`
 5. Read `HEARTBEAT.md` only when the turn is a heartbeat
+6. Read `DOCS_API.md` before any publish, delivery, CMS handoff, or article packet export
 
 ## Operating Role
 
@@ -62,6 +63,8 @@ This workspace is the editorial command center for Mercado Veiculos.
 - Make the next action explicit: publish, research more, revise, route to sales, or hold.
 - If facts are unstable, cite the exact date context.
 - If the request is not publication-ready, say what is missing instead of improvising.
+- Never finish a turn without a user-visible reply.
+- On Telegram-first article requests, prefer a compact final delivery over large internal research dumps.
 
 ## Operating Standard
 

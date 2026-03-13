@@ -2,14 +2,16 @@
 
 ## Publishing Stack
 
-- Publishing API base: `http://localhost:8080`
-- Auth header: `Authorization: Bearer $ARTICLE_API_KEY`
-- Primary content format: Markdown only
-- If `ARTICLE_API_KEY` is not exported, the local Laravel project usually stores it in its `.env`
+- Publishing API base: `http://host.docker.internal:8080/api/content` from inside the OpenClaw container
+- Local host equivalent: `http://localhost:8080/api/content`
+- Auth header: `Authorization: Bearer $CONTENT_API_KEY`
+- Primary content format: JSON with Markdown in `body_md`
+- Delivery contract: `DOCS_API.md`
+- If `CONTENT_API_KEY` is not exported, check the local Laravel project config for `services.content_api.key`
 
 ## Formatting Rules
 
-- The CMS handles the article title, so the body must start at `##`
+- The CMS handles the article title, so `body_md` must start at `##`
 - Use `##` for primary sections and `###` for subsections
 - FAQ entries must use `### FAQ: ...`
 - Never emit HTML for article bodies
@@ -28,3 +30,5 @@
 - Use BRL pricing and Brazilian context by default
 - For messaging surfaces such as WhatsApp and Telegram, avoid markdown tables and convert them to bullets
 - For the detailed publication packet, read `PUBLISHING_WORKFLOW.md`
+- For endpoint path, JSON payload, and response expectations, read `DOCS_API.md`
+- When updating an existing article, fetch the latest `version` first and send it with `PATCH` or `PUT`

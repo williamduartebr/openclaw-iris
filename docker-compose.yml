@@ -2,6 +2,10 @@ services:
   openclaw:
     build: .
     container_name: openclaw
+    env_file:
+      - ./.env.openclaw
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
     tty: true
     stdin_open: true
     restart: unless-stopped
