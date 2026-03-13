@@ -10,6 +10,12 @@
 - Format: JSON with Markdown in `body_md`
 - Endpoint contract: read `DOCS_API.md` before any delivery attempt
 
+## API Preflight
+
+1. `GET /health` (no auth) when runtime behavior is uncertain.
+2. `GET /categories` to map editorial category names to valid `category_slug`.
+3. `GET /articles/by-slug/{slug}` (or `GET /articles?slug=...`) to avoid duplicates.
+
 ## Content Packet
 
 Every publish-ready article should ship with:
@@ -50,6 +56,12 @@ Every publish-ready article should ship with:
 - Prompt-level funnel labels are optional guidance for tone and do not replace backend category funnel mapping
 - For CMS payloads, do not send `funnel_stage`; it is resolved from the selected category
 - Prioritize TOFU and MOFU output for AdSense-friendly organic monetization; publish BOFU intentionally, not as the default mix
+
+## Validation and Limits
+
+- On invalid `category_slug`, use `422` hints (`valid_category_slugs`) and retry with the corrected slug.
+- Respect API limits: `GET 120/min`; write methods (`POST`/`PUT`/`PATCH`/`DELETE`) `30/min`.
+- When `429` occurs, wait `retry_after_seconds` before retrying.
 
 ## B2B CTA Map
 

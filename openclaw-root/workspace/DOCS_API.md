@@ -2,28 +2,36 @@
 
 ## Purpose
 
-This document defines the article delivery contract for Mercado Veiculos.
-Read it before sending any article to the local publishing stack.
+This document defines the current Content API contract used by OpenClaw agents.
+Read it before any CMS handoff, create, update, or publish action.
 
 ## Base URL
 
 - Agent runtime base URL: `http://host.docker.internal:8080/api/content`
 - Browser/local host base URL: `http://localhost:8080/api/content`
-- Default auth header: `Authorization: Bearer $CONTENT_API_KEY`
-- Content type: `application/json`
-- Accept header: `application/json`
-- Body format: Markdown in `body_md`
+- Content auth header: `Authorization: Bearer $CONTENT_API_KEY`
+- Content headers: `Accept: application/json`, `Content-Type: application/json`
 - Media API runtime base URL: `http://host.docker.internal:8080/api/media`
 - Media API auth header: `Authorization: Bearer $MEDIA_API_KEY`
+- Body format: Markdown in `body_md`
 
 ## Endpoint Contract
 
-Primary routes:
+Readiness routes:
 
-- `GET /articles?search={slug}&per_page=1`: find an article by slug before creating or rewriting
-- `POST /articles`: create a new article
-- `GET /articles/{id}`: fetch a full article resource, including `body_md` and `version`
-- `PATCH /articles/{id}`: update specific fields, requires `version`
+- `GET /health` (no auth): lightweight Content API health check
+- `GET /categories`: list valid categories, slugs, and `funnel_stage`
+
+Discovery routes:
+
+- `GET /articles/by-slug/{slug}`: exact slug lookup, returns 404 when missing
+- `GET /articles?slug={slug}&per_page=1`: slug lookup without 404 (0 or 1 item)
+- `GET /articles/{id}`: fetch full article resource including `body_md` and `version`
+
+Write routes:
+
+- `POST /articles`: create article
+- `PATCH /articles/{id}`: partial update, requires `version`
 - `PUT /articles/{id}`: full replacement, requires `version`
 
 Lifecycle routes:
@@ -37,17 +45,16 @@ Lifecycle routes:
 Media routes:
 
 - `POST /media/images/generate`: start cover or inline image generation
-- `GET /media/images/{id}`: poll the image job until it is `completed`
+- `GET /media/images/{id}`: poll image job status
 
 ## Safe Workflow
 
-1. Search by slug first.
-2. Resolve the real CMS category slug before create when the planning label may differ from the backend slug.
-3. For a publish-ready article, generate the main cover image before create or before publish, then attach `cover_media_id`.
-4. If the article exists, fetch it by `id`.
-5. If you only need targeted edits, use `PATCH` with the current `version`.
-6. If you need a full rewrite, use `PUT` with the current `version`.
-7. Only use publish/schedule/archive actions after final QA.
+1. Call `GET /categories` to resolve the real `category_slug`.
+2. Check duplicates with `GET /articles/by-slug/{slug}` (or `GET /articles?slug=...`).
+3. Generate/pin cover image and keep `cover_media_id` or trusted `cover_image_url`.
+4. Create as `draft` using `POST /articles`.
+5. Read by `id`, then revise with `PATCH`/`PUT` using current `version`.
+6. Publish only after QA by calling `POST /articles/{id}/publish`.
 
 ## Minimal Create Payload
 
@@ -88,72 +95,45 @@ Media routes:
 - `body_md`: use `##` for major sections and `###` for subsections
 - `body_md`: never include HTML tags
 - `body_md`: include FAQ as `## Perguntas frequentes` and `### FAQ: ...`
-- `category_slug`: use a valid category slug when known; if omitted, the backend may default to `geral`
+- `category_slug`: use a slug returned by `GET /categories`
 - `category_slugs`: optional extra categories
-- `funnel_stage`: do not send this field in article payloads; funnel stage is resolved from the selected category in the backend
-- `status`: use `draft` by default; valid values are `draft`, `review`, `scheduled`, `published`, `archived`
+- `funnel_stage`: never send in article payloads; backend resolves it from category
+- `status`: default `draft`; valid values are `draft`, `review`, `scheduled`, `published`, `archived`
 - `seo_title`: optional, max 70 chars
 - `seo_description`: optional, max 160 chars
-- `cover_media_id`: preferred for publish-ready articles because it resolves the real hero image from the Media API
+- `cover_media_id`: preferred for publish-ready articles
 - `cover_image_url`: must be absolute `https://` when provided
 - `gallery_image_urls`: max 20 entries
 - `video_urls`: max 10 entries
 - `published_at`: use ISO 8601 when scheduling
-- `author`: use a plain text byline
+- `author`: plain text byline
 
-Editorial funnel notes for agent prompts:
+Editorial funnel notes for prompts:
 
-- `TOFU`/`MOFU`/`BOFU` labels in prompts are optional guidance for writing tone
-- If a funnel label is provided in a prompt, keep it coherent with the chosen `category_slug`
-- Treat category selection as the source of truth for persisted funnel behavior
+- `TOFU`/`MOFU`/`BOFU` prompt labels are optional tone guidance
+- If provided, keep funnel label coherent with selected category
+- Category is the source of truth for persisted `funnel_stage`
+- Prioritize TOFU and MOFU output for AdSense-friendly monetization
+- Use BOFU intentionally for conversion flows (ads are blocked there)
 
-## Image Workflow
+## Category Discovery
 
-Generate the hero image through the Media API when the article is heading to the CMS:
+`GET /categories` response includes:
 
-1. `POST /media/images/generate`
-2. Poll `GET /media/images/{id}` until `status = completed`
-3. Attach the resulting `cover_media_id` on `POST /articles` or `PATCH /articles/{id}`
-4. When using Gemini image generation, set `model` explicitly to `gemini-2.5-flash-image` instead of relying on the backend default
+- `id`
+- `name`
+- `slug`
+- `description`
+- `role`
+- `funnel_stage`
 
-Recommended cover payload shape:
+Always use this route before creating articles when editorial labels may differ from technical slugs.
+Example: `Autoeletrica e Baterias` maps to `autoeletrica-e-eletronica`.
 
-```json
-{
-  "prompt": "Autoeletricista brasileiro testando a bateria de um carro de passeio em oficina realista, foco no multimetro e no cofre do motor, luz natural, visual editorial premium, sem marcas visiveis",
-  "provider": "google_gemini",
-  "model": "gemini-2.5-flash-image",
-  "style": "natural",
-  "quality": "high",
-  "width": 1600,
-  "height": 900,
-  "metadata": {
-    "usage": "cover_image",
-    "section": "editorial"
-  }
-}
-```
+## Response Expectations
 
-## Update Rules
-
-- `PATCH /articles/{id}` is for partial edits and always requires the latest `version`
-- `PUT /articles/{id}` is for full replacement and always requires the latest `version`
-- Never overwrite an existing article without reading its current `body_md` and `version` first
-- If the API returns `409 Conflict`, fetch the article again, merge your changes, and retry with the new `version`
-
-Example patch:
-
-```json
-{
-  "version": 3,
-  "seo_title": "Quanto custa trocar a bateria do carro em 2026? Guia atualizado",
-  "seo_description": "Faixa de preco, sinais de desgaste e quando procurar autoeletrica."
-}
-```
-
-## Response Expectation
-
-Successful create/update responses return a `data` wrapper with the article resource:
+Successful create/update responses return a `data` wrapper with the article resource.
+Article payloads now include enriched category metadata with funnel stage:
 
 ```json
 {
@@ -162,24 +142,69 @@ Successful create/update responses return a `data` wrapper with the article reso
     "slug": "quanto-custa-trocar-bateria-carro-2026",
     "status": "draft",
     "version": 1,
-    "url": "/quanto-custa-trocar-bateria-carro-2026"
+    "category": {
+      "id": 6,
+      "name": "Dicas e Curiosidades",
+      "slug": "dicas-e-curiosidades",
+      "funnel_stage": "TOFU"
+    }
   }
 }
 ```
 
-Common failures:
+## Validation and Hints
 
-- `401`: missing or invalid bearer token
-- `404`: article not found
+When `category_slug` is invalid, `422` can include:
+
+```json
+{
+  "message": "Validation failed.",
+  "errors": {
+    "category_slug": [
+      "The selected category slug is invalid."
+    ]
+  },
+  "hints": {
+    "valid_category_slugs": [
+      "novidades-automotivas",
+      "dicas-e-curiosidades",
+      "autoeletrica-e-eletronica"
+    ]
+  }
+}
+```
+
+Use `hints.valid_category_slugs` to correct and retry.
+
+## Rate Limiting
+
+- Read endpoints (`GET`): `120/min` per IP
+- Write endpoints (`POST`/`PUT`/`PATCH`/`DELETE`): `30/min` per IP
+
+Typical `429` payload:
+
+```json
+{
+  "message": "Too many requests. Please slow down.",
+  "retry_after_seconds": 42,
+  "scope": "per-ip",
+  "hint": "Wait 42s before retrying. Read-only endpoints (GET) have higher limits (120/min) than write endpoints (POST/PUT/PATCH/DELETE: 30/min)."
+}
+```
+
+## Error Map
+
+- `401`: missing or invalid token
+- `404`: article or slug not found
 - `409`: version conflict
-- `422`: validation failure
+- `422`: validation failure (may include hints)
+- `429`: rate-limited
 
 ## Delivery Standard
 
-- Default to draft creation unless the user explicitly asks to publish now.
-- Search by slug before creating to avoid duplicates.
-- Do not call an article publish-ready if it has no cover image attached.
-- Use `PATCH` for surgical edits and `PUT` for full rewrites.
-- Keep `body_md` in Markdown only.
-- If prices or regulations are volatile, keep the article in `draft` until factual QA is complete.
-- Base every write operation on the real module contract documented under `DocsApi/Content`.
+- Default to draft creation unless explicitly told to publish.
+- Resolve category with `GET /categories` before writing.
+- Check duplicates with slug lookup before creating.
+- Never label an article publish-ready without a real cover image.
+- Use `PATCH` for targeted edits and `PUT` for full rewrites.
+- Keep `body_md` Markdown-only and start body sections at `##`.

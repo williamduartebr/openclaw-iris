@@ -11,6 +11,8 @@
 - Delivery contract: `DOCS_API.md`
 - If `CONTENT_API_KEY` is not exported, check the local Laravel project config for `services.content_api.key`
 - If `MEDIA_API_KEY` is not exported, check the local Laravel project config for `services.media_api.key`
+- Use `GET /categories` to resolve the exact `category_slug` before create/update flows
+- Use `GET /articles/by-slug/{slug}` or `GET /articles?slug={slug}` for duplicate checks
 
 ## Formatting Rules
 
@@ -38,3 +40,6 @@
 - When updating an existing article, fetch the latest `version` first and send it with `PATCH` or `PUT`
 - For any CMS-bound article, attach a cover image through `cover_media_id` unless the user explicitly says to skip imagery
 - When using Gemini image generation, set `model: gemini-2.5-flash-image` explicitly
+- Do not send `funnel_stage` in article payloads; it is derived from category
+- If `422` returns `hints.valid_category_slugs`, use the hint list and retry
+- Respect API limits: `GET 120/min`, write methods `30/min`
