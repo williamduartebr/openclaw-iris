@@ -16,6 +16,7 @@ RUN apt-get update && apt-get install -y \
     && echo "deb [signed-by=/etc/apt/keyrings/nodesource.gpg] https://deb.nodesource.com/node_22.x nodistro main" > /etc/apt/sources.list.d/nodesource.list \
     && apt-get update \
     && apt-get install -y nodejs \
+    && ln -sf /usr/bin/python3 /usr/local/bin/python \
     && npm install -g openclaw \
     && rm -rf /var/lib/apt/lists/*
 
