@@ -13,6 +13,8 @@ Read it before sending any article to the local publishing stack.
 - Content type: `application/json`
 - Accept header: `application/json`
 - Body format: Markdown in `body_md`
+- Media API runtime base URL: `http://host.docker.internal:8080/api/media`
+- Media API auth header: `Authorization: Bearer $MEDIA_API_KEY`
 
 ## Endpoint Contract
 
@@ -32,13 +34,20 @@ Lifecycle routes:
 - `POST /articles/{id}/archive`
 - `POST /articles/{id}/restore`
 
+Media routes:
+
+- `POST /media/images/generate`: start cover or inline image generation
+- `GET /media/images/{id}`: poll the image job until it is `completed`
+
 ## Safe Workflow
 
 1. Search by slug first.
-2. If the article exists, fetch it by `id`.
-3. If you only need targeted edits, use `PATCH` with the current `version`.
-4. If you need a full rewrite, use `PUT` with the current `version`.
-5. Only use publish/schedule/archive actions after final QA.
+2. Resolve the real CMS category slug before create when the planning label may differ from the backend slug.
+3. For a publish-ready article, generate the main cover image before create or before publish, then attach `cover_media_id`.
+4. If the article exists, fetch it by `id`.
+5. If you only need targeted edits, use `PATCH` with the current `version`.
+6. If you need a full rewrite, use `PUT` with the current `version`.
+7. Only use publish/schedule/archive actions after final QA.
 
 ## Minimal Create Payload
 
@@ -47,7 +56,7 @@ Lifecycle routes:
   "title": "Quanto custa trocar a bateria do carro em 2026?",
   "excerpt": "Veja a faixa de preco da troca, os sinais de bateria fraca e quando procurar uma autoeletrica.",
   "body_md": "## Resposta rapida\n\n...",
-  "category_slug": "autoeletrica-e-baterias"
+  "category_slug": "autoeletrica-e-eletronica"
 }
 ```
 
@@ -60,11 +69,12 @@ Lifecycle routes:
   "slug": "quanto-custa-trocar-bateria-carro-2026",
   "excerpt": "Veja a faixa de preco da troca, os sinais de bateria fraca e quando procurar uma autoeletrica.",
   "body_md": "## Resposta rapida\n\n...",
-  "category_slug": "autoeletrica-e-baterias",
+  "category_slug": "autoeletrica-e-eletronica",
   "status": "draft",
   "author": "Equipe Editorial Mercado Veiculos",
   "seo_title": "Quanto custa trocar a bateria do carro em 2026?",
   "seo_description": "Entenda a faixa de preco, os sinais de desgaste e quando o diagnostico eletrico e necessario.",
+  "cover_media_id": 101,
   "featured": false
 }
 ```
@@ -77,17 +87,45 @@ Lifecycle routes:
 - `body_md`: required on create, must start at `##`
 - `body_md`: use `##` for major sections and `###` for subsections
 - `body_md`: never include HTML tags
-- `body_md`: include FAQ as `## Frequently Asked Questions` and `### FAQ: ...`
+- `body_md`: include FAQ as `## Perguntas frequentes` and `### FAQ: ...`
 - `category_slug`: use a valid category slug when known; if omitted, the backend may default to `geral`
 - `category_slugs`: optional extra categories
 - `status`: use `draft` by default; valid values are `draft`, `review`, `scheduled`, `published`, `archived`
 - `seo_title`: optional, max 70 chars
 - `seo_description`: optional, max 160 chars
+- `cover_media_id`: preferred for publish-ready articles because it resolves the real hero image from the Media API
 - `cover_image_url`: must be absolute `https://` when provided
 - `gallery_image_urls`: max 20 entries
 - `video_urls`: max 10 entries
 - `published_at`: use ISO 8601 when scheduling
 - `author`: use a plain text byline
+
+## Image Workflow
+
+Generate the hero image through the Media API when the article is heading to the CMS:
+
+1. `POST /media/images/generate`
+2. Poll `GET /media/images/{id}` until `status = completed`
+3. Attach the resulting `cover_media_id` on `POST /articles` or `PATCH /articles/{id}`
+4. When using Gemini image generation, set `model` explicitly to `gemini-2.5-flash-image` instead of relying on the backend default
+
+Recommended cover payload shape:
+
+```json
+{
+  "prompt": "Autoeletricista brasileiro testando a bateria de um carro de passeio em oficina realista, foco no multimetro e no cofre do motor, luz natural, visual editorial premium, sem marcas visiveis",
+  "provider": "google_gemini",
+  "model": "gemini-2.5-flash-image",
+  "style": "natural",
+  "quality": "high",
+  "width": 1600,
+  "height": 900,
+  "metadata": {
+    "usage": "cover_image",
+    "section": "editorial"
+  }
+}
+```
 
 ## Update Rules
 
@@ -133,6 +171,7 @@ Common failures:
 
 - Default to draft creation unless the user explicitly asks to publish now.
 - Search by slug before creating to avoid duplicates.
+- Do not call an article publish-ready if it has no cover image attached.
 - Use `PATCH` for surgical edits and `PUT` for full rewrites.
 - Keep `body_md` in Markdown only.
 - If prices or regulations are volatile, keep the article in `draft` until factual QA is complete.

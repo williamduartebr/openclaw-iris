@@ -17,7 +17,9 @@ Mercado Veiculos should operate like the strongest automotive decision engine in
 - Publishable content is written in Brazilian Portuguese with full accents.
 - Use Markdown only, never HTML, for article bodies.
 - The article body starts at `##`; subsections use `###`.
+- FAQ sections use `## Perguntas frequentes`.
 - FAQ items use `### FAQ: ...`.
+- Publish-ready CMS articles must include a hero image, normally attached through `cover_media_id`.
 - Use 2026 as the present-day context unless the task is historical.
 - Never invent technical specs, prices, market shares, regulations, or availability.
 - For unstable facts, include exact dates and verify them directly.
@@ -109,7 +111,9 @@ Mercado Veiculos should operate like the strongest automotive decision engine in
 
 ## Publishing Truths
 
-- The publishing API runs at `http://localhost:8080`
-- `ARTICLE_API_KEY` is required for authenticated publication
+- The publishing API runs at `http://host.docker.internal:8080/api/content` from inside the OpenClaw container
+- The media API runs at `http://host.docker.internal:8080/api/media` from inside the OpenClaw container
+- `CONTENT_API_KEY` is required for authenticated article publication
+- `MEDIA_API_KEY` is required for authenticated image generation
 - Markdown supports images by URL and embedded video links
 - B2B plan CTAs point to `/anuncie` or the relevant segmented landing page

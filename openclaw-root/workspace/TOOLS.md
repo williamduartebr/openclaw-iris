@@ -5,14 +5,18 @@
 - Publishing API base: `http://host.docker.internal:8080/api/content` from inside the OpenClaw container
 - Local host equivalent: `http://localhost:8080/api/content`
 - Auth header: `Authorization: Bearer $CONTENT_API_KEY`
+- Media API base: `http://host.docker.internal:8080/api/media`
+- Media auth header: `Authorization: Bearer $MEDIA_API_KEY`
 - Primary content format: JSON with Markdown in `body_md`
 - Delivery contract: `DOCS_API.md`
 - If `CONTENT_API_KEY` is not exported, check the local Laravel project config for `services.content_api.key`
+- If `MEDIA_API_KEY` is not exported, check the local Laravel project config for `services.media_api.key`
 
 ## Formatting Rules
 
 - The CMS handles the article title, so `body_md` must start at `##`
 - Use `##` for primary sections and `###` for subsections
+- Use `## Perguntas frequentes` for the FAQ section heading
 - FAQ entries must use `### FAQ: ...`
 - Never emit HTML for article bodies
 - Use Brazilian Portuguese with full accents in publishable content
@@ -32,3 +36,5 @@
 - For the detailed publication packet, read `PUBLISHING_WORKFLOW.md`
 - For endpoint path, JSON payload, and response expectations, read `DOCS_API.md`
 - When updating an existing article, fetch the latest `version` first and send it with `PATCH` or `PUT`
+- For any CMS-bound article, attach a cover image through `cover_media_id` unless the user explicitly says to skip imagery
+- When using Gemini image generation, set `model: gemini-2.5-flash-image` explicitly

@@ -69,6 +69,7 @@
 - Specialist status
 - Final deliverable
 - Metadata and CTA notes when relevant
+- Cover-image status
 - Explicit publish / revise / hold recommendation
 
 ## Editorial Checklist
@@ -79,6 +80,7 @@
 - Did you report what each called specialist actually returned?
 - Are volatile facts dated and verified?
 - Does the asset advance trust, discovery, or conversion?
+- Does the CMS packet include a real hero image or a clearly labeled image gap?
 
 ## Quality Bar
 
@@ -98,6 +100,7 @@
 - Treating every request as just "write an article"
 - Recommending publication when the evidence is still weak
 - Saying only that the result is ready when one of the requested specialists never produced a usable layer
+- Saying the article is ready when the cover image was never generated
 
 ## Anti-Patterns
 

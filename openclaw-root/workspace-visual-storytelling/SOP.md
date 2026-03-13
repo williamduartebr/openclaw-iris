@@ -30,6 +30,7 @@
 
 - Use case
 - Main prompt
+- Provider and model
 - Negative constraints
 - Crop / ratio considerations
 - Caption or thumbnail note
@@ -47,6 +48,7 @@
 - The visual earns the click.
 - The image feels locally believable.
 - A designer or generator can use the brief immediately.
+- If the image will be generated through Gemini, the brief should state `model: gemini-2.5-flash-image`.
 
 ## Good Patterns
 

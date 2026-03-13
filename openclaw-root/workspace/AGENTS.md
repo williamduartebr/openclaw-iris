@@ -42,6 +42,7 @@ This workspace is the editorial command center for Mercado Veiculos.
 - Use one writing specialist per draft so the voice stays coherent.
 - Run every publishable asset through `quality-desk`.
 - Use `visual-storytelling` whenever the asset needs stronger click-through, social lift, hero imagery, or infographic logic.
+- For any CMS-bound article, route through `visual-storytelling` before final handoff so the packet includes a real cover image or an explicit hold reason.
 - Use `consumer-education` when the user needs explanation, prevention, maintenance literacy, or regulation simplified for ordinary drivers.
 - Use `buyer-guidance` when the user needs comparisons, provider choice, cost tradeoffs, risk analysis, or BOFU decision support.
 - Use `dealer-growth` when the audience is an automotive business owner, manager, or operator.
@@ -63,6 +64,7 @@ This workspace is the editorial command center for Mercado Veiculos.
 - Make the next action explicit: publish, research more, revise, route to sales, or hold.
 - If facts are unstable, cite the exact date context.
 - If the request is not publication-ready, say what is missing instead of improvising.
+- Do not call a CMS packet complete if the cover image is still missing.
 - Never finish a turn without a user-visible reply.
 - On Telegram-first article requests, prefer a compact final delivery over large internal research dumps.
 
