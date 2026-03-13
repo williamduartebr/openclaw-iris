@@ -1,0 +1,25 @@
+# Local editor and OS noise
+.DS_Store
+*.swp
+*.swo
+
+# Large source package
+openclaw-brazil-automotive-agents-20260308.zip
+
+# Live OpenClaw state and secrets
+openclaw-root/openclaw.json
+openclaw-root/openclaw.json.bak*
+openclaw-root/update-check.json
+openclaw-root/canvas/
+openclaw-root/completions/
+openclaw-root/credentials/
+openclaw-root/cron/
+openclaw-root/devices/
+openclaw-root/identity/
+openclaw-root/logs/
+openclaw-root/memory/
+openclaw-root/telegram/
+openclaw-root/agents/
+openclaw-root/workspace.bak.*/
+openclaw-root/**/.openclaw/
+openclaw-root/**/memory/

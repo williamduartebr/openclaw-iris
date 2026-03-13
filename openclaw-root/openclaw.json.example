@@ -1,0 +1,206 @@
+{
+  "meta": {
+    "lastTouchedVersion": "2026.3.12"
+  },
+  "auth": {
+    "profiles": {
+      "openai-codex:default": {
+        "provider": "openai-codex",
+        "mode": "oauth"
+      }
+    }
+  },
+  "agents": {
+    "defaults": {
+      "model": {
+        "primary": "openai-codex/gpt-5.4"
+      },
+      "workspace": "/root/.openclaw/workspace",
+      "compaction": {
+        "mode": "safeguard"
+      },
+      "subagents": {
+        "maxConcurrent": 4
+      },
+      "sandbox": {
+        "workspaceAccess": "rw"
+      }
+    },
+    "list": [
+      {
+        "id": "main",
+        "name": "Iris Prime",
+        "identity": {
+          "name": "Iris Prime",
+          "theme": "AI",
+          "emoji": "✨"
+        },
+        "subagents": {
+          "allowAgents": [
+            "market-intelligence",
+            "seo-strategy",
+            "consumer-education",
+            "buyer-guidance",
+            "dealer-growth",
+            "visual-storytelling",
+            "quality-desk"
+          ]
+        }
+      },
+      {
+        "id": "market-intelligence",
+        "name": "Radar",
+        "workspace": "/root/.openclaw/workspace-market-intelligence",
+        "agentDir": "/root/.openclaw/agents/market-intelligence/agent",
+        "identity": {
+          "name": "Radar",
+          "theme": "AI",
+          "emoji": "📡"
+        }
+      },
+      {
+        "id": "seo-strategy",
+        "name": "Vector",
+        "workspace": "/root/.openclaw/workspace-seo-strategy",
+        "agentDir": "/root/.openclaw/agents/seo-strategy/agent",
+        "identity": {
+          "name": "Vector",
+          "theme": "AI",
+          "emoji": "🎯"
+        }
+      },
+      {
+        "id": "consumer-education",
+        "name": "Atlas",
+        "workspace": "/root/.openclaw/workspace-consumer-education",
+        "agentDir": "/root/.openclaw/agents/consumer-education/agent",
+        "identity": {
+          "name": "Atlas",
+          "theme": "AI",
+          "emoji": "📘"
+        }
+      },
+      {
+        "id": "buyer-guidance",
+        "name": "Navigator",
+        "workspace": "/root/.openclaw/workspace-buyer-guidance",
+        "agentDir": "/root/.openclaw/agents/buyer-guidance/agent",
+        "identity": {
+          "name": "Navigator",
+          "theme": "AI",
+          "emoji": "🧭"
+        }
+      },
+      {
+        "id": "dealer-growth",
+        "name": "Torque",
+        "workspace": "/root/.openclaw/workspace-dealer-growth",
+        "agentDir": "/root/.openclaw/agents/dealer-growth/agent",
+        "identity": {
+          "name": "Torque",
+          "theme": "AI",
+          "emoji": "📈"
+        }
+      },
+      {
+        "id": "visual-storytelling",
+        "name": "Frame",
+        "workspace": "/root/.openclaw/workspace-visual-storytelling",
+        "agentDir": "/root/.openclaw/agents/visual-storytelling/agent",
+        "identity": {
+          "name": "Frame",
+          "theme": "AI",
+          "emoji": "🎬"
+        }
+      },
+      {
+        "id": "quality-desk",
+        "name": "Sentinel",
+        "workspace": "/root/.openclaw/workspace-quality-desk",
+        "agentDir": "/root/.openclaw/agents/quality-desk/agent",
+        "identity": {
+          "name": "Sentinel",
+          "theme": "AI",
+          "emoji": "🛡️"
+        }
+      }
+    ]
+  },
+  "tools": {
+    "profile": "coding"
+  },
+  "commands": {
+    "native": "auto",
+    "nativeSkills": "auto",
+    "restart": true,
+    "ownerDisplay": "raw"
+  },
+  "session": {
+    "dmScope": "per-channel-peer"
+  },
+  "hooks": {
+    "internal": {
+      "enabled": true,
+      "entries": {
+        "boot-md": {
+          "enabled": true
+        },
+        "bootstrap-extra-files": {
+          "enabled": true
+        },
+        "command-logger": {
+          "enabled": true
+        },
+        "session-memory": {
+          "enabled": true
+        }
+      }
+    }
+  },
+  "channels": {
+    "telegram": {
+      "enabled": false,
+      "dmPolicy": "pairing",
+      "botToken": "__SET_TELEGRAM_BOT_TOKEN__",
+      "groupPolicy": "open",
+      "streaming": "partial"
+    }
+  },
+  "gateway": {
+    "port": 18789,
+    "mode": "local",
+    "bind": "lan",
+    "controlUi": {
+      "allowedOrigins": [
+        "http://localhost:18789",
+        "http://127.0.0.1:18789"
+      ]
+    },
+    "auth": {
+      "mode": "token",
+      "token": "__SET_GATEWAY_TOKEN__"
+    },
+    "tailscale": {
+      "mode": "off",
+      "resetOnExit": false
+    },
+    "nodes": {
+      "denyCommands": [
+        "camera.snap",
+        "camera.clip",
+        "screen.record",
+        "contacts.add",
+        "calendar.add",
+        "reminders.add",
+        "sms.send"
+      ]
+    }
+  },
+  "plugins": {
+    "entries": {
+      "telegram": {
+        "enabled": true
+      }
+    }
+  }
+}
