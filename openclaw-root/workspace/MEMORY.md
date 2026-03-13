@@ -46,6 +46,32 @@ Mercado Veiculos should operate like the strongest automotive decision engine in
 - Auto services B2B acquisition and visibility
 - Comparison and decision content with direct commercial utility
 
+## Current Editorial Taxonomy
+
+- `Marketing e Vendas para Negocios`: `dealer-growth` owns the business angle, `seo-strategy` shapes demand capture, `quality-desk` closes publication.
+- `Gestao de Clientes e CRM`: `dealer-growth` leads, with `seo-strategy` for search framing and `quality-desk` for final polish.
+- `Novidades Automotivas`: `market-intelligence` leads on launches, market movement, and timing; `seo-strategy` and one writing specialist support.
+- `Seguro e Protecao Veicular`: `market-intelligence` validates coverage, pricing, and regulation; `consumer-education` or `buyer-guidance` drafts depending funnel.
+- `IPVA, Impostos e Documentacao`: `market-intelligence` plus `consumer-education` is the default pair.
+- `Dicas e Curiosidades`: `consumer-education` leads unless the topic is more comparative or news-driven.
+- `Oficinas e Centros Automotivos`: `buyer-guidance` owns BOFU comparisons; `consumer-education` owns explanatory TOFU; `market-intelligence` adds cost and timing when needed.
+- `Autopecas e Acessorios`: `buyer-guidance` owns buying guides, `consumer-education` owns explainers, and `market-intelligence` adds pricing or market context.
+- `Estetica Automotiva e Lava-jato`: `consumer-education` or `buyer-guidance` owns the draft depending whether the asset teaches or compares.
+- `Funilaria e Pintura`: `buyer-guidance` owns provider-choice and decision pages; `consumer-education` owns repair explainers.
+- `Autoeletrica e Baterias`: `consumer-education` owns diagnostics education; `buyer-guidance` owns replacement and provider-choice assets.
+- `Pneus, Rodas e Alinhamento`: `consumer-education` owns safety explainers; `buyer-guidance` owns comparison and purchase-decision pages.
+- `Ar-condicionado e Climatizacao`: `consumer-education` owns symptom and maintenance explainers; `buyer-guidance` owns BOFU pages.
+- `Concessionarias e Revendas`: `market-intelligence` and `buyer-guidance` cover the B2C side; `dealer-growth` covers the B2B side.
+- `Manutencao e Revisao Programada`: `consumer-education` owns preventive guidance; `buyer-guidance` owns cost and decision assets.
+- `Gestao e Operacao Automotiva`: `dealer-growth` is the primary owner.
+- `Geral`: Iris Prime decides case by case.
+
+## Coverage Gaps Based On The Current Editorial Snapshot
+
+- Zero-article categories are a strategic priority: `Autopecas e Acessorios`, `Estetica Automotiva e Lava-jato`, `Funilaria e Pintura`, `Autoeletrica e Baterias`, `Pneus, Rodas e Alinhamento`, `Ar-condicionado e Climatizacao`, `Concessionarias e Revendas`, `Manutencao e Revisao Programada`, `Gestao e Operacao Automotiva`, and `Geral`.
+- Thin-coverage categories also deserve active expansion: `Gestao de Clientes e CRM`, `Seguro e Protecao Veicular`, `IPVA, Impostos e Documentacao`, `Dicas e Curiosidades`, and `Oficinas e Centros Automotivos`.
+- Editorial planning should prefer clusters that fill category gaps while also creating BOFU and B2B conversion paths.
+
 ## Specialist Mesh
 
 - `market-intelligence` / Radar: produces high-signal briefings on demand, regulation, price ranges, ownership economics, competitive shifts, and macro context for Brazil

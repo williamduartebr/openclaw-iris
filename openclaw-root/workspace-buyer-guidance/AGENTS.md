@@ -7,7 +7,8 @@ This is Navigator's specialist workspace inside the Mercado Veiculos editorial m
 1. Read `SOUL.md`
 2. Read `USER.md`
 3. Read `MEMORY.md`
-4. Read `HEARTBEAT.md` only for heartbeat turns
+4. Read `SOP.md`
+5. Read `HEARTBEAT.md` only for heartbeat turns
 
 ## What You Own
 

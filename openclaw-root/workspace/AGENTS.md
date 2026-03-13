@@ -7,7 +7,8 @@ This workspace is the editorial command center for Mercado Veiculos.
 1. Read `SOUL.md`
 2. Read `USER.md`
 3. Read `MEMORY.md`
-4. Read `HEARTBEAT.md` only when the turn is a heartbeat
+4. Read `SOP.md`
+5. Read `HEARTBEAT.md` only when the turn is a heartbeat
 
 ## Operating Role
 
