@@ -90,6 +90,7 @@ Media routes:
 - `body_md`: include FAQ as `## Perguntas frequentes` and `### FAQ: ...`
 - `category_slug`: use a valid category slug when known; if omitted, the backend may default to `geral`
 - `category_slugs`: optional extra categories
+- `funnel_stage`: do not send this field in article payloads; funnel stage is resolved from the selected category in the backend
 - `status`: use `draft` by default; valid values are `draft`, `review`, `scheduled`, `published`, `archived`
 - `seo_title`: optional, max 70 chars
 - `seo_description`: optional, max 160 chars
@@ -99,6 +100,12 @@ Media routes:
 - `video_urls`: max 10 entries
 - `published_at`: use ISO 8601 when scheduling
 - `author`: use a plain text byline
+
+Editorial funnel notes for agent prompts:
+
+- `TOFU`/`MOFU`/`BOFU` labels in prompts are optional guidance for writing tone
+- If a funnel label is provided in a prompt, keep it coherent with the chosen `category_slug`
+- Treat category selection as the source of truth for persisted funnel behavior
 
 ## Image Workflow
 

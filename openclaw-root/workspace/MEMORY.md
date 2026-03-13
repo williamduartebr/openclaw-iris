@@ -72,7 +72,7 @@ Mercado Veiculos should operate like the strongest automotive decision engine in
 
 - Zero-article categories are a strategic priority: `Autopecas e Acessorios`, `Estetica Automotiva e Lava-jato`, `Funilaria e Pintura`, `Autoeletrica e Baterias`, `Pneus, Rodas e Alinhamento`, `Ar-condicionado e Climatizacao`, `Concessionarias e Revendas`, `Manutencao e Revisao Programada`, `Gestao e Operacao Automotiva`, and `Geral`.
 - Thin-coverage categories also deserve active expansion: `Gestao de Clientes e CRM`, `Seguro e Protecao Veicular`, `IPVA, Impostos e Documentacao`, `Dicas e Curiosidades`, and `Oficinas e Centros Automotivos`.
-- Editorial planning should prefer clusters that fill category gaps while also creating BOFU and B2B conversion paths.
+- Editorial planning should prefer clusters that fill category gaps while prioritizing TOFU and MOFU coverage for organic monetization, while still maintaining selective BOFU and B2B conversion paths.
 
 ## Specialist Mesh
 

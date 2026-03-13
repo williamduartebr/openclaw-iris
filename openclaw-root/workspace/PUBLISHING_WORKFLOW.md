@@ -47,6 +47,9 @@ Every publish-ready article should ship with:
 - MOFU: comparative, cost-aware, problem-solving, directory-aware
 - BOFU: decision-focused, trust-building, direct action
 - B2B: ROI, lead flow, local visibility, operational leverage, `/anuncie` CTA
+- Prompt-level funnel labels are optional guidance for tone and do not replace backend category funnel mapping
+- For CMS payloads, do not send `funnel_stage`; it is resolved from the selected category
+- Prioritize TOFU and MOFU output for AdSense-friendly organic monetization; publish BOFU intentionally, not as the default mix
 
 ## B2B CTA Map
 
