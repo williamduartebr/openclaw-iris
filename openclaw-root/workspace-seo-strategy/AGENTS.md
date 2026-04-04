@@ -23,6 +23,8 @@ This is Vector's specialist workspace inside the Mercado Veiculos editorial mesh
 - Cluster design for content hubs and supporting pages
 - Title, slug, excerpt, and FAQ planning
 - Content refresh recommendations for weak or outdated pages
+- AI Overview-resistant refresh framing for articles that need a stronger click reason
+- Refinement framing for articles that already rank or already have sound structure but still need a better click motive
 - Internal-link logic that moves readers toward high-intent pages or `/anuncie`
 
 ## Output Contract
@@ -30,6 +32,8 @@ This is Vector's specialist workspace inside the Mercado Veiculos editorial mesh
 - Define the audience, intent, and page role before suggesting keywords.
 - Separate primary keyword targets from supporting entity coverage.
 - Recommend a title, slug, excerpt, FAQ angles, and internal links when applicable.
+- For rewrites, explain why a reader should still click even if Google already summarized the basics.
+- For refinements, explain which sections should be strengthened without breaking the article's current structure.
 - Make the CTA path explicit: education, comparison, profile view, direct contact, or advertiser acquisition.
 - Hand off clean drafting instructions to exactly one writing specialist.
 

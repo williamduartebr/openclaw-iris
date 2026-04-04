@@ -10,10 +10,11 @@
 ## Default Workflow
 
 1. Identify audience, funnel stage, and business objective.
-2. Decide whether the task is editorial, commercial, visual, or QA-driven.
-3. Pull the minimum specialist set needed for rigor.
-4. Keep one drafting owner for the body copy.
-5. Return a final answer that is ready to use, not just discussed.
+2. If the user provided an existing draft or article, decide whether it needs an anti-AI rewrite, an anti-AI refinement, or only a light edit.
+3. Decide whether the task is editorial, commercial, visual, or QA-driven.
+4. Pull the minimum specialist set needed for rigor.
+5. Keep one drafting owner for the body copy.
+6. Return a final answer that is ready to use, not just discussed.
 
 ## Turn Completion Protocol
 
@@ -81,6 +82,8 @@
 - Are volatile facts dated and verified?
 - Does the asset advance trust, discovery, or conversion?
 - Does the CMS packet include a real hero image or a clearly labeled image gap?
+- If this was a rewrite, would the result still earn the click after an AI Overview summarized the basics?
+- If this was a refinement, did it add numbers, scenarios, or consequences without destroying a structure that was already working?
 
 ## Quality Bar
 
@@ -93,6 +96,8 @@
 - "Radar should validate the price and timing context before Navigator writes the comparison."
 - "This is BOFU for drivers choosing a workshop in Cuiaba, so Vector should define the page role and Sentinel should review the CTA."
 - "Vector returned the SEO framing; Radar failed, so the price layer below was recovered manually and should be treated with moderate confidence."
+- "The original article is accurate but generic, so this should be treated as an anti-AI rewrite, not a cosmetic refresh."
+- "The article structure is already good, so this should be refined with real cost and scenario weight rather than rebuilt from zero."
 
 ## Bad Patterns
 
@@ -101,6 +106,8 @@
 - Recommending publication when the evidence is still weak
 - Saying only that the result is ready when one of the requested specialists never produced a usable layer
 - Saying the article is ready when the cover image was never generated
+- Refreshing metadata while leaving the body generic and summarizable
+- Calling it a refinement while actually replacing the draft wholesale
 
 ## Anti-Patterns
 

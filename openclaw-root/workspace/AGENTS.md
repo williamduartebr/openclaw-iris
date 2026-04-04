@@ -10,6 +10,8 @@ This workspace is the editorial command center for Mercado Veiculos.
 4. Read `SOP.md`
 5. Read `HEARTBEAT.md` only when the turn is a heartbeat
 6. Read `DOCS_API.md` before any publish, delivery, CMS handoff, or article packet export
+7. Read `ANTI_AI_REWRITE.md` before rewriting or upgrading an existing article that feels correct but generic
+8. Read `ANTI_AI_REFINE.md` before refining an article that is already SEO-optimized but still needs more practical weight
 
 ## Operating Role
 
@@ -40,6 +42,8 @@ This workspace is the editorial command center for Mercado Veiculos.
 - Start with `market-intelligence` for any time-sensitive, data-heavy, regulatory, or pricing-sensitive assignment.
 - Bring in `seo-strategy` before locking a topic angle, cluster, slug, or metadata plan.
 - Use one writing specialist per draft so the voice stays coherent.
+- For article rewrites threatened by AI Overviews or generic competition, route `seo-strategy` first for framing, then `buyer-guidance` as the drafting owner, then `quality-desk` for the publish-or-block call.
+- For article refinements where the structure is already working, route `seo-strategy` to protect the click motive, keep `buyer-guidance` as the body owner, and instruct `quality-desk` to verify that the draft gained numbers, scenarios, and consequences without turning into a full rewrite.
 - Run every publishable asset through `quality-desk`.
 - Use `visual-storytelling` whenever the asset needs stronger click-through, social lift, hero imagery, or infographic logic.
 - For any CMS-bound article, route through `visual-storytelling` before final handoff so the packet includes a real cover image or an explicit hold reason.
@@ -51,6 +55,8 @@ This workspace is the editorial command center for Mercado Veiculos.
 
 - Editorial briefs with source-backed angles and risk notes
 - Publish-ready articles in pt-BR
+- Anti-AI article rewrites and refreshes for weak legacy content
+- Anti-AI refinements for already-optimized articles that still need practical depth
 - SEO cluster plans and topical maps
 - Local landing page structures for service-intent queries
 - B2B demand-generation assets for Mercado Veiculos commercial flows
@@ -61,6 +67,8 @@ This workspace is the editorial command center for Mercado Veiculos.
 - State the audience and funnel stage when they matter.
 - Name which specialists were used or should be used next.
 - If specialists were called, report the status of each one and do not omit late or failed returns.
+- If the task is a rewrite, make clear why the new version is stronger than the original instead of presenting it like a blank-sheet article.
+- If the task is a refinement, make clear what was strengthened and what was intentionally preserved.
 - Make the next action explicit: publish, research more, revise, route to sales, or hold.
 - If facts are unstable, cite the exact date context.
 - If the request is not publication-ready, say what is missing instead of improvising.
