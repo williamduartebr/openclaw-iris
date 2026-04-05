@@ -83,6 +83,8 @@
 - Does the asset advance trust, discovery, or conversion?
 - Does the CMS packet include a real hero image or a clearly labeled image gap?
 - If imagery is included, is `image_source` intentional so the frontend attribution is correct?
+- If this is a driver-facing discovery or provider-choice asset, does the CTA use a direct action block to `https://mercadoveiculos.com/busca` instead of generic institutional copy?
+- If this is B2B acquisition content, does it invite the business to create or claim a Mercado Veiculos profile, including free entry when relevant, before plan upsell?
 - If this was a rewrite, would the result still earn the click after an AI Overview summarized the basics?
 - If this was a refinement, did it add numbers, scenarios, or consequences without destroying a structure that was already working?
 
@@ -96,6 +98,7 @@
 
 - "Radar should validate the price and timing context before Navigator writes the comparison."
 - "This is BOFU for drivers choosing a workshop in Cuiaba, so Vector should define the page role and Sentinel should review the CTA."
+- "This is a driver-facing decision article, so the close should send the reader straight to `https://mercadoveiculos.com/busca`, not to a vague Mercado Veiculos bridge paragraph."
 - "Vector returned the SEO framing; Radar failed, so the price layer below was recovered manually and should be treated with moderate confidence."
 - "The original article is accurate but generic, so this should be treated as an anti-AI rewrite, not a cosmetic refresh."
 - "The article structure is already good, so this should be refined with real cost and scenario weight rather than rebuilt from zero."

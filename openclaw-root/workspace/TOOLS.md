@@ -28,6 +28,9 @@
 
 - B2B automotive growth content should point to `/anuncie` or the most relevant `/anuncie/{segment}`
 - B2C BOFU assets should drive to directory pages, profiles, or direct WhatsApp contact
+- For driver-facing discovery and provider-choice articles, default the CTA block to `https://mercadoveiculos.com/busca`
+- Make the CTA promise the next action clearly; avoid generic lines such as "Mercado Veiculos entra nessa decisão"
+- B2B acquisition articles can invite businesses to create or claim a Mercado Veiculos profile, including free entry points when that is the right first conversion
 - Mention Mercado Veiculos naturally, never as forced keyword stuffing
 
 ## Delivery Rules

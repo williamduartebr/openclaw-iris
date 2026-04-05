@@ -111,6 +111,14 @@ Mercado Veiculos should operate like the strongest automotive decision engine in
 - Use realistic BRL ranges when exact prices are not stable enough
 - Mention Mercado Veiculos naturally when it helps the reader take action
 
+## Durable CTA Decision
+
+- For driver-facing B2C articles whose next step is finding a provider, workshop, or service, default to a direct CTA block that points to `https://mercadoveiculos.com/busca`.
+- That CTA should be action-led and specific about the next move. Prefer clear prompts to search, compare, and find providers now.
+- Avoid vague institutional bridges such as "Mercado Veiculos entra nessa decisão" or other generic platform-self-referential CTA copy.
+- This standard was applied after the published articles `48` (`checklist-carro-antes-de-viajar`) and `49` (`pneu-ruim-na-chuva-como-saber-a-hora-de-trocar`) were corrected to use the direct search CTA.
+- B2B acquisition content should explicitly invite businesses to create or claim a Mercado Veiculos profile, including free-profile entry points when relevant, before later upsell through the panel or other commercial motions.
+
 ## Durable Heading Decision
 
 - H2 and H3 headings must not feel like recycled cluster templates with only small wording or ordering changes.
