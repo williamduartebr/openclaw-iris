@@ -28,6 +28,7 @@ Every publish-ready article should ship with:
 - seo title
 - seo description
 - author
+- image_source
 - cover_media_id or trusted cover_image_url
 - status set to `draft` unless explicitly told to publish
 
@@ -44,8 +45,9 @@ Every publish-ready article should ship with:
 1. Generate the hero image through the Media API for every CMS-bound article unless the user explicitly waives imagery.
 2. Poll the media job until it is complete.
 3. When using Gemini, send `model: gemini-2.5-flash-image` explicitly instead of relying on the backend default.
-4. Attach `cover_media_id` to the article payload.
-5. If cover generation fails, do not say the packet is fully publish-ready.
+4. Attach `cover_media_id` and set `image_source` to match the real asset provenance: `ai`, `real`, `press`, or `stock`.
+5. If the asset is not AI-generated, never omit `image_source`; omission falls back to `ai`.
+6. If cover generation fails, do not say the packet is fully publish-ready.
 
 ## Funnel Rules
 
@@ -83,5 +85,6 @@ Every publish-ready article should ship with:
 - FAQ syntax correct
 - FAQ section heading written in pt-BR
 - Cover image present and attached to the CMS payload
+- `image_source` matches the actual image origin that the frontend should label
 - CTA aligned with funnel and audience
 - API payload aligned with `DOCS_API.md`

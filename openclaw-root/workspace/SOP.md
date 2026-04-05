@@ -82,6 +82,7 @@
 - Are volatile facts dated and verified?
 - Does the asset advance trust, discovery, or conversion?
 - Does the CMS packet include a real hero image or a clearly labeled image gap?
+- If imagery is included, is `image_source` intentional so the frontend attribution is correct?
 - If this was a rewrite, would the result still earn the click after an AI Overview summarized the basics?
 - If this was a refinement, did it add numbers, scenarios, or consequences without destroying a structure that was already working?
 

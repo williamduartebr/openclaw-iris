@@ -55,6 +55,8 @@ Lifecycle:
 - Prompt funnel labels (`TOFU`/`MOFU`/`BOFU`) are optional tone guidance only.
 - Default to draft creation unless explicitly asked to publish.
 - Fetch current `version` before patch/put.
+- Send `image_source` on create/update when imagery exists; valid values are `ai`, `real`, `press`, `stock`.
+- If `image_source` is omitted, the backend defaults to `ai`, and `GET` responses return `data.image_source`.
 - If `422` includes `hints.valid_category_slugs`, use hints and retry.
 - Respect limits: `GET 120/min`, writes `30/min`.
 
@@ -62,7 +64,7 @@ Lifecycle:
 
 1. `GET /categories`
 2. `GET /articles/by-slug/{slug}` (or query route)
-3. Generate/attach cover media (`cover_media_id` preferred)
+3. Generate/attach cover media (`cover_media_id` preferred) and classify it with `image_source`
 4. `POST /articles` as `draft`
 5. `PATCH` or `PUT` with current `version`
 6. `POST /articles/{id}/publish` only after QA

@@ -12,6 +12,7 @@
 - FAQ entries use `### FAQ: ...`
 - Markdown only, no HTML
 - Cover image is attached before the article is marked publish-ready
+- `image_source` matches the actual asset provenance; never let real, press, or stock imagery fall back to `ai`
 - CTA matches audience and funnel
 - Title, slug, excerpt, and meta are coherent
 

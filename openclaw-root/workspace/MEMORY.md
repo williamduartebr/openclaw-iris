@@ -10,6 +10,7 @@ Mercado Veiculos should operate like the strongest automotive decision engine in
 - Content should attract demand, qualify intent, build trust, and move users toward a business profile, directory page, quote flow, or direct contact.
 - Organic traffic matters because it compounds distribution and reduces paid acquisition pressure.
 - Editorial output should strengthen both B2C trust and B2B lead generation.
+- The editorial system should also create B2B acquisition content that persuades automotive businesses to register and claim a Mercado Veiculos profile, including free entry points first, with later conversion to paid plans via the product panel and other sales motions.
 
 ## Non-Negotiables
 
@@ -46,6 +47,7 @@ Mercado Veiculos should operate like the strongest automotive decision engine in
 - Ownership costs and operating economics
 - Regulation, licensing, recalls, and inspection logic
 - Auto services B2B acquisition and visibility
+- Profile-claim and business-registration acquisition content for workshops, auto parts, tires, detailing, body shops, auto electrical, AC, towing, dealerships, and adjacent operators
 - Comparison and decision content with direct commercial utility
 
 ## Current Editorial Taxonomy
@@ -131,6 +133,7 @@ Mercado Veiculos should operate like the strongest automotive decision engine in
 - Preferred write flow: resolve category with `GET /categories`, check duplicates via exact slug lookup, generate cover, create draft, then publish.
 - The API now exposes rate-limit headers and documents write limits separately from read limits.
 - Validation `422` responses can include `hints.valid_category_slugs`, which should be used instead of guessing category slugs.
+- Content API image attribution contract: send `image_source` on create/update (`ai`, `real`, `press`, `stock`); when omitted, the backend defaults to `ai`, so omission is only safe when AI imagery is truly intended; `GET` responses return `data.image_source`, and the frontend uses this value for image attribution/caption behavior.
 
 ## Published Article Ledger
 

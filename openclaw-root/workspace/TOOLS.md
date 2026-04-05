@@ -39,6 +39,8 @@
 - For endpoint path, JSON payload, and response expectations, read `DOCS_API.md`
 - When updating an existing article, fetch the latest `version` first and send it with `PATCH` or `PUT`
 - For any CMS-bound article, attach a cover image through `cover_media_id` unless the user explicitly says to skip imagery
+- Send `image_source` when creating or updating an article with imagery; valid values are `ai`, `real`, `press`, `stock`
+- Do not rely on omission for non-AI assets; if `image_source` is omitted, the backend defaults to `ai`
 - When using Gemini image generation, set `model: gemini-2.5-flash-image` explicitly
 - Do not send `funnel_stage` in article payloads; it is derived from category
 - If `422` returns `hints.valid_category_slugs`, use the hint list and retry

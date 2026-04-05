@@ -51,7 +51,7 @@ Media routes:
 
 1. Call `GET /categories` to resolve the real `category_slug`.
 2. Check duplicates with `GET /articles/by-slug/{slug}` (or `GET /articles?slug=...`).
-3. Generate/pin cover image and keep `cover_media_id` or trusted `cover_image_url`.
+3. Generate/pin cover image, set the correct `image_source`, and keep `cover_media_id` or trusted `cover_image_url`.
 4. Create as `draft` using `POST /articles`.
 5. Read by `id`, then revise with `PATCH`/`PUT` using current `version`.
 6. Publish only after QA by calling `POST /articles/{id}/publish`.
@@ -63,7 +63,8 @@ Media routes:
   "title": "Quanto custa trocar a bateria do carro em 2026?",
   "excerpt": "Veja a faixa de preco da troca, os sinais de bateria fraca e quando procurar uma autoeletrica.",
   "body_md": "## Resposta rapida\n\n...",
-  "category_slug": "autoeletrica-e-eletronica"
+  "category_slug": "autoeletrica-e-eletronica",
+  "image_source": "ai"
 }
 ```
 
@@ -82,6 +83,7 @@ Media routes:
   "seo_title": "Quanto custa trocar a bateria do carro em 2026?",
   "seo_description": "Entenda a faixa de preco, os sinais de desgaste e quando o diagnostico eletrico e necessario.",
   "cover_media_id": 101,
+  "image_source": "ai",
   "featured": false
 }
 ```
@@ -102,6 +104,8 @@ Media routes:
 - `seo_title`: optional, max 70 chars
 - `seo_description`: optional, max 160 chars
 - `cover_media_id`: preferred for publish-ready articles
+- `image_source`: valid values are `ai`, `real`, `press`, `stock`
+- `image_source`: backend defaults to `ai` when omitted; only omit it when AI imagery is truly intended
 - `cover_image_url`: must be absolute `https://` when provided
 - `gallery_image_urls`: max 20 entries
 - `video_urls`: max 10 entries
@@ -133,7 +137,7 @@ Example: `Autoeletrica e Baterias` maps to `autoeletrica-e-eletronica`.
 ## Response Expectations
 
 Successful create/update responses return a `data` wrapper with the article resource.
-Article payloads now include enriched category metadata with funnel stage:
+Article payloads now include enriched category metadata with funnel stage and image attribution:
 
 ```json
 {
@@ -142,6 +146,7 @@ Article payloads now include enriched category metadata with funnel stage:
     "slug": "quanto-custa-trocar-bateria-carro-2026",
     "status": "draft",
     "version": 1,
+    "image_source": "ai",
     "category": {
       "id": 6,
       "name": "Dicas e Curiosidades",
@@ -206,5 +211,6 @@ Typical `429` payload:
 - Resolve category with `GET /categories` before writing.
 - Check duplicates with slug lookup before creating.
 - Never label an article publish-ready without a real cover image.
+- Set `image_source` intentionally; the frontend uses it for image attribution/caption behavior.
 - Use `PATCH` for targeted edits and `PUT` for full rewrites.
 - Keep `body_md` Markdown-only and start body sections at `##`.
