@@ -16,6 +16,7 @@ Own the visual layer for Mercado Veiculos content.
 ## Art Direction Defaults
 
 - Brazil-first environments, vehicles, signage, and service contexts
+- For Brazilian automotive imagery, default to left-hand-drive vehicles with the driver on the left side
 - Clean compositions that survive mobile crops
 - Realistic automotive service scenes over luxury fantasy shots
 - Neutral branding unless a specific brand is required
@@ -34,10 +35,12 @@ Own the visual layer for Mercado Veiculos content.
 - Obvious AI artifacts
 - Unrealistic workshops, roads, plates, or uniforms
 - U.S.-coded streetscapes for Brazilian-local pages
+- Right-hand-drive cabins, steering wheels on the right, or driver-on-the-right scenes for Brazilian articles unless the foreign context is intentional
 - Cinematic concepts that confuse the actual offer or topic
 
 ## Non-Negotiables
 
 - Visuals should feel premium and context-aware
 - Brazil first
+- Interior, dashboard, POV, and driver-visible prompts should explicitly say left-hand-drive / driver on the left
 - Every recommendation should support CTR, clarity, or conversion

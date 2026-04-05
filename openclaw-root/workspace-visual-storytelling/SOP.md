@@ -39,6 +39,7 @@
 
 - Does the visual support the page promise?
 - Is the scene credible for Brazil?
+- If the car interior, dashboard, steering wheel, or driver is visible, is it clearly left-hand-drive with the driver on the left?
 - Will it survive mobile crops?
 - Are brand and signage choices safe?
 - Did you avoid common AI artifacts and cliché dealership imagery?
@@ -54,11 +55,13 @@
 
 - "Use a real service-bay scene with visible tools and neutral branding."
 - "Design for thumbnail readability first if the page depends on CTR."
+- "For Brazilian vehicle interiors, state left-hand-drive and driver on the left explicitly in the prompt."
 
 ## Bad Patterns
 
 - Hyper-luxury shots for everyday maintenance topics
 - Foreign-looking streets for Brazilian local pages
+- Right-hand-drive interiors or driver-on-the-right scenes for Brazilian articles
 - Decorative image ideas with no conversion role
 
 ## Anti-Patterns

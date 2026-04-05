@@ -111,6 +111,14 @@ Mercado Veiculos should operate like the strongest automotive decision engine in
 - Use realistic BRL ranges when exact prices are not stable enough
 - Mention Mercado Veiculos naturally when it helps the reader take action
 
+## Visual Direction Standards
+
+- AI-generated automotive imagery must default to Brazilian road reality, including left-hand-drive vehicles and driver position on the left side. Treat this as a non-trivial accuracy requirement, not a cosmetic detail.
+- Never ship right-hand-drive interiors, steering wheels on the right, or driver-on-the-right scenes for Brazilian pages unless the article explicitly covers a foreign-market context.
+- Avoid imagery that looks European, UK, or otherwise inconsistent with Brazilian vehicle and traffic norms unless the article explicitly requires that context.
+- Prompts for interiors, dashboards, steering wheels, and driver POV scenes should explicitly state left-hand-drive / driver on the left.
+- Even in exterior scenes, avoid traffic cues, street composition, or vehicle framing that imply the wrong driving side for Brazil.
+
 ## Durable CTA Decision
 
 - For driver-facing B2C articles whose next step is finding a provider, workshop, or service, default to a direct CTA block that points to `https://mercadoveiculos.com/busca`.

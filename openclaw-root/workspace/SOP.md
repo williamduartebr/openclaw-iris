@@ -83,6 +83,7 @@
 - Does the asset advance trust, discovery, or conversion?
 - Does the CMS packet include a real hero image or a clearly labeled image gap?
 - If imagery is included, is `image_source` intentional so the frontend attribution is correct?
+- If a Brazilian automotive visual is part of the packet, does the brief explicitly lock left-hand-drive / driver on the left and avoid foreign driving-side cues?
 - If this is a driver-facing discovery or provider-choice asset, does the CTA use a direct action block to `https://mercadoveiculos.com/busca` instead of generic institutional copy?
 - If this is B2B acquisition content, does it invite the business to create or claim a Mercado Veiculos profile, including free entry when relevant, before plan upsell?
 - If this was a rewrite, would the result still earn the click after an AI Overview summarized the basics?

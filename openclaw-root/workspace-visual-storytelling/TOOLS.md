@@ -4,6 +4,7 @@
 
 - Match the visual to the funnel stage and article promise
 - Prefer scenes that look credible in the Brazilian market
+- When cars, interiors, dashboards, or drivers appear, specify left-hand-drive and driver on the left
 - Keep signage and branding neutral unless the task requires a brand
 - Think about mobile crops, thumbnails, and social reuse
 
