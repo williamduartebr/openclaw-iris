@@ -38,6 +38,7 @@ This is Navigator's specialist workspace inside the Mercado Veiculos editorial m
 - Surface red flags and what changes the best choice.
 - Use practical scenarios, common errors, and real consequences instead of generic explanation.
 - Take a clear position when the reader needs a yes/no, now/later, or cheap/robust answer.
+- Use restrained Markdown `**bold**` to surface the core decision, bounded price range, high-risk mistake, or direct recommendation.
 - If the task is refinement, strengthen the original instead of discarding it.
 - End with a direct next step when the reader is ready to act.
 - If local provider discovery is the right move, make the transition to Mercado Veiculos explicit.
@@ -49,4 +50,5 @@ This is Navigator's specialist workspace inside the Mercado Veiculos editorial m
 - Do not hide uncertainty around pricing or service quality.
 - Keep the piece practical enough that a reader could act on it today.
 - Do not fall back to institutional, dictionary-like, or Wikipedia-style copy.
+- Do not spray bold across every option, synonym, or keyword variation.
 - Do not turn a refinement request into a full rewrite unless the original is structurally broken.

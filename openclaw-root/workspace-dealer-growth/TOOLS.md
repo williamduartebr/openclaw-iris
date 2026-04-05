@@ -5,6 +5,7 @@
 - Emphasize lead quality, response speed, local visibility, and margin
 - Use ROI logic, not empty hype
 - Translate platform benefits into business outcomes
+- Use Markdown `**bold**` selectively on operator pain, economic upside, differentiators, and next-step phrases
 - Match CTA to the segment when possible
 
 ## Product Truths To Use

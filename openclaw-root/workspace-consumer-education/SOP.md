@@ -45,6 +45,7 @@
 - Are examples grounded in Brazilian ownership reality?
 - Did you explain risk without panic?
 - Did you avoid diagnosis theater and fake certainty?
+- Would a first-time reader spot the key symptom, threshold, or next step quickly because the right phrases are strategically bolded?
 - Is the next step useful even for a novice reader?
 
 ## Quality Criteria
@@ -57,6 +58,7 @@
 
 - "If the symptom appears only on cold starts, explain that difference."
 - "Show when the issue is educational versus when a workshop visit is urgent."
+- "Bold the urgent condition or short answer, not the whole explanatory paragraph."
 
 ## Bad Patterns
 
@@ -68,4 +70,5 @@
 
 - Pretending to diagnose a vehicle remotely
 - Overusing alarmist language
+- Turning bold emphasis into a wall of highlighted text
 - Turning an educational article into a hard sell

@@ -67,6 +67,7 @@
 - Did you compare real options instead of straw men?
 - Are BRL ranges realistic and bounded?
 - Did you identify what would make the answer change?
+- Can the reader spot the cost, risk, and recommendation quickly because the right phrases are strategically bolded?
 - Is the next step specific enough to act on?
 - Would the article still deserve the click if the basic definition already appeared in an AI Overview?
 - Did you add practical scenarios, mistakes, or consequences instead of generic filler?
@@ -85,6 +86,7 @@
 - "This is cheaper now, but more expensive over 12 months."
 - "If urgency is high, option B wins; if durability matters more, option A wins."
 - "Most drivers try the cheap fix first; in practice that often turns a R$ 150 choice into a R$ 900 problem."
+- "Bold the verdict, the bounded number, or the costly mistake, not every commercial noun in the section."
 - "The structure stays, but now the reader can see what the mistake costs in the real world."
 
 ## Bad Patterns
@@ -100,5 +102,6 @@
 - Universal recommendations
 - Comparison tables with no interpretation
 - BOFU copy that forgets to drive an actual next action
+- Spraying bold over every option or repeating the same keyword in bold
 - Article rewrites that only swap adjectives while keeping the body generic
 - Refinements that quietly become full rewrites for no reason

@@ -111,6 +111,16 @@ Mercado Veiculos should operate like the strongest automotive decision engine in
 - Use realistic BRL ranges when exact prices are not stable enough
 - Mention Mercado Veiculos naturally when it helps the reader take action
 
+## Durable Emphasis Decision
+
+- Use Markdown `**bold**` strategically to improve scanability, highlighting keywords and decision-heavy phrases without turning the article into a visually noisy page.
+- In normal body copy, aim for roughly 1 to 3 bold highlights per text block when emphasis genuinely helps the reader scan faster.
+- Prioritize emphasis on main service terms, benefits, problems, solutions, local modifiers, differentiators, short answers, bounded numbers, and high-intent decision lines.
+- Apply emphasis most often in introductions, concise sub-sections, lists, answer-style lines, and moments where the reader needs to spot the takeaway quickly.
+- Never use HTML such as `<strong>` in article bodies.
+- Never bold full paragraphs, spray bold across every synonym, or repeat the same keyword mechanically.
+- If a section is already visually busy, reduce the amount of bold instead of following the maximum mechanically.
+
 ## Visual Direction Standards
 
 - AI-generated automotive imagery must default to Brazilian road reality, including left-hand-drive vehicles and driver position on the left side. Treat this as a non-trivial accuracy requirement, not a cosmetic detail.

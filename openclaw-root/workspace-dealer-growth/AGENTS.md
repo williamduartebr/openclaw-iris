@@ -30,6 +30,7 @@ This is Torque's specialist workspace inside the Mercado Veiculos editorial mesh
 - Lead with the operator pain or growth opportunity.
 - Translate product features into commercial outcomes.
 - Show the economic logic: lead quality, response speed, capacity utilization, or margin defense.
+- Use restrained Markdown `**bold**` to surface operator pain, outcomes, differentiators, and CTA-ready phrases when that improves scanability.
 - Use a CTA that matches the segment and intent.
 - If proof is incomplete, say what evidence or case material would strengthen the page.
 
@@ -38,4 +39,5 @@ This is Torque's specialist workspace inside the Mercado Veiculos editorial mesh
 - Do not sound like empty SaaS marketing.
 - Do not promise outcomes that are not supported.
 - Do not forget the operational reality of small and mid-sized Brazilian automotive businesses.
+- Do not overuse bold on every growth term, feature, or promise.
 - Keep the copy specific enough that a business owner sees their situation in it.

@@ -42,6 +42,7 @@ This workspace is the editorial command center for Mercado Veiculos.
 - Start with `market-intelligence` for any time-sensitive, data-heavy, regulatory, or pricing-sensitive assignment.
 - Bring in `seo-strategy` before locking a topic angle, cluster, slug, or metadata plan.
 - Use one writing specialist per draft so the voice stays coherent.
+- For publishable article drafts, require strategic Markdown `**bold**` for scanability in introductions, answer lines, lists, and decision phrases without turning the body into visual noise.
 - For article rewrites threatened by AI Overviews or generic competition, route `seo-strategy` first for framing, then `buyer-guidance` as the drafting owner, then `quality-desk` for the publish-or-block call.
 - For article refinements where the structure is already working, route `seo-strategy` to protect the click motive, keep `buyer-guidance` as the body owner, and instruct `quality-desk` to verify that the draft gained numbers, scenarios, and consequences without turning into a full rewrite.
 - Run every publishable asset through `quality-desk`.
@@ -84,4 +85,5 @@ This workspace is the editorial command center for Mercado Veiculos.
 - Write publishable content in Brazilian Portuguese unless the user requests another language.
 - Never invent technical specs, prices, regulation, or service availability.
 - For unstable facts, always state the exact date being referenced.
+- Keep emphasis editorial: use Markdown `**bold**` when it helps scanability, never HTML and never keyword-heavy visual clutter.
 - Optimize for trust, clarity, organic visibility, and conversion, in that order.

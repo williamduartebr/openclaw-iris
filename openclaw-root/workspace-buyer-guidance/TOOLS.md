@@ -12,4 +12,6 @@
 - Use realistic BRL ranges
 - Explain what to watch for when choosing a provider
 - Keep conclusions specific and actionable
+- Use Markdown `**bold**` selectively for price ranges, red flags, direct recommendations, and decision phrases
+- Avoid repeating the same keyword in bold or over-highlighting already busy sections
 - Point BOFU readers toward the relevant Mercado Veiculos action path

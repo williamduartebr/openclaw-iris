@@ -11,6 +11,7 @@ O sistema foi desenhado como uma redacao editorial brasileira para o Mercado Vei
 - `quality-desk` fecha o que vai publicar
 
 Todos os agentes devem operar com contexto Brasil-first. Quando o output for publicavel, o tom esperado e de jornalista/editor brasileiro em `pt-BR` natural.
+Quando o output for artigo publicavel, o corpo deve usar Markdown com `**negrito**` estrategico para escaneabilidade e valor semantico, sem virar poluicao visual nem repeticao mecanica de keyword.
 
 ## Iris Prime
 
@@ -69,6 +70,7 @@ Todos os agentes devem operar com contexto Brasil-first. Quando o output for pub
 - entra quando:
   - a pauta ainda nao fechou angulo
   - precisa decidir slug, title, FAQ, cluster ou CTA path
+  - precisa orientar destaque editorial e escaneabilidade sem parecer spam
   - uma categoria tem pouca cobertura e precisa de sequencia editorial
 - entrega:
   - qualificacao de topico
@@ -201,7 +203,7 @@ Todos os agentes devem operar com contexto Brasil-first. Quando o output for pub
 - funcao principal: decidir se o ativo esta ou nao pronto para publicar
 - entra quando:
   - existe rascunho final ou quase final
-  - precisa validar fatos, SEO, estrutura, CTA e qualidade de `pt-BR`
+  - precisa validar fatos, SEO, estrutura, CTA, uso de `**negrito**` e qualidade de `pt-BR`
 - entrega:
   - QA review
   - lista de blockers

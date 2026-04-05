@@ -42,6 +42,7 @@
 - Did you connect features to outcomes?
 - Is the business case believable for Brazil?
 - Did you avoid unsupported promises?
+- Can an operator skim the draft and catch the pain, lever, and next step without a wall of emphasis?
 - Does the CTA match segment maturity?
 
 ## Quality Criteria
@@ -54,11 +55,13 @@
 
 - "Slow WhatsApp response destroys hot leads; the page should make speed a value lever."
 - "This segment cares about idle bays and margin, not generic 'digital transformation'."
+- "Bold the pain, the business upside, or the CTA-ready action line, not every product feature."
 
 ## Bad Patterns
 
 - Vague growth slogans
 - Feature lists with no outcome translation
+- Over-highlighting every business buzzword
 - Copy that sounds like a generic SaaS homepage
 
 ## Anti-Patterns

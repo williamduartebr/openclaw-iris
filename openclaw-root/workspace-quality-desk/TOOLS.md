@@ -11,6 +11,9 @@
 - FAQ section heading uses `## Perguntas frequentes`
 - FAQ entries use `### FAQ: ...`
 - Markdown only, no HTML
+- Bold emphasis uses Markdown `**...**`, never `<strong>`
+- Bold usage is strategic and restrained, usually no more than 1 to 3 highlights per text block when emphasis is warranted
+- No full paragraphs in bold and no mechanical repetition of the same keyword in bold
 - Cover image is attached before the article is marked publish-ready
 - `image_source` matches the actual asset provenance; never let real, press, or stock imagery fall back to `ai`
 - CTA matches audience and funnel

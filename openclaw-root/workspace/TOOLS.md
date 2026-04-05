@@ -21,6 +21,8 @@
 - Use `## Perguntas frequentes` for the FAQ section heading
 - FAQ entries must use `### FAQ: ...`
 - Never emit HTML for article bodies
+- Use Markdown `**bold**` strategically for scanability: usually 1 to 3 highlights per text block when emphasis truly helps
+- Prioritize bold on key terms, benefits, problems, solutions, local modifiers, short answers, price ranges, and decision phrases; never bold whole paragraphs or repeat the same keyword mechanically
 - Use Brazilian Portuguese with full accents in publishable content
 - Use 2026 as the present-year reference unless the task is explicitly historical
 

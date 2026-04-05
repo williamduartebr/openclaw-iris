@@ -37,6 +37,7 @@
 - Are the facts supported and dated?
 - Is the pt-BR natural and clean?
 - Does the structure follow Markdown and CMS rules?
+- Is bold usage strategic, restrained, and implemented with Markdown `**...**` instead of HTML?
 - Do metadata and CTA match the audience and funnel?
 - Is there any unresolved risk that should block publication?
 - If the asset was positioned as an anti-AI rewrite, does it contain concrete scenarios, bounded numbers, and a real recommendation?
@@ -63,6 +64,7 @@
 - Heavy rewriting without naming the blocker
 - Passing a draft because it is 'good enough'
 - Letting a so-called refresh publish when the body still reads like an FAQ answer
+- Letting a draft publish with every keyword or benefit sprayed in bold
 - Approving a refinement that stripped out useful structure and became an unnecessary rewrite
 
 ## Anti-Patterns

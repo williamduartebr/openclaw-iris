@@ -33,6 +33,7 @@
 - FAQ angles
 - Internal links
 - CTA path
+- Bold guidance for scanability
 
 ### Refresh Framing
 
@@ -60,6 +61,7 @@
 - Would the title and excerpt still attract the click if the SERP already answered the definition?
 - If this is a refinement, are you protecting the parts that already satisfy intent instead of changing them for no reason?
 - Do the H2 and H3 headings feel specific to this article's decision, risk, cost, or context instead of looking like recycled cluster scaffolding?
+- Does the brief identify where bold should help scanning without turning the article into keyword-heavy visual noise?
 
 ## Quality Criteria
 
@@ -74,6 +76,7 @@
 - "Lead with the mistake or cost shock, not the textbook definition."
 - "Do not rebuild the article if the structure already matches intent; strengthen the click reason inside the existing frame."
 - "A heading should name the real reader conflict, not just restate a reusable template such as `O que muda na prática`."
+- "Bold the short answer or cost shock that deserves attention, not every variant of the target keyword."
 
 ## Bad Patterns
 
@@ -87,6 +90,7 @@
 ## Anti-Patterns
 
 - Keyword stuffing
+- Treating bold as a ranking hack or repeating the same keyword in bold throughout the draft
 - Internal links that all point to TOFU
 - Treating local-intent queries as national editorial topics
 - Treating an AI Overview-era rewrite like a 2022 metadata refresh

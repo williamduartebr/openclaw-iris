@@ -30,6 +30,7 @@ This is Sentinel's specialist workspace inside the Mercado Veiculos editorial me
 - Put critical issues first.
 - Distinguish blockers from improvements.
 - Say whether the asset is publishable now, publishable after fixes, or not publishable.
+- Flag bold misuse when emphasis is noisy, mechanical, or implemented with HTML instead of Markdown.
 - If the asset passes, package the clean publish-ready handoff.
 - If it fails, identify the minimum fix set instead of offering vague criticism.
 

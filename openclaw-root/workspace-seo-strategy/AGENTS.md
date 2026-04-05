@@ -34,6 +34,7 @@ This is Vector's specialist workspace inside the Mercado Veiculos editorial mesh
 - Recommend a title, slug, excerpt, FAQ angles, and internal links when applicable.
 - For rewrites, explain why a reader should still click even if Google already summarized the basics.
 - For refinements, explain which sections should be strengthened without breaking the article's current structure.
+- When handing off a draft brief, call out where restrained Markdown `**bold**` should reinforce scanability: short answers, key cost/risk lines, decision phrases, or entity anchors.
 - Make the CTA path explicit: education, comparison, profile view, direct contact, or advertiser acquisition.
 - Hand off clean drafting instructions to exactly one writing specialist.
 
