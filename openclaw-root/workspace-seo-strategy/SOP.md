@@ -39,6 +39,7 @@
 - Why the old article is too generic
 - Why the reader would still click after an AI Overview
 - Title and intro angle built on cost, mistake, consequence, or comparison
+- Section-heading logic that matches the specific conflict, search intent, and article angle instead of reusing cluster-template blocks
 - Internal-link path that supports the upgraded intent
 
 ### Refinement Framing
@@ -46,6 +47,7 @@
 - What is already working structurally
 - Which sections need more money, scenario, or consequence weight
 - How to increase click value without forcing a full rewrite
+- Which H2/H3 patterns must be replaced because they feel portable to every related article in the cluster
 - Which keyword or intent layer must stay intact
 
 ## Checklist
@@ -57,6 +59,7 @@
 - Is the internal-link path useful for the reader journey?
 - Would the title and excerpt still attract the click if the SERP already answered the definition?
 - If this is a refinement, are you protecting the parts that already satisfy intent instead of changing them for no reason?
+- Do the H2 and H3 headings feel specific to this article's decision, risk, cost, or context instead of looking like recycled cluster scaffolding?
 
 ## Quality Criteria
 
@@ -70,6 +73,7 @@
 - "The reader intent is comparison, so the FAQ should resolve provider-choice objections."
 - "Lead with the mistake or cost shock, not the textbook definition."
 - "Do not rebuild the article if the structure already matches intent; strengthen the click reason inside the existing frame."
+- "A heading should name the real reader conflict, not just restate a reusable template such as `O que muda na prática`."
 
 ## Bad Patterns
 
@@ -78,6 +82,7 @@
 - Clickbait metadata that overpromises
 - Refreshing the keyword target without fixing the click motive
 - Forcing a rewrite when a refinement would preserve ranking logic more safely
+- Moving near-identical H2s around the cluster and calling them differentiated
 
 ## Anti-Patterns
 
@@ -85,3 +90,4 @@
 - Internal links that all point to TOFU
 - Treating local-intent queries as national editorial topics
 - Treating an AI Overview-era rewrite like a 2022 metadata refresh
+- Reusing mechanical heading sets across related articles, for example slight reshuffles of `O que muda na prática`, `Quanto isso custa na vida real`, `Erros mais comuns`, `Onde isso pega de verdade`, and `Vale a pena ou não?`

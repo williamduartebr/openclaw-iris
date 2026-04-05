@@ -16,11 +16,11 @@ Runtime behavior is aligned to:
 
 ## Base URL and Auth
 
-- Agent runtime base: `http://host.docker.internal:8080/api/content`
-- Local host equivalent: `http://localhost:8080/api/content`
+- Agent runtime base: `https://mercadoveiculos.com/api/content`
+- Local override: `http://localhost:8080/api/content`
 - Auth header: `Authorization: Bearer $CONTENT_API_KEY`
 - Required headers: `Accept: application/json`, `Content-Type: application/json`
-- Media API runtime base: `http://host.docker.internal:8080/api/media`
+- Media API runtime base: `https://mercadoveiculos.com/api/media`
 - Media API auth header: `Authorization: Bearer $MEDIA_API_KEY`
 
 ## Main Endpoints

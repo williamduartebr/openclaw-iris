@@ -2,10 +2,10 @@
 
 ## Runtime
 
-- API base: `http://host.docker.internal:8080/api/content` from inside the OpenClaw container
-- Local host equivalent: `http://localhost:8080/api/content`
+- API base: `https://mercadoveiculos.com/api/content`
+- Local override when needed: `http://localhost:8080/api/content`
 - Auth: `Authorization: Bearer $CONTENT_API_KEY`
-- Media API base: `http://host.docker.internal:8080/api/media`
+- Media API base: `https://mercadoveiculos.com/api/media`
 - Media auth: `Authorization: Bearer $MEDIA_API_KEY`
 - Format: JSON with Markdown in `body_md`
 - Endpoint contract: read `DOCS_API.md` before any delivery attempt

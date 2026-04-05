@@ -109,6 +109,15 @@ Mercado Veiculos should operate like the strongest automotive decision engine in
 - Use realistic BRL ranges when exact prices are not stable enough
 - Mention Mercado Veiculos naturally when it helps the reader take action
 
+## Durable Heading Decision
+
+- H2 and H3 headings must not feel like recycled cluster templates with only small wording or ordering changes.
+- It is not enough to reshuffle near-identical blocks between related articles; each piece needs intertitles tied to its own conflict, search intent, and editorial angle.
+- Avoid mechanical heading sets such as repeated variations of `O que muda na prática`, `Quanto isso custa na vida real`, `Erros mais comuns`, `Onde isso pega de verdade`, and `Vale a pena ou não?` when related articles start sounding interchangeable.
+- Prefer headings that name the real reader decision, the main risk, the wallet impact, the use context, or the exact question that article resolves.
+- Review pt-BR accentuation in headings before publish. `PRÁTICA` is acceptable; `PRATICA` is not.
+- Use all-caps headings only when there is a clear editorial reason. Default to natural Portuguese casing.
+
 ## Publishing Truths
 
 - The publishing API runs at `http://host.docker.internal:8080/api/content` from inside the OpenClaw container
@@ -117,3 +126,37 @@ Mercado Veiculos should operate like the strongest automotive decision engine in
 - `MEDIA_API_KEY` is required for authenticated image generation
 - Markdown supports images by URL and embedded video links
 - B2B plan CTAs point to `/anuncie` or the relevant segmented landing page
+- The CMS category label `Autoelétrica e Baterias` uses the backend slug `autoeletrica-e-eletronica`
+- The Content API now supports `GET /health`, `GET /categories`, `GET /articles/by-slug/{slug}`, and `GET /articles?slug={slug}` for safer automation.
+- Preferred write flow: resolve category with `GET /categories`, check duplicates via exact slug lookup, generate cover, create draft, then publish.
+- The API now exposes rate-limit headers and documents write limits separately from read limits.
+- Validation `422` responses can include `hints.valid_category_slugs`, which should be used instead of guessing category slugs.
+
+## Published Article Ledger
+
+- 2026-03-13 — `Quanto custa trocar a bateria do carro em 2026? Veja preço, sinais de troca e quando procurar uma autoelétrica`
+  - CMS id: `40`
+  - Slug: `quanto-custa-trocar-bateria-carro-2026`
+  - Status: `published`
+  - Category label: `Autoelétrica e Baterias`
+  - Category slug: `autoeletrica-e-eletronica`
+  - Funnel: `MOFU/BOFU hybrid`
+  - Notes: price-led maintenance/diagnostics article; cover attached as `cover_media_id 3`; published after resolving real CMS category slug.
+
+- 2026-03-13 — `Proconve L8 em 2026: a nova fase de emissões para carros novos começou em 2025; veja o que muda no Brasil`
+  - CMS id: `41`
+  - Slug: `proconve-l8-2026-o-que-muda-carros-novos-brasil`
+  - Status: `published`
+  - Category label: `Novidades Automotivas`
+  - Category slug: `novidades-automotivas`
+  - Funnel: `TOFU/MOFU hybrid`
+  - Notes: correction-led regulatory explainer; article explicitly corrects the misconception that the main new-car emissions rule started in 2026; cover attached as `cover_media_id 4`.
+
+- 2026-04-04 — `Luz da injeção acesa: o que significa, quando é urgente e o que fazer para não gastar à toa`
+  - CMS id: `45`
+  - Slug: `luz-da-injecao-acesa-o-que-significa-quando-e-urgente`
+  - Status: `published`
+  - Category label: `Autoelétrica e Baterias`
+  - Category slug: `autoeletrica-e-eletronica`
+  - Funnel: `TOFU`
+  - Notes: TOFU diagnostic explainer created through specialist flow; published successfully without cover image during CMS flow test; this passes technically but does not change the editorial standard that publish-ready packets should normally include hero imagery.

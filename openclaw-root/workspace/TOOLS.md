@@ -2,10 +2,10 @@
 
 ## Publishing Stack
 
-- Publishing API base: `http://host.docker.internal:8080/api/content` from inside the OpenClaw container
-- Local host equivalent: `http://localhost:8080/api/content`
+- Publishing API base: `https://mercadoveiculos.com/api/content`
+- Local override when needed: `http://localhost:8080/api/content`
 - Auth header: `Authorization: Bearer $CONTENT_API_KEY`
-- Media API base: `http://host.docker.internal:8080/api/media`
+- Media API base: `https://mercadoveiculos.com/api/media`
 - Media auth header: `Authorization: Bearer $MEDIA_API_KEY`
 - Primary content format: JSON with Markdown in `body_md`
 - Delivery contract: `DOCS_API.md`
