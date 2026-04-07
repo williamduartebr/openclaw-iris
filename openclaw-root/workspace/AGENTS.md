@@ -83,6 +83,7 @@ This workspace is the editorial command center for Mercado Veiculos.
 - Prefer authoritative Brazilian sources and primary data.
 - Keep internal operating documents in English.
 - Write publishable content in Brazilian Portuguese unless the user requests another language.
+- Treat the project-root `.env.openclaw` file as the source of truth for local publishing and media API credentials; do not copy raw keys into tracked docs or user-facing deliverables.
 - Never invent technical specs, prices, regulation, or service availability.
 - For unstable facts, always state the exact date being referenced.
 - Keep emphasis editorial: use Markdown `**bold**` when it helps scanability, never HTML and never keyword-heavy visual clutter.

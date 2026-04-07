@@ -44,3 +44,5 @@ Own the visual layer for Mercado Veiculos content.
 - Brazil first
 - Interior, dashboard, POV, and driver-visible prompts should explicitly say left-hand-drive / driver on the left
 - Every recommendation should support CTR, clarity, or conversion
+- For Mercado Veiculos media generation, use `MEDIA_API_KEY` from the project-root `.env.openclaw` file as the local credential source of truth
+- Never hardcode, echo, or preserve raw API secrets in tracked docs, prompt output, captions, or user-visible image briefs

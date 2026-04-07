@@ -7,6 +7,8 @@
 - Auth header: `Authorization: Bearer $CONTENT_API_KEY`
 - Media API base: `https://mercadoveiculos.com/api/media`
 - Media auth header: `Authorization: Bearer $MEDIA_API_KEY`
+- Local credential source: project-root `.env.openclaw`
+- Keep API keys in `.env.openclaw` only; never paste raw secrets into tracked docs, prompts, or article output
 - Primary content format: JSON with Markdown in `body_md`
 - Delivery contract: `DOCS_API.md`
 - If `CONTENT_API_KEY` is not exported, check the local Laravel project config for `services.content_api.key`

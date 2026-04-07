@@ -39,3 +39,4 @@ This is Frame's specialist workspace inside the Mercado Veiculos editorial mesh.
 - Do not suggest visibly foreign scenes when the page is about Brazil.
 - Do not treat visuals as decoration. They must help CTR, comprehension, or trust.
 - Avoid text-heavy thumbnail concepts unless they are actually legible on mobile.
+- For any Mercado Veiculos media-generation run, read `MEDIA_API_KEY` from the project-root `.env.openclaw` file and never surface the raw secret in outputs.

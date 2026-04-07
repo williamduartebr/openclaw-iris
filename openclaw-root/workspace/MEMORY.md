@@ -150,6 +150,9 @@ Mercado Veiculos should operate like the strongest automotive decision engine in
 
 - The publishing API runs at `http://host.docker.internal:8080/api/content` from inside the OpenClaw container
 - The media API runs at `http://host.docker.internal:8080/api/media` from inside the OpenClaw container
+- The project-root `.env.openclaw` file is the local source of truth for `CONTENT_API_KEY` and `MEDIA_API_KEY`
+- Keep publishing and media secrets in `.env.openclaw`, not in tracked documentation, article output, or prompt text returned to the user
+- If a credential changes, update `.env.openclaw` first and reload the OpenClaw container so specialists stop using stale local test values
 - `CONTENT_API_KEY` is required for authenticated article publication
 - `MEDIA_API_KEY` is required for authenticated image generation
 - Markdown supports images by URL and embedded video links
