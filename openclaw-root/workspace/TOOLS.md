@@ -3,7 +3,6 @@
 ## Publishing Stack
 
 - Publishing API base: `https://mercadoveiculos.com/api/content`
-- Local override when needed: `http://localhost:8080/api/content`
 - Auth header: `Authorization: Bearer $CONTENT_API_KEY`
 - Media API base: `https://mercadoveiculos.com/api/media`
 - Media auth header: `Authorization: Bearer $MEDIA_API_KEY`

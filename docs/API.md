@@ -17,7 +17,6 @@ Runtime behavior is aligned to:
 ## Base URL and Auth
 
 - Agent runtime base: `https://mercadoveiculos.com/api/content`
-- Local override: `http://localhost:8080/api/content`
 - Auth header: `Authorization: Bearer $CONTENT_API_KEY`
 - Required headers: `Accept: application/json`, `Content-Type: application/json`
 - Media API runtime base: `https://mercadoveiculos.com/api/media`

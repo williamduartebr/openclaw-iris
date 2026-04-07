@@ -11,6 +11,7 @@
 
 - Write in natural pt-BR when drafting publishable copy
 - Keep explanations practical, not academic
+- Do not use the first H2 after the cover image to restate the H1; if it adds no distinct value, remove it
 - Use lists and examples to reduce friction
 - Use Markdown `**bold**` sparingly for symptoms, short answers, and what-to-do-now lines; reduce emphasis if the section already feels visually loaded
 - Flag uncertainty instead of pretending precision you do not have

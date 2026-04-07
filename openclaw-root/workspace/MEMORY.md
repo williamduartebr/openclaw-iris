@@ -141,6 +141,7 @@ Mercado Veiculos should operate like the strongest automotive decision engine in
 
 - H2 and H3 headings must not feel like recycled cluster templates with only small wording or ordering changes.
 - It is not enough to reshuffle near-identical blocks between related articles; each piece needs intertitles tied to its own conflict, search intent, and editorial angle.
+- Never repeat the article H1 as the first H2 after the cover image. If the section would only restate the title with no new job, remove it instead of renaming or replacing it with filler.
 - Avoid mechanical heading sets such as repeated variations of `O que muda na prática`, `Quanto isso custa na vida real`, `Erros mais comuns`, `Onde isso pega de verdade`, and `Vale a pena ou não?` when related articles start sounding interchangeable.
 - Prefer headings that name the real reader decision, the main risk, the wallet impact, the use context, or the exact question that article resolves.
 - Review pt-BR accentuation in headings before publish. `PRÁTICA` is acceptable; `PRATICA` is not.
@@ -148,8 +149,8 @@ Mercado Veiculos should operate like the strongest automotive decision engine in
 
 ## Publishing Truths
 
-- The publishing API runs at `http://host.docker.internal:8080/api/content` from inside the OpenClaw container
-- The media API runs at `http://host.docker.internal:8080/api/media` from inside the OpenClaw container
+- The publishing API runs at `https://mercadoveiculos.com/api/content`
+- The media API runs at `https://mercadoveiculos.com/api/media`
 - The project-root `.env.openclaw` file is the local source of truth for `CONTENT_API_KEY` and `MEDIA_API_KEY`
 - Keep publishing and media secrets in `.env.openclaw`, not in tracked documentation, article output, or prompt text returned to the user
 - If a credential changes, update `.env.openclaw` first and reload the OpenClaw container so specialists stop using stale local test values

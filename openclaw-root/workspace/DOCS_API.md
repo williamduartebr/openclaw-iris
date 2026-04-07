@@ -8,7 +8,6 @@ Read it before any CMS handoff, create, update, or publish action.
 ## Base URL
 
 - Agent runtime base URL: `https://mercadoveiculos.com/api/content`
-- Local override base URL: `http://localhost:8080/api/content`
 - Content auth header: `Authorization: Bearer $CONTENT_API_KEY`
 - Content headers: `Accept: application/json`, `Content-Type: application/json`
 - Media API runtime base URL: `https://mercadoveiculos.com/api/media`

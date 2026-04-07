@@ -7,6 +7,7 @@
 - Heading hierarchy follows `##` and `###`
 - H2 and H3 headings do not read like recycled template blocks from other articles in the same cluster
 - Headings reflect the real reader question, cost, risk, or decision in this article
+- The first H2 after the cover image does not repeat or lightly rephrase the H1; if it has no real job, it must be removed rather than replaced
 - All-caps headings are avoided unless there is a clear editorial reason
 - FAQ section heading uses `## Perguntas frequentes`
 - FAQ entries use `### FAQ: ...`

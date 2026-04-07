@@ -41,6 +41,7 @@
 - Why the reader would still click after an AI Overview
 - Title and intro angle built on cost, mistake, consequence, or comparison
 - Section-heading logic that matches the specific conflict, search intent, and article angle instead of reusing cluster-template blocks
+- Explicit guidance to remove any first H2 that merely repeats the H1 after the cover image; do not replace it with a placeholder heading
 - Internal-link path that supports the upgraded intent
 
 ### Refinement Framing
@@ -61,6 +62,7 @@
 - Would the title and excerpt still attract the click if the SERP already answered the definition?
 - If this is a refinement, are you protecting the parts that already satisfy intent instead of changing them for no reason?
 - Do the H2 and H3 headings feel specific to this article's decision, risk, cost, or context instead of looking like recycled cluster scaffolding?
+- Does the brief explicitly avoid a first H2 that only repeats the H1 below the image?
 - Does the brief identify where bold should help scanning without turning the article into keyword-heavy visual noise?
 
 ## Quality Criteria
@@ -76,6 +78,7 @@
 - "Lead with the mistake or cost shock, not the textbook definition."
 - "Do not rebuild the article if the structure already matches intent; strengthen the click reason inside the existing frame."
 - "A heading should name the real reader conflict, not just restate a reusable template such as `O que muda na prática`."
+- "If the first H2 below the cover would just echo the H1, cut it entirely instead of inventing a weak substitute."
 - "Bold the short answer or cost shock that deserves attention, not every variant of the target keyword."
 
 ## Bad Patterns
@@ -86,6 +89,7 @@
 - Refreshing the keyword target without fixing the click motive
 - Forcing a rewrite when a refinement would preserve ranking logic more safely
 - Moving near-identical H2s around the cluster and calling them differentiated
+- Repeating the H1 as the first H2 under the image and pretending it adds structure
 
 ## Anti-Patterns
 
