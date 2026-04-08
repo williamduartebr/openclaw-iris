@@ -4,13 +4,12 @@ services:
     container_name: openclaw
     env_file:
       - ./.env.openclaw
+    network_mode: host
     extra_hosts:
       - "host.docker.internal:host-gateway"
     tty: true
     stdin_open: true
     restart: unless-stopped
-    ports:
-      - "18789:18789"
     volumes:
       # Keep OpenClaw state inside this project so the setup is portable.
       - ./openclaw-root:/root/.openclaw

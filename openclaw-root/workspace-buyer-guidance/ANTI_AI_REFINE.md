@@ -35,6 +35,8 @@ Insert realistic or bounded BRL values whenever the topic allows:
 - labor
 - part replacement
 - cost of ignoring the issue
+- what usually makes the bill smaller or larger
+- when paying more upfront avoids a worse total cost
 
 ### Real scenario
 
@@ -64,6 +66,7 @@ Add at least one line that crystallizes the real lesson, especially around cost,
 
 - Did you keep the original structure unless it was clearly weak?
 - Did you add at least one bounded BRL range?
+- If exact pricing stayed uncertain, did you still explain the logic of cost instead of leaving the article financially empty?
 - Did you add at least one scenario from real ownership or workshop reality?
 - Did you make at least one consequence materially clearer?
 - Did you add a line that the reader is likely to remember?

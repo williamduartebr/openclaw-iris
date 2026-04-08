@@ -8,6 +8,7 @@
 - H2 and H3 headings do not read like recycled template blocks from other articles in the same cluster
 - Headings reflect the real reader question, cost, risk, or decision in this article
 - The first H2 after the cover image does not repeat or lightly rephrase the H1; if it has no real job, it must be removed rather than replaced
+- If the topic has practical wallet impact, the article includes a financial layer: bounded BRL range, order of magnitude, cost drivers, or clear explanation of what makes the mistake expensive
 - All-caps headings are avoided unless there is a clear editorial reason
 - FAQ section heading uses `## Perguntas frequentes`
 - FAQ entries use `### FAQ: ...`
@@ -18,6 +19,8 @@
 - Cover image is attached before the article is marked publish-ready
 - `image_source` matches the actual asset provenance; never let real, press, or stock imagery fall back to `ai`
 - CTA matches audience and funnel
+- Tool links, when present, match the editorial function of the article and do not compete with the main CTA
+- Tool URLs use live production slugs under `https://mercadoveiculos.com/ferramentas`, not guessed or legacy paths
 - Title, slug, excerpt, and meta are coherent
 
 ## Publication Rules

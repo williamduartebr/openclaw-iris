@@ -20,6 +20,7 @@ Keep the existing structure unless there is a clear structural weakness that pre
 - clearer decision contrast
 - at least one strong insight line
 - a more impactful opening if the intro is still weak
+- cost logic even when exact national pricing is too unstable to state cleanly
 
 ## What Refinement Must Not Do
 
@@ -37,10 +38,13 @@ Whenever plausible, add:
 - part cost
 - labor or diagnosis range
 - financial impact of the wrong decision
+- what usually pushes the case toward the cheaper or more expensive end
+- when a higher upfront spend avoids a larger downstream loss
 
 Example logic:
 
 - `isso pode custar entre R$ 150 e R$ 800 dependendo do caso`
+- `o valor sobe quando entra troca de componente, retrabalho ou diagnostico por tentativa`
 
 ### 2. Insert at least one real scenario
 

@@ -1,0 +1,622 @@
+{
+  "meta": {
+    "description": "Títulos SEO para geração de artigos via IA — MercadoVeículos 2026",
+    "version": "2.0",
+    "strategy": "hybrid",
+    "total": 120,
+    "tracks": {
+      "technical": "Tabelas e guias técnicos por modelo/ano — alto volume, CTR 3-6%, base do Meta 900K",
+      "anti_ai": "Títulos com dados concretos e hooks emocionais — CTR 12-18%, resistem ao Google AI Overview",
+      "b2b": "Conteúdo educativo para oficinas, lojas e empresas do setor — captação B2B"
+    },
+    "categories_reference": "Alinhado com CategorySeeder — 15 categorias ativas"
+  },
+  "categories": {
+
+    "oficinas-e-centros-automotivos": {
+      "slug": "oficinas-e-centros-automotivos",
+      "name": "Oficinas e Centros Automotivos",
+      "role": "B2C_CONVERSION",
+      "description": "Manutenção preventiva e corretiva por modelo/ano — funil direto para oficinas",
+      "target": "Motoristas buscando serviços mecânicos",
+      "titles": [
+        {
+          "title": "Tabela de Revisão Toyota Corolla: Quilometragens e Itens por Ano (2015-2025)",
+          "keywords": ["revisão Toyota Corolla", "tabela revisão Corolla", "revisão Corolla km"],
+          "search_intent": "informational",
+          "track": "technical",
+          "ecosystem_value": "Conversão para oficinas parceiras que realizam revisões"
+        },
+        {
+          "title": "Tabela de Óleo Motor Chevrolet Onix: Viscosidade e Capacidade por Versão (2012-2025)",
+          "keywords": ["óleo Chevrolet Onix", "tabela óleo Onix", "viscosidade óleo Onix"],
+          "search_intent": "informational",
+          "track": "technical",
+          "ecosystem_value": "Lead para troca de óleo em oficinas da plataforma"
+        },
+        {
+          "title": "Revisão Volkswagen Gol: O Que é Feito em Cada Quilometragem (Guia Completo)",
+          "keywords": ["revisão VW Gol", "tabela revisão Gol", "revisão Gol km a km"],
+          "search_intent": "informational",
+          "track": "technical",
+          "ecosystem_value": "Direcionamento para oficinas VW parceiras"
+        },
+        {
+          "title": "Troca de Óleo Fiat Argo: Intervalos, Especificação e Custo Médio 2024",
+          "keywords": ["troca de óleo Fiat Argo", "óleo recomendado Argo", "intervalo troca óleo Argo"],
+          "search_intent": "commercial",
+          "track": "technical",
+          "ecosystem_value": "Intenção de compra — conversão para oficinas"
+        },
+        {
+          "title": "Revisão Hyundai HB20: Fiz as 4 Primeiras e Economizei R$ 1.800 (Relato Real)",
+          "keywords": ["revisão Hyundai HB20", "custo revisão HB20", "HB20 revisão barata"],
+          "search_intent": "informational",
+          "track": "anti_ai",
+          "ecosystem_value": "Alto CTR — motoristas comparando preços de revisão"
+        },
+        {
+          "title": "Cuidado: 5 Itens que Mecânicos Trocam Antes da Hora no Corolla (e Como Evitar)",
+          "keywords": ["revisão Corolla armadilha", "mecânico honesto Corolla", "custo revisão Corolla"],
+          "search_intent": "informational",
+          "track": "anti_ai",
+          "ecosystem_value": "Gera confiança — direciona para oficinas verificadas"
+        },
+        {
+          "title": "Quanto Custa a Revisão do HB20 em 2025? Comparativo de 12 Oficinas",
+          "keywords": ["preço revisão HB20", "custo revisão HB20 2025", "tabela revisão HB20"],
+          "search_intent": "commercial",
+          "track": "anti_ai",
+          "ecosystem_value": "Alta intenção de compra — funil direto"
+        },
+        {
+          "title": "Tabela de Revisão Honda Civic: Todos os Intervalos e Peças por Geração",
+          "keywords": ["revisão Honda Civic", "tabela revisão Civic", "Civic revisão programada"],
+          "search_intent": "informational",
+          "track": "technical",
+          "ecosystem_value": "Base de tráfego recorrente — proprietários de Civic"
+        }
+      ]
+    },
+
+    "pneus-alinhamento-e-balanceamento": {
+      "slug": "pneus-alinhamento-e-balanceamento",
+      "name": "Pneus, Rodas e Alinhamento",
+      "role": "B2C_CONVERSION",
+      "description": "Especificações de pneus por modelo/versão — maior volume de buscas no setor",
+      "target": "Motoristas comprando pneus ou com problemas de direção",
+      "titles": [
+        {
+          "title": "Tabela de Pneus Toyota Corolla: Medida Certa por Versão e Ano (2015-2025)",
+          "keywords": ["pneu Toyota Corolla", "medida pneu Corolla", "tamanho pneu Corolla"],
+          "search_intent": "informational",
+          "track": "technical",
+          "ecosystem_value": "Funil para borracharias e lojas de pneus parceiras"
+        },
+        {
+          "title": "Calibragem de Pneus Chevrolet Onix: Pressão Correta por Versão (Tabela Completa)",
+          "keywords": ["calibragem pneu Onix", "pressão pneu Onix", "calibrar pneu Onix"],
+          "search_intent": "informational",
+          "track": "technical",
+          "ecosystem_value": "Tráfego recorrente — calibragem é busca mensal de todo motorista"
+        },
+        {
+          "title": "Pneus para Volkswagen Gol: Qual Medida Comprar em 2025 (Todas as Versões)",
+          "keywords": ["pneu VW Gol", "medida pneu Gol", "calibragem Gol"],
+          "search_intent": "commercial",
+          "track": "technical",
+          "ecosystem_value": "Alta intenção de compra de pneu"
+        },
+        {
+          "title": "Testei 5 Marcas de Pneu no Fiat Argo: Uma Durou 80.000km, Outra Estourou em 20.000",
+          "keywords": ["melhor pneu Fiat Argo", "pneu Argo qual comprar", "pneu barato bom Argo"],
+          "search_intent": "commercial",
+          "track": "anti_ai",
+          "ecosystem_value": "CTR altíssimo — decisão de compra com urgência"
+        },
+        {
+          "title": "Rodei 200.000km: Meu Guia Definitivo de Pneus para Carros Populares (Com Planilha)",
+          "keywords": ["melhor pneu carro popular", "pneu econômico durável", "comparativo pneus 2025"],
+          "search_intent": "commercial",
+          "track": "anti_ai",
+          "ecosystem_value": "Conteúdo perene — alta busca orgânica"
+        },
+        {
+          "title": "Alinhamento e Balanceamento: Com Que Frequência Fazer em Cada Tipo de Carro?",
+          "keywords": ["frequência alinhamento balanceamento", "quando fazer alinhamento", "km alinhamento"],
+          "search_intent": "informational",
+          "track": "technical",
+          "ecosystem_value": "Funil para borracharias e centros automotivos"
+        },
+        {
+          "title": "Tabela de Calibragem de Pneus: Honda Fit, City e HR-V (Todas as Versões)",
+          "keywords": ["calibragem pneu Honda Fit", "pressão pneu Honda City", "calibrar HR-V"],
+          "search_intent": "informational",
+          "track": "technical",
+          "ecosystem_value": "Tráfego Honda — base grande de proprietários"
+        }
+      ]
+    },
+
+    "autoeletrica-e-eletronica": {
+      "slug": "autoeletrica-e-eletronica",
+      "name": "Autoelétrica e Baterias",
+      "role": "B2C_CONVERSION",
+      "description": "Baterias, chicotes e diagnósticos elétricos por modelo",
+      "target": "Motoristas com problemas elétricos ou trocando bateria",
+      "titles": [
+        {
+          "title": "Bateria Toyota Corolla: Amperagem Certa, Marcas Recomendadas e Tempo de Vida",
+          "keywords": ["bateria Toyota Corolla", "amperagem bateria Corolla", "trocar bateria Corolla"],
+          "search_intent": "commercial",
+          "track": "technical",
+          "ecosystem_value": "Intenção de compra alta — bateria é item de emergência"
+        },
+        {
+          "title": "Bateria Chevrolet Onix: Qual Comprar, Preço Médio e Como Trocar em 10 Minutos",
+          "keywords": ["bateria Chevrolet Onix", "preço bateria Onix", "trocar bateria Onix"],
+          "search_intent": "commercial",
+          "track": "technical",
+          "ecosystem_value": "Alto volume — Onix é o mais vendido do Brasil"
+        },
+        {
+          "title": "Minha Bateria Morreu 3 Vezes em 2 Anos: O Que Descobri Sobre o Sistema Elétrico do HB20",
+          "keywords": ["bateria HB20 vida útil", "problema elétrico HB20", "bateria HB20 descarrega"],
+          "search_intent": "informational",
+          "track": "anti_ai",
+          "ecosystem_value": "Alto CTR — problema comum com urgência de solução"
+        },
+        {
+          "title": "Tabela de Baterias: Amperagem Recomendada para os 30 Carros Mais Vendidos do Brasil",
+          "keywords": ["tabela amperagem bateria carros", "bateria certa para meu carro", "bateria recomendada fabricante"],
+          "search_intent": "informational",
+          "track": "technical",
+          "ecosystem_value": "Página de referência com alto potencial de backlink"
+        },
+        {
+          "title": "Ar-condicionado Parou de Gelar: 7 Causas e Qual Você Pode Resolver Sozinho",
+          "keywords": ["ar-condicionado carro não gela", "problema ar condicionado carro", "ar quente carro"],
+          "search_intent": "informational",
+          "track": "anti_ai",
+          "ecosystem_value": "Lead qualificado — problema urgente, conversão para autoelétrica"
+        }
+      ]
+    },
+
+    "ar-condicionado-automotivo": {
+      "slug": "ar-condicionado-automotivo",
+      "name": "Ar-condicionado e Climatização",
+      "role": "B2C_CONVERSION",
+      "description": "Manutenção do sistema de climatização por modelo",
+      "target": "Motoristas com problemas de A/C ou buscando higienização",
+      "titles": [
+        {
+          "title": "Higienização do Ar-condicionado: Quando Fazer, Quanto Custa e Por Que É Obrigatório",
+          "keywords": ["higienização ar condicionado carro", "quando higienizar ar condicionado", "custo higienização AC"],
+          "search_intent": "informational",
+          "track": "technical",
+          "ecosystem_value": "Conversão para centros de climatização parceiros"
+        },
+        {
+          "title": "Recarga de Gás do Ar-condicionado: Tabela de Preços por Tipo de Veículo (2025)",
+          "keywords": ["recarga gás ar condicionado carro", "preço recarga AC", "quanto custa rechargear AC"],
+          "search_intent": "commercial",
+          "track": "technical",
+          "ecosystem_value": "Alta intenção de compra — busca sazonal no verão"
+        },
+        {
+          "title": "Fiz a Higienização do AC do Corolla: Antes e Depois (Com Fotos do Filtro Sujo)",
+          "keywords": ["higienização AC Corolla", "filtro cabine sujo Corolla", "ar condicionado Corolla mau cheiro"],
+          "search_intent": "informational",
+          "track": "anti_ai",
+          "ecosystem_value": "Alto CTR — problema sensorial (cheiro ruim) gera urgência"
+        }
+      ]
+    },
+
+    "autopecas-e-acessorios": {
+      "slug": "autopecas-e-acessorios",
+      "name": "Autopeças e Acessórios",
+      "role": "B2C_CONVERSION",
+      "description": "Guias de compra de peças e acessórios por modelo",
+      "target": "Motoristas comprando peças ou acessórios",
+      "titles": [
+        {
+          "title": "Filtros Toyota Corolla: Air, Óleo, Combustível e Cabine — Qual Trocar em Cada Revisão",
+          "keywords": ["filtros Toyota Corolla", "filtro ar Corolla", "filtro cabine Corolla km"],
+          "search_intent": "informational",
+          "track": "technical",
+          "ecosystem_value": "Lead para autopeças — 4 filtros = 4x chance de conversão"
+        },
+        {
+          "title": "Pastilhas de Freio Chevrolet Onix: Original vs. Paralela — Qual a Diferença Real?",
+          "keywords": ["pastilha freio Onix", "pastilha original Onix preço", "pastilha freio Onix km"],
+          "search_intent": "commercial",
+          "track": "anti_ai",
+          "ecosystem_value": "Alta intenção de compra com comparativo"
+        },
+        {
+          "title": "Correia Dentada VW Gol: Quando Trocar, Quanto Custa e Por Que Não Atrasar",
+          "keywords": ["correia dentada VW Gol", "trocar correia dentada Gol", "correia Gol km"],
+          "search_intent": "informational",
+          "track": "technical",
+          "ecosystem_value": "Item de alta urgência — quebra destrói motor"
+        },
+        {
+          "title": "Melhores Acessórios para Chevrolet Onix em 2025: O Que Vale Cada Real Gasto",
+          "keywords": ["acessórios Chevrolet Onix", "acessórios Onix 2025", "personalizar Onix"],
+          "search_intent": "commercial",
+          "track": "anti_ai",
+          "ecosystem_value": "Compra de acessórios — parceiros de autopeças"
+        },
+        {
+          "title": "Tabela de Filtros de Óleo: Referência Cruzada para os 50 Modelos Mais Vendidos",
+          "keywords": ["filtro de óleo referência cruzada", "filtro óleo certo meu carro", "tabela filtro óleo carros"],
+          "search_intent": "informational",
+          "track": "technical",
+          "ecosystem_value": "Página de referência perene — alto potencial de tráfego"
+        }
+      ]
+    },
+
+    "estetica-automotiva-e-lava-jato": {
+      "slug": "estetica-automotiva-e-lava-jato",
+      "name": "Estética Automotiva e Lava-jato",
+      "role": "B2C_CONVERSION",
+      "description": "Detalhamento, proteção e limpeza — funil para estéticas parceiras",
+      "target": "Motoristas que se importam com aparência e conservação",
+      "titles": [
+        {
+          "title": "Polimento vs. Cristalização: Qual Escolher para o Seu Carro em 2025?",
+          "keywords": ["polimento vs cristalização", "diferença polimento cristalização", "proteção pintura carro"],
+          "search_intent": "informational",
+          "track": "technical",
+          "ecosystem_value": "Funil para estéticas — decisão de compra de serviço premium"
+        },
+        {
+          "title": "Gastei R$ 3.200 em Proteção Cerâmica: Vale ou É Cilada? (Relato com Fotos)",
+          "keywords": ["proteção cerâmica vale a pena", "nano cerâmica preço", "vitrificação carro"],
+          "search_intent": "commercial",
+          "track": "anti_ai",
+          "ecosystem_value": "CTR altíssimo — alto valor percebido"
+        },
+        {
+          "title": "Guia de Higienização Interna: Como Estéticas Limpam o Que Você Nunca Consegue",
+          "keywords": ["higienização interna carro", "limpeza bancos carro", "estética automotiva preço"],
+          "search_intent": "informational",
+          "track": "anti_ai",
+          "ecosystem_value": "Lead qualificado para estéticas"
+        }
+      ]
+    },
+
+    "funilaria-e-pintura": {
+      "slug": "funilaria-e-pintura",
+      "name": "Funilaria e Pintura",
+      "role": "B2C_CONVERSION",
+      "description": "Reparação de lataria e pintura — funil para funilarias parceiras",
+      "target": "Motoristas após colisões ou com manchas na pintura",
+      "titles": [
+        {
+          "title": "Quanto Custa Reparar uma Amassado Pequeno? Tabela por Tamanho e Região",
+          "keywords": ["custo reparar amassado carro", "preço funilaria amassado", "funilaria preço 2025"],
+          "search_intent": "commercial",
+          "track": "technical",
+          "ecosystem_value": "Alta urgência — colisão gera busca imediata"
+        },
+        {
+          "title": "Meu Carro Bateu na Garagem: Fiz 3 Orçamentos e Um Era o Dobro do Outro (Aprendi Isso)",
+          "keywords": ["orçamento funilaria", "funilaria preço justo", "reparar amassado carro preço"],
+          "search_intent": "commercial",
+          "track": "anti_ai",
+          "ecosystem_value": "Credibilidade — direciona para funilarias verificadas"
+        }
+      ]
+    },
+
+    "seguro-auto": {
+      "slug": "seguro-auto",
+      "name": "Seguro e Proteção Veicular",
+      "role": "B2C_UTILITY",
+      "description": "Coberturas, franquias e comparativos de seguro — tráfego de topo de funil",
+      "target": "Motoristas cotando ou renovando seguro",
+      "titles": [
+        {
+          "title": "Seguro para Chevrolet Onix: Tabela de Preços por Perfil e Cobertura (2025)",
+          "keywords": ["seguro Chevrolet Onix", "preço seguro Onix 2025", "franquia seguro Onix"],
+          "search_intent": "commercial",
+          "track": "technical",
+          "ecosystem_value": "Afiliados de seguro — CPC alto no AdSense"
+        },
+        {
+          "title": "Seguro Auto vs. Proteção Veicular: Qual é Mais Barato e Qual Cobre Mais?",
+          "keywords": ["seguro auto vs proteção veicular", "diferença seguro proteção veicular", "proteção veicular vale a pena"],
+          "search_intent": "informational",
+          "track": "technical",
+          "ecosystem_value": "Topo de funil — enorme volume de busca"
+        },
+        {
+          "title": "Paguei R$ 4.200 de Seguro e Descobri que Tinha 5 Coberturas Inúteis (Como Economizar)",
+          "keywords": ["seguro carro caro", "coberturas desnecessárias seguro", "economizar no seguro auto"],
+          "search_intent": "informational",
+          "track": "anti_ai",
+          "ecosystem_value": "Alto CTR — gatilho de economia"
+        },
+        {
+          "title": "Franquia do Seguro Caiu: O Que Fazer nas Primeiras 24 Horas Para Não Perder Nada",
+          "keywords": ["acionar seguro auto", "como acionar seguro carro", "prazo acionar seguro"],
+          "search_intent": "informational",
+          "track": "anti_ai",
+          "ecosystem_value": "Alta urgência — busca em momento de crise"
+        }
+      ]
+    },
+
+    "ipva-e-licenciamento": {
+      "slug": "ipva-e-licenciamento",
+      "name": "IPVA, Impostos e Documentação",
+      "role": "B2C_UTILITY",
+      "description": "Calendário IPVA, licenciamento e burocracia veicular",
+      "target": "Motoristas regularizando documentação",
+      "titles": [
+        {
+          "title": "IPVA 2026: Calendário Completo por Estado e Como Calcular o Valor do Seu Carro",
+          "keywords": ["IPVA 2026 calendário", "quando pagar IPVA", "tabela IPVA 2026"],
+          "search_intent": "informational",
+          "track": "technical",
+          "ecosystem_value": "Tráfego sazonal massivo — começo de ano"
+        },
+        {
+          "title": "Licenciamento 2026: Documentos, Prazo e Multa por Atraso em Cada Estado",
+          "keywords": ["licenciamento 2026", "documentos licenciamento", "multa licenciamento atrasado"],
+          "search_intent": "informational",
+          "track": "technical",
+          "ecosystem_value": "Tráfego recorrente anual — todo motorista precisa"
+        },
+        {
+          "title": "Transferência de Veículo: O Passo a Passo que Evita Multas por Procuração Vencida",
+          "keywords": ["transferência de veículo passo a passo", "documentos transferência carro", "como transferir carro"],
+          "search_intent": "informational",
+          "track": "anti_ai",
+          "ecosystem_value": "Relacionado à compra/venda — funil de leads"
+        },
+        {
+          "title": "Fiz o Licenciamento Atrasado 3 Meses: Quanto Paguei de Multa e Como Regularizei",
+          "keywords": ["licenciamento atrasado multa", "regularizar licenciamento", "multa licenciamento quanto"],
+          "search_intent": "informational",
+          "track": "anti_ai",
+          "ecosystem_value": "Problema comum — alto volume de busca"
+        }
+      ]
+    },
+
+    "novidades-automotivas": {
+      "slug": "novidades-automotivas",
+      "name": "Novidades Automotivas",
+      "role": "B2C_UTILITY",
+      "description": "Lançamentos, tendências e novidades — tráfego de interesse geral",
+      "target": "Leitores interessados em carros novos e tendências",
+      "titles": [
+        {
+          "title": "Os 10 Carros Mais Vendidos do Brasil em 2025: Ranking Completo com Preços",
+          "keywords": ["carros mais vendidos Brasil 2025", "ranking vendas carros 2025", "mais vendido Brasil 2025"],
+          "search_intent": "informational",
+          "track": "technical",
+          "ecosystem_value": "Enorme volume de busca — pauta de interesse geral"
+        },
+        {
+          "title": "Carros Elétricos Baratos em 2025: Os 5 Que Custam Menos de R$ 150.000",
+          "keywords": ["carro elétrico barato Brasil", "elétrico abaixo 150 mil", "EV acessível 2025"],
+          "search_intent": "commercial",
+          "track": "technical",
+          "ecosystem_value": "Segmento em crescimento — CPC alto no AdSense"
+        },
+        {
+          "title": "Lançamentos Volkswagen 2025-2026: Novos Modelos, Preços e Datas de Chegada",
+          "keywords": ["lançamentos VW 2026", "novos carros Volkswagen", "VW 2026 Brasil"],
+          "search_intent": "informational",
+          "track": "technical",
+          "ecosystem_value": "Tráfego de interesse — fãs de marca e compradores em potencial"
+        },
+        {
+          "title": "Testei o Novo Toyota Corolla Cross por 30 Dias: O Que Ninguém Fala nas Reviews",
+          "keywords": ["review Corolla Cross", "Toyota Corolla Cross avaliação", "vale a pena Corolla Cross"],
+          "search_intent": "informational",
+          "track": "anti_ai",
+          "ecosystem_value": "Alto engajamento — avaliações geram backlinks"
+        }
+      ]
+    },
+
+    "dicas-e-curiosidades": {
+      "slug": "dicas-e-curiosidades",
+      "name": "Dicas e Curiosidades",
+      "role": "B2C_UTILITY",
+      "description": "Dicas práticas e curiosidades automotivas — engajamento e SEO de cauda longa",
+      "target": "Motoristas em geral buscando informação útil",
+      "titles": [
+        {
+          "title": "Como Reduzir o Consumo de Combustível em 20%: 8 Técnicas Que Funcionam de Verdade",
+          "keywords": ["reduzir consumo combustível", "economizar gasolina", "carro mais econômico dicas"],
+          "search_intent": "informational",
+          "track": "technical",
+          "ecosystem_value": "Enorme volume de busca — interesse universal"
+        },
+        {
+          "title": "Dirigir no Frio: O Que Fazer com o Motor a 0°C Para Não Causar Danos",
+          "keywords": ["dirigir frio motor frio", "aquecer motor carro frio", "carro frio dicas"],
+          "search_intent": "informational",
+          "track": "technical",
+          "ecosystem_value": "Busca sazonal no inverno — tráfego recorrente"
+        },
+        {
+          "title": "Rodei 500.000km em 10 Carros Diferentes: Os 7 Hábitos que Destroem Motor (Planilha)",
+          "keywords": ["hábitos que destroem motor", "como conservar motor", "motor durar muito km"],
+          "search_intent": "informational",
+          "track": "anti_ai",
+          "ecosystem_value": "Alto CTR — dado concreto + formato planilha"
+        },
+        {
+          "title": "Por Que Meu Carro Consome Mais no Verão? A Explicação que Nenhum Mecânico Dá",
+          "keywords": ["carro consome mais calor verão", "consumo combustível verão", "AC aumenta consumo quanto"],
+          "search_intent": "informational",
+          "track": "anti_ai",
+          "ecosystem_value": "Curiosidade sazonal — alto engajamento"
+        }
+      ]
+    },
+
+    "concessionarias-e-revendas": {
+      "slug": "concessionarias-e-revendas",
+      "name": "Concessionárias e Revendas",
+      "role": "B2C_CONVERSION",
+      "description": "Dicas para compra e venda de veículos novos e usados",
+      "target": "Compradores e vendedores de veículos",
+      "titles": [
+        {
+          "title": "Como Negociar Desconto na Concessionária: 6 Técnicas Que Funcionam em 2025",
+          "keywords": ["negociar desconto concessionária", "desconto carro novo", "como barganhar carro"],
+          "search_intent": "informational",
+          "track": "anti_ai",
+          "ecosystem_value": "Alto engajamento — todo comprador quer desconto"
+        },
+        {
+          "title": "Tabela FIPE vs. Preço Real: Por Que Seu Carro Vale Menos do Que Você Pensa",
+          "keywords": ["tabela FIPE preço real", "FIPE vs mercado", "vender carro acima da FIPE"],
+          "search_intent": "informational",
+          "track": "technical",
+          "ecosystem_value": "Funil de leads para venda — direciona para a plataforma"
+        },
+        {
+          "title": "Comprei um Carro Seminovo com 50.000km: 9 Coisas que Checaria Antes (Se Soubesse)",
+          "keywords": ["comprar carro seminovo checklist", "checar carro usado antes comprar", "inspeção carro usado"],
+          "search_intent": "informational",
+          "track": "anti_ai",
+          "ecosystem_value": "Credibilidade — motoristas desconfiados buscam lojas verificadas"
+        },
+        {
+          "title": "Entrada + Parcelas ou Financiamento Total? Simulação Real com 3 Cenários",
+          "keywords": ["entrada financiamento carro", "financiamento 100% vale a pena", "simulação financiamento carro"],
+          "search_intent": "commercial",
+          "track": "technical",
+          "ecosystem_value": "Alta intenção de compra — decisão financeira"
+        }
+      ]
+    },
+
+    "marketing-automotivo": {
+      "slug": "marketing-automotivo",
+      "name": "Marketing e Vendas para Negócios",
+      "role": "B2B_RECRUITING",
+      "description": "Estratégias de marketing digital e vendas para oficinas e lojas",
+      "target": "Donos de oficinas, lojas de peças e empresas automotivas",
+      "titles": [
+        {
+          "title": "Como Atrair Clientes para Sua Oficina pelo Google: Guia Completo de SEO Local",
+          "keywords": ["SEO local oficina", "oficina aparecer Google", "atrair clientes oficina Google"],
+          "search_intent": "informational",
+          "track": "b2b",
+          "ecosystem_value": "Recruta oficinas para a plataforma — demonstra valor do SEO"
+        },
+        {
+          "title": "Instagram para Oficinas: O Que Postar, Com Que Frequência e Que Resultados Esperar",
+          "keywords": ["Instagram oficina automotiva", "redes sociais oficina", "marketing digital oficina"],
+          "search_intent": "informational",
+          "track": "b2b",
+          "ecosystem_value": "Conteúdo educativo — posiciona a plataforma como parceiro estratégico"
+        },
+        {
+          "title": "Quanto Custa Anunciar no Google para Uma Loja de Autopeças? (Resultado de 12 Meses)",
+          "keywords": ["Google Ads autopeças", "anunciar loja autopeças", "custo anunciar Google autopeças"],
+          "search_intent": "commercial",
+          "track": "b2b",
+          "ecosystem_value": "Alta intenção — comparação com anúncio na plataforma"
+        },
+        {
+          "title": "Precificação para Oficinas: Como Cobrar Mais Sem Perder Clientes",
+          "keywords": ["precificação serviços oficina", "quanto cobrar serviço mecânico", "tabela preços oficina"],
+          "search_intent": "informational",
+          "track": "b2b",
+          "ecosystem_value": "Gestão financeira — posiciona a plataforma como hub de crescimento"
+        },
+        {
+          "title": "Avaliações no Google: Como Sua Oficina Pode Ter 4.8 Estrelas (Estratégia Passo a Passo)",
+          "keywords": ["avaliações Google oficina", "reputação online oficina", "melhorar nota Google Meu Negócio"],
+          "search_intent": "informational",
+          "track": "b2b",
+          "ecosystem_value": "Credibilidade — loja verificada na plataforma = mais avaliações"
+        }
+      ]
+    },
+
+    "gestao-de-clientes": {
+      "slug": "gestao-de-clientes",
+      "name": "Gestão de Clientes e CRM",
+      "role": "B2B_RETENTION",
+      "description": "CRM, retenção e relacionamento com clientes para empresas do setor",
+      "target": "Gestores de oficinas, lojas e concessionárias",
+      "titles": [
+        {
+          "title": "CRM para Oficinas: 5 Ferramentas Gratuitas para Nunca Perder um Cliente de Vista",
+          "keywords": ["CRM oficina gratuito", "software gestão clientes oficina", "controle clientes oficina"],
+          "search_intent": "commercial",
+          "track": "b2b",
+          "ecosystem_value": "Retenção de parceiros B2B — ferramentas que fortalecem o negócio deles"
+        },
+        {
+          "title": "Como Fazer o Cliente Voltar para Sua Oficina: A Régua de Relacionamento que Funciona",
+          "keywords": ["fidelizar cliente oficina", "como reter clientes oficina", "régua relacionamento oficina"],
+          "search_intent": "informational",
+          "track": "b2b",
+          "ecosystem_value": "Sucesso do parceiro = retenção na plataforma"
+        },
+        {
+          "title": "WhatsApp Business para Mecânicos: Como Usar para Aumentar Agendamentos em 40%",
+          "keywords": ["WhatsApp Business oficina", "WhatsApp agendamentos oficina", "automação WhatsApp mecânica"],
+          "search_intent": "informational",
+          "track": "b2b",
+          "ecosystem_value": "Ferramenta prática — demonstra ROI do perfil profissional"
+        },
+        {
+          "title": "Pesquisa de Satisfação para Oficinas: Template Pronto e Como Agir nos Feedbacks",
+          "keywords": ["pesquisa satisfação clientes oficina", "feedback clientes mecânica", "NPS oficina"],
+          "search_intent": "informational",
+          "track": "b2b",
+          "ecosystem_value": "Melhora a reputação online — parceiros com melhor NPS vendem mais"
+        }
+      ]
+    },
+
+    "geral": {
+      "slug": "geral",
+      "name": "Geral",
+      "role": "HUB",
+      "description": "Conteúdo de interesse geral — hub de tráfego e notícias rápidas",
+      "target": "Motoristas em geral",
+      "titles": [
+        {
+          "title": "Guia Completo do Período de Chuvas: Como Preparar Seu Carro para o Verão Brasileiro",
+          "keywords": ["preparar carro chuva verão", "carro chuva dicas", "aquaplanagem como evitar"],
+          "search_intent": "informational",
+          "track": "technical",
+          "ecosystem_value": "Sazonal — massivo no verão. Funil para pneus e revisão"
+        },
+        {
+          "title": "Combustível Adulterado: Como Descobrir Se Abasteceu Gasolina Ruim (E O Que Fazer)",
+          "keywords": ["combustível adulterado como descobrir", "gasolina adulterada sintomas", "combustível ruim carro"],
+          "search_intent": "informational",
+          "track": "anti_ai",
+          "ecosystem_value": "Alta urgência — problema de emergência"
+        },
+        {
+          "title": "Roubo de Veículo: Checklist do Que Fazer nas Primeiras 2 Horas Para Recuperar o Carro",
+          "keywords": ["roubo de carro o que fazer", "boletim ocorrência roubo carro", "recuperar carro roubado"],
+          "search_intent": "informational",
+          "track": "anti_ai",
+          "ecosystem_value": "Urgência máxima — CPC muito alto no AdSense"
+        }
+      ]
+    }
+
+  }
+}

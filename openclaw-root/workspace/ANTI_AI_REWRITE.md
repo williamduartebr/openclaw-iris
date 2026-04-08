@@ -30,6 +30,17 @@ The goal is not to "make it longer." The goal is to make it materially harder to
 - Clear technical opinion
 - A real decision, conflict, or tradeoff
 
+## Cost Layer Rule
+
+- If the topic can plausibly affect the reader's wallet, the rewrite should not leave price logic implicit.
+- Exact national pricing is not mandatory when the market is unstable, but the article should still include at least one of the following:
+  - bounded BRL ranges
+  - order-of-magnitude guidance
+  - what usually makes the problem cheaper or more expensive
+  - when paying more is justified
+  - how much the wrong diagnosis, delay, or shortcut can cost
+- "No exact price available" is not a license to publish a financially empty article.
+
 ## Mandatory Output Blocks
 
 Use these exact pt-BR block ideas in the publishable article whenever the task is a full rewrite:

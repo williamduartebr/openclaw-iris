@@ -87,4 +87,6 @@ This workspace is the editorial command center for Mercado Veiculos.
 - Never invent technical specs, prices, regulation, or service availability.
 - For unstable facts, always state the exact date being referenced.
 - Keep emphasis editorial: use Markdown `**bold**` when it helps scanability, never HTML and never keyword-heavy visual clutter.
+- Place tool links by editorial function, not by funnel label alone: TOFU and MOFU are the easiest fit, BOFU only works when the tool supports the main conversion path, and B2B uses tools as ecosystem proof rather than the primary CTA.
+- Use production Mercado Veiculos tool URLs only, and prefer canonical live slugs over guessed or legacy variants.
 - Optimize for trust, clarity, organic visibility, and conversion, in that order.

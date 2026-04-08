@@ -89,6 +89,11 @@
 - If this is B2B acquisition content, does it invite the business to create or claim a Mercado Veiculos profile, including free entry when relevant, before plan upsell?
 - If this was a rewrite, would the result still earn the click after an AI Overview summarized the basics?
 - If this was a refinement, did it add numbers, scenarios, or consequences without destroying a structure that was already working?
+- If the topic has real wallet impact, does the asset include bounded price logic, cost range, or at least a clear explanation of what makes the case cheaper, more expensive, or costly to ignore?
+- For B2B TOFU meant to feed a profile/plan funnel, does the article target the reader's real pain-language search rather than product-language search?
+- Does the copy make clear how that pain appears in Google or in real business behavior, so the article can act as the remedy after an AI Overview or quick summary?
+- If the destination is a free-profile hub, does the TOFU point first to the value of basic organized presence before introducing any stronger commercial step?
+- Before publish, ask: would a business owner realistically search this pain, click this angle, and still need the article after a summary answer?
 
 ## Quality Bar
 
@@ -104,6 +109,9 @@
 - "Vector returned the SEO framing; Radar failed, so the price layer below was recovered manually and should be treated with moderate confidence."
 - "The original article is accurate but generic, so this should be treated as an anti-AI rewrite, not a cosmetic refresh."
 - "The article structure is already good, so this should be refined with real cost and scenario weight rather than rebuilt from zero."
+- "Even a TOFU explainer needs wallet logic if the real reader question can turn into diagnosis cost, repair cost, or expensive delay."
+- "The business owner will search the pain, not the product, so the TOFU should target invisibility, weak discovery, lost calls, poor local presence, or dependency on indication instead of starting from the plan itself."
+- "AI may summarize the symptom, but the article still needs to feel like the remedy — with concrete loss, recognition, and next-step logic that survives the summary."
 
 ## Bad Patterns
 

@@ -109,6 +109,9 @@ Mercado Veiculos should operate like the strongest automotive decision engine in
 - Benchmark against top Brazilian automotive publishers and best-in-class lead-generation content, not thin affiliate copy
 - Be useful to Brazilian readers in the real ownership context: fuel costs, financing, workshop quality, climate, roads, regulation, and regional variation
 - Use realistic BRL ranges when exact prices are not stable enough
+- When the topic plausibly affects repair, maintenance, documentation, service choice, downtime, or business acquisition cost, default to a financial layer instead of stopping at explanation
+- If exact national pricing is too unstable, still explain the order of magnitude, what usually makes the case cheaper or more expensive, when paying more is justified, and how costly the wrong guess can become
+- A strong anti-AI article usually combines a real symptom or problem, a real risk, a real decision, cost range or wallet logic, a common mistake, and a local next step
 - Mention Mercado Veiculos naturally when it helps the reader take action
 
 ## Durable Emphasis Decision
@@ -136,14 +139,32 @@ Mercado Veiculos should operate like the strongest automotive decision engine in
 - Avoid vague institutional bridges such as "Mercado Veiculos entra nessa decisão" or other generic platform-self-referential CTA copy.
 - This standard was applied after the published articles `48` (`checklist-carro-antes-de-viajar`) and `49` (`pneu-ruim-na-chuva-como-saber-a-hora-de-trocar`) were corrected to use the direct search CTA.
 - B2B acquisition content should explicitly invite businesses to create or claim a Mercado Veiculos profile, including free-profile entry points when relevant, before later upsell through the panel or other commercial motions.
+- For B2B commercial funnels around plans, profiles, or visibility products, prefer a laddered journey: broad TOFU by segment first, then MOFU article(s) about maturity, fit, and plan logic.
+- Do not over-concentrate TOFU feeders in the workshops/officinas niche. Build segment-diverse TOFU feeders across the wider automotive ecosystem, including transportadoras, guinchos, autoelétricas, autopeças, ar-condicionado automotivo, funilaria e pintura, estética automotiva, concessionárias/revendas, oficinas de moto, retíficas, and related operators when relevant.
+- For MOFU assets like `perfil-gratuito-vs-plano-pago-no-mercado-veiculos-quando-vale-fazer-upgrade`, treat them as shared commercial destinations fed by multiple segment-specific TOFUs rather than by one repeated niche alone.
+- Also maintain a softer pre-MOFU layer for the free plan itself: create TOFUs that explain the value of simply having a free profile with `1 perfil` and the operational basics before introducing upgrade logic.
+- In those free-plan-first TOFUs, do not center the article on upgrade. If upgrade appears at all, keep it subtle and conditional, e.g. that if the business later needs more perfis, categories, contacts, or stronger visibility, this can be handled from the account according to plan needs.
+
+## Durable Tool-Link Decision
+
+- Tool links are not limited to TOFU and MOFU by default; they are governed by editorial function first, then adjusted to funnel stage.
+- TOFU and MOFU are the easiest fit because tools add practical utility through triage, calculation, comparison, and scenario testing.
+- BOFU can still use tool links, but only when the tool prepares the reader to convert and does not steal the main CTA to search, compare providers, request a quote, or contact a business.
+- B2B and plan-acquisition assets may use tool references as ecosystem proof and value support, not as the primary operational CTA.
+- Use only production tool URLs under `https://mercadoveiculos.com/ferramentas`.
+- Canonical tool slugs must match the live Mercado Veiculos routes; do not rely on guessed or legacy hyphenated variants.
 
 ## Durable Heading Decision
 
 - H2 and H3 headings must not feel like recycled cluster templates with only small wording or ordering changes.
 - It is not enough to reshuffle near-identical blocks between related articles; each piece needs intertitles tied to its own conflict, search intent, and editorial angle.
 - Never repeat the article H1 as the first H2 after the cover image. If the section would only restate the title with no new job, remove it instead of renaming or replacing it with filler.
+- Do not use `Resposta rápida` as the default first H2. Use it only when the article genuinely needs an answer-box style opening; otherwise, the first H2 should name the specific conflict, decision, risk, cost, or use-case that makes the article worth reading.
 - Avoid mechanical heading sets such as repeated variations of `O que muda na prática`, `Quanto isso custa na vida real`, `Erros mais comuns`, `Onde isso pega de verdade`, and `Vale a pena ou não?` when related articles start sounding interchangeable.
 - Prefer headings that name the real reader decision, the main risk, the wallet impact, the use context, or the exact question that article resolves.
+- Block generic opening formulas that sound like reusable templates, especially constructions such as `Muita empresa automotiva...`, `Muita oficina...`, `Muita transportadora...`, or similar broad-start phrasing when they flatten the conflict.
+- First paragraphs should open with a concrete tension, commercial loss, decision, friction, or operational consequence instead of broad category-level generalizations.
+- During final QA, actively scan the opening section for generic category phrases, repeated framing, and low-tension lead-ins; rewrite them before publish rather than accepting them as harmless.
 - Review pt-BR accentuation in headings before publish. `PRÁTICA` is acceptable; `PRATICA` is not.
 - Use all-caps headings only when there is a clear editorial reason. Default to natural Portuguese casing.
 

@@ -42,6 +42,7 @@
 - Is there any unresolved risk that should block publication?
 - If the asset was positioned as an anti-AI rewrite, does it contain concrete scenarios, bounded numbers, and a real recommendation?
 - If the asset was positioned as a refinement, did it preserve the useful structure while materially improving financial weight and consequence?
+- If the topic plausibly affects the reader's wallet, does the draft include a real financial layer instead of staying at symptom/explainer level?
 
 ## Quality Criteria
 
@@ -57,6 +58,7 @@
 - "The CTA is misaligned: this is BOFU but still reads like TOFU."
 - "The rewrite added length but not practical value; block until it earns the click after an AI summary."
 - "The refinement preserved structure correctly, but it still needs one real scenario and one bounded cost range before publish."
+- "The topic clearly affects the reader's wallet, but the draft still hides behind generic explanation; block until it shows cost range or at least the logic of cost."
 
 ## Bad Patterns
 

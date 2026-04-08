@@ -32,6 +32,12 @@ The finished article must improve:
 - clear technical opinion
 - a real tradeoff or difficult choice
 
+## Cost Layer Rule
+
+- If the article touches service, repair, parts, documentation, purchase risk, or provider choice, it should carry explicit wallet logic.
+- Exact national pricing is optional when instability is high, but the reader should still see bounded BRL ranges, order-of-magnitude guidance, cost drivers, or the price of getting the decision wrong.
+- A rewrite that talks about risk but never shows what can get expensive is still underpowered.
+
 ## Required Structure For Full Rewrites
 
 1. Rewritten title

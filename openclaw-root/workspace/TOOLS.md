@@ -36,6 +36,16 @@
 - B2B acquisition articles can invite businesses to create or claim a Mercado Veiculos profile, including free entry points when that is the right first conversion
 - Mention Mercado Veiculos naturally, never as forced keyword stuffing
 
+## Tool Link Rules
+
+- Tool links are chosen by editorial function, not restricted to TOFU or MOFU labels
+- TOFU is the natural fit for triage, calculation, simulation, and practical education
+- MOFU is a strong fit for comparison, scenario testing, and reducing decision error before service or purchase
+- BOFU can use a tool only when it prepares the reader to convert; never let a tool compete with the primary CTA to search, compare providers, view a profile, or contact now
+- B2B and plan-acquisition content can mention tools as ecosystem proof or value support, but the primary CTA still points to `/anuncie` or the correct commercial landing page
+- Use production URLs only: `https://mercadoveiculos.com/ferramentas` and the live tool slugs defined in the Mercado Veiculos tools routes
+- Do not guess, translate, or hyphenate tool slugs from memory; use the canonical route
+
 ## Delivery Rules
 
 - If a fact can change, verify it before using it
