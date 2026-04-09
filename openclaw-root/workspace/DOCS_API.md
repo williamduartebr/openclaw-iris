@@ -7,10 +7,10 @@ Read it before any CMS handoff, create, update, or publish action.
 
 ## Base URL
 
-- Agent runtime base URL: `https://mercadoveiculos.com/api/content`
+- Agent runtime base URL: [Mercado Veiculos Content API](https://mercadoveiculos.com/api/content)
 - Content auth header: `Authorization: Bearer $CONTENT_API_KEY`
 - Content headers: `Accept: application/json`, `Content-Type: application/json`
-- Media API runtime base URL: `https://mercadoveiculos.com/api/media`
+- Media API runtime base URL: [Mercado Veiculos Media API](https://mercadoveiculos.com/api/media)
 - Media API auth header: `Authorization: Bearer $MEDIA_API_KEY`
 - Body format: Markdown in `body_md`
 
@@ -95,6 +95,7 @@ Media routes:
 - `body_md`: required on create, must start at `##`
 - `body_md`: use `##` for major sections and `###` for subsections
 - `body_md`: never include HTML tags
+- `body_md`: when links appear in prose, use standard Markdown `[label](https://full-url)`
 - `body_md`: include FAQ as `## Perguntas frequentes` and `### FAQ: ...`
 - `category_slug`: use a slug returned by `GET /categories`
 - `category_slugs`: optional extra categories

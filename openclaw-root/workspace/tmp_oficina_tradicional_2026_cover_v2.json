@@ -1,0 +1,13 @@
+{
+  "prompt": "Create a realistic documentary-style editorial hero image for a Brazilian article about traditional repair shops staying competitive in 2026. Show the exterior or semi-open entrance of an independent mechanical workshop in Brazil, one mechanic or owner near a left-hand-drive car, visible workshop depth with lifts and tools in the background, modest but organized structure, natural daylight, authentic Brazilian urban setting, practical and credible atmosphere, no staged handshake, no glamour, no text, no logos, no watermark, landscape 1600x900.",
+  "provider": "google_gemini",
+  "model": "gemini-2.5-flash-image",
+  "style": "natural",
+  "quality": "high",
+  "width": 1600,
+  "height": 900,
+  "metadata": {
+    "usage": "cover_image",
+    "section": "editorial"
+  }
+}

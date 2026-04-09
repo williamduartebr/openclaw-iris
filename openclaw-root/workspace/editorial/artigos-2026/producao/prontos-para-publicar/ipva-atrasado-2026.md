@@ -199,4 +199,4 @@ Consulte o **portal oficial do seu estado** com placa, Renavam ou dados do propr
 
 ## Regularize antes que a pendência fique mais cara e mais chata
 
-Se você precisa resolver IPVA atrasado, licenciamento pendente ou outra parte da documentação do veículo, **busque apoio profissional perto de você e encontre serviços automotivos que possam ajudar na regularização**: https://mercadoveiculos.com/busca
+Se você precisa resolver IPVA atrasado, licenciamento pendente ou outra parte da documentação do veículo, **[busque apoio profissional perto de você e encontre serviços automotivos que possam ajudar na regularização](https://mercadoveiculos.com/busca)**

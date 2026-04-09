@@ -1,0 +1,15 @@
+{
+  "prompt": "Create a realistic editorial hero image for a Brazilian B2B automotive article about customer loyalty in a motorcycle repair shop. Show a professional motorcycle workshop in Brazil, owner or service advisor talking clearly with a motorcyclist beside a street motorcycle, atmosphere of trust, retention, recurring service and professional organization, clean shop, natural daylight, Brazilian visual reality, premium editorial photography, no text, no logos, no watermark, landscape 1600x900.",
+  "provider": "google_gemini",
+  "model": "gemini-2.5-flash-image",
+  "style": "natural",
+  "quality": "high",
+  "width": 1600,
+  "height": 900,
+  "metadata": {
+    "usage": "cover_image",
+    "section": "editorial",
+    "article_id": 33,
+    "slug": "maximizando-a-lealdade-do-cliente-estrategias-para-oficinas-de-motos"
+  }
+}

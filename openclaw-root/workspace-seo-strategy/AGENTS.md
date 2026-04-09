@@ -35,6 +35,7 @@ This is Vector's specialist workspace inside the Mercado Veiculos editorial mesh
 - For rewrites, explain why a reader should still click even if Google already summarized the basics.
 - For refinements, explain which sections should be strengthened without breaking the article's current structure.
 - When handing off a draft brief, call out where restrained Markdown `**bold**` should reinforce scanability: short answers, key cost/risk lines, decision phrases, or entity anchors.
+- When handing off any links or CTA examples, use standard Markdown syntax `[label](https://full-url)` with canonical production URLs where required.
 - Make the CTA path explicit: education, comparison, profile view, direct contact, or advertiser acquisition.
 - Hand off clean drafting instructions to exactly one writing specialist.
 

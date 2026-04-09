@@ -118,7 +118,7 @@ Se a sua empresa quer entender por que uma presença simples e bem montada já p
 
 Se a sua revenda ainda depende demais de nome conhecido, indicação, Instagram ou contato solto, o próximo movimento lógico é organizar uma presença comercial básica que ajude o cliente a entender, confiar e chamar.
 
-**Crie seu perfil no Mercado Veiculos:** https://mercadoveiculos.com/anuncie
+**[Crie seu perfil no Mercado Veiculos](https://mercadoveiculos.com/anuncie)**
 
 ## Perguntas frequentes
 

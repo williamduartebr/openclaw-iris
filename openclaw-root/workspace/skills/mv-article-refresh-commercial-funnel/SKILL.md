@@ -30,18 +30,23 @@ Refresh the article so it fits the ladder:
 4. Rebuild the angle around the right ladder stage.
 5. Remove product-language-first intros when pain-language should lead.
 6. Upgrade title, excerpt, and SEO description.
-7. Keep or replace cover depending on user instruction.
-8. PATCH and report changes.
+7. Normalize article links to `[label](https://full-url)` whenever prose still contains raw URLs or nonstandard link forms.
+8. Keep or replace cover depending on user instruction.
+9. PATCH and report changes.
 
 ## Writing rules
 
 - Pain first, product second.
 - The owner searches the problem, not the plan name.
 - Make the article still useful after AI summarizes the obvious answer.
+- Do not leave CTA or body links as raw URLs; convert them to labeled Markdown links with canonical production URLs.
 - Avoid repetitive excerpt leads.
 - Avoid generic `muita empresa...` openings.
+- Avoid softened filler like `Para muita empresa...` when the real commercial friction can be named directly.
 - Avoid repeating the same broad opener structure across related funnel articles; rotate between pain, invisibility, friction, dependency, and maturity framings.
 - Avoid making the free-plan article sound like a disguised upsell.
+- Avoid self-referential CTA bridges such as `Onde o Mercado Veiculos entra...`; the close must describe the operator's next move.
+- Use a modular structure instead of repeating the same section shell across TOFU, hub, and MOFU pages.
 
 ## Typical article roles
 

@@ -82,6 +82,16 @@ without replacing the entire article body.
 
 ### 6. Add one hard-hitting insight
 
+### 7. Break repeated metadata templates
+
+If the article belongs to a cluster or recent run of publications:
+
+- vary title, subtitle, excerpt, and SEO-description openings
+- avoid defaulting again to `Veja o que...`, `Veja por que...`, `Descubra por que...`, or `Entenda como...`
+- make the metadata feel editorially distinct enough that adjacent pages do not read like copies with nouns swapped
+
+### 8. Add one hard-hitting insight
+
 Examples of the right energy:
 
 - `o problema mais caro nao e o defeito, e o diagnostico errado`

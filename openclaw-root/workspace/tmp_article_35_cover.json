@@ -1,0 +1,13 @@
+{
+  "prompt": "Create a realistic editorial hero image for a Brazilian B2B automotive article about digital marketing and lead generation for auto businesses. Show the facade of a modern independent automotive business in Brazil, with a manager and team attending a customer, one person holding a smartphone showing local search for automotive services, subtle sense of trust and commercial movement, realistic Brazilian urban context, left-hand-drive vehicles only, natural daylight, premium editorial photography, no text, no logos, no watermark, landscape 1600x900.",
+  "provider": "google_gemini",
+  "model": "gemini-2.5-flash-image",
+  "style": "natural",
+  "quality": "high",
+  "width": 1600,
+  "height": 900,
+  "metadata": {
+    "usage": "cover_image",
+    "section": "editorial"
+  }
+}

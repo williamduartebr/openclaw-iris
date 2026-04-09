@@ -132,7 +132,7 @@ A partir daí, o gratuito deixa de ser só cadastro e passa a funcionar como vit
 
 Se sua empresa automotiva ainda não montou uma presença organizada e quer começar sem complicar a operação, o caminho mais lógico é criar o perfil gratuito e deixar essa base bem feita desde o início.
 
-**Crie seu perfil gratuito no Mercado Veiculos:** https://mercadoveiculos.com/anuncie
+**[Crie seu perfil gratuito no Mercado Veiculos](https://mercadoveiculos.com/anuncie)**
 
 ## Perguntas frequentes
 

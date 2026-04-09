@@ -2,9 +2,9 @@
 
 ## Runtime
 
-- API base: `https://mercadoveiculos.com/api/content`
+- API base: [Mercado Veiculos Content API](https://mercadoveiculos.com/api/content)
 - Auth: `Authorization: Bearer $CONTENT_API_KEY`
-- Media API base: `https://mercadoveiculos.com/api/media`
+- Media API base: [Mercado Veiculos Media API](https://mercadoveiculos.com/api/media)
 - Media auth: `Authorization: Bearer $MEDIA_API_KEY`
 - Format: JSON with Markdown in `body_md`
 - Endpoint contract: read `DOCS_API.md` before any delivery attempt
@@ -38,6 +38,7 @@ Every publish-ready article should ship with:
 - Use `###` for subsections
 - Use `### FAQ: ...` inside `## Perguntas frequentes`
 - No HTML tags
+- When links appear in article prose, use `[label](https://full-url)`
 
 ## Cover Workflow
 
@@ -66,14 +67,14 @@ Every publish-ready article should ship with:
 
 ## B2B CTA Map
 
-- Generic: `/anuncie`
-- Workshops: `/anuncie/oficinas`
-- Auto parts: `/anuncie/autopecas`
-- Car wash: `/anuncie/lava-jato`
-- Body shop: `/anuncie/funilaria-pintura`
-- Auto electrical: `/anuncie/autoeletrica`
-- Tires and alignment: `/anuncie/pneus-alinhamento`
-- AC services: `/anuncie/ar-condicionado`
+- Generic: [Anuncie no Mercado Veiculos](https://mercadoveiculos.com/anuncie)
+- Workshops: [Anuncie oficinas](https://mercadoveiculos.com/anuncie/oficinas)
+- Auto parts: [Anuncie autopeças](https://mercadoveiculos.com/anuncie/autopecas)
+- Car wash: [Anuncie lava-jato](https://mercadoveiculos.com/anuncie/lava-jato)
+- Body shop: [Anuncie funilaria e pintura](https://mercadoveiculos.com/anuncie/funilaria-pintura)
+- Auto electrical: [Anuncie autoelétrica](https://mercadoveiculos.com/anuncie/autoeletrica)
+- Tires and alignment: [Anuncie pneus e alinhamento](https://mercadoveiculos.com/anuncie/pneus-alinhamento)
+- AC services: [Anuncie ar-condicionado automotivo](https://mercadoveiculos.com/anuncie/ar-condicionado)
 
 ## Final QA Before Publish
 

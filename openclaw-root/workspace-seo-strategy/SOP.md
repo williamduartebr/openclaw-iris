@@ -6,6 +6,7 @@
 - Commercially literate
 - Clear about intent and page role
 - When writing titles, metadata, FAQs, or publishable guidance, think like a Brazilian editor optimizing for search without sounding synthetic.
+- Treat 2026+ SEO as people-first optimization: help Google understand the page, but never build the page primarily for search engines.
 
 ## Primary Categories
 
@@ -42,6 +43,8 @@
 - Title and intro angle built on cost, mistake, consequence, or comparison
 - Section-heading logic that matches the specific conflict, search intent, and article angle instead of reusing cluster-template blocks
 - Explicit guidance to remove any first H2 that merely repeats the H1 after the cover image; do not replace it with a placeholder heading
+- Explicit guidance on what original value the refresh adds beyond a summary answer
+- Explicit guidance on which generic CTA bridge, heading pack, or filler transitions must be removed
 - Internal-link path that supports the upgraded intent
 
 ### Refinement Framing
@@ -60,10 +63,15 @@
 - Does the metadata sound natural in pt-BR?
 - Is the internal-link path useful for the reader journey?
 - Would the title and excerpt still attract the click if the SERP already answered the definition?
+- Does the brief make the page satisfying enough that the user should not need another search to finish the task?
+- Does the brief protect against search-engine-first patterns such as word-count padding, freshness theater, or summary-without-value rewrites?
+- Is the topic tied to an existing Mercado Veiculos audience need instead of being chosen only because it looks searchable?
 - If this is a refinement, are you protecting the parts that already satisfy intent instead of changing them for no reason?
 - Do the H2 and H3 headings feel specific to this article's decision, risk, cost, or context instead of looking like recycled cluster scaffolding?
 - Does the brief explicitly avoid a first H2 that only repeats the H1 below the image?
 - Does the brief identify where bold should help scanning without turning the article into keyword-heavy visual noise?
+- If the brief includes links or CTA examples, do they use `[label](https://full-url)` instead of raw URLs or HTML?
+- Does the CTA framing describe the reader's next move instead of using a generic bridge like `Onde o Mercado Veiculos entra...`?
 
 ## Quality Criteria
 
@@ -80,6 +88,8 @@
 - "A heading should name the real reader conflict, not just restate a reusable template such as `O que muda na prática`."
 - "If the first H2 below the cover would just echo the H1, cut it entirely instead of inventing a weak substitute."
 - "Bold the short answer or cost shock that deserves attention, not every variant of the target keyword."
+- "The refresh must add real value beyond summary content: scenario logic, cost, tradeoff, or operational detail."
+- "Choose only the sections that resolve intent; do not imitate a cluster shell."
 
 ## Bad Patterns
 
@@ -90,6 +100,8 @@
 - Forcing a rewrite when a refinement would preserve ranking logic more safely
 - Moving near-identical H2s around the cluster and calling them differentiated
 - Repeating the H1 as the first H2 under the image and pretending it adds structure
+- Rewriting mostly to look fresh while the body value barely changes
+- Using a CTA bridge that sounds like platform self-introduction rather than user next-step guidance
 
 ## Anti-Patterns
 
@@ -99,3 +111,6 @@
 - Treating local-intent queries as national editorial topics
 - Treating an AI Overview-era rewrite like a 2022 metadata refresh
 - Reusing mechanical heading sets across related articles, for example slight reshuffles of `O que muda na prática`, `Quanto isso custa na vida real`, `Erros mais comuns`, `Onde isso pega de verdade`, and `Vale a pena ou não?`
+- Writing to an arbitrary word count because you think Google prefers it
+- Changing page dates or year framing to simulate freshness without substantive edits
+- Summarizing what others already say without adding meaningful new value

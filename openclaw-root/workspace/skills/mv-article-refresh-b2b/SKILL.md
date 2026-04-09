@@ -43,13 +43,17 @@ Usually reframe around one or more of these:
 ## Writing rules
 
 - Do not open with category-level generalizations like `Muita empresa...`.
+- Do not open with softened filler like `Para muita empresa...` when the real business loss can be named directly.
 - Do not repeat the same broad opener pattern across adjacent articles (`muita empresa`, `muita oficina`, `muito negócio`, etc.). Rotate lead structures deliberately.
 - Do not write as a generic marketing explainer.
 - Do not confuse awareness with traffic or traffic with result.
 - Do not use all-caps H2s by default.
 - Do not let excerpt/SEO openings repeat the same cluster formula.
+- Do not force a reusable heading bundle such as `O que muda na pratica`, `Quanto isso custa`, `Erros mais comuns`, `Onde isso pega`, `Vale a pena`, or similar shells.
+- Do not use self-referential CTA bridges such as `Onde o Mercado Veiculos entra...`; the CTA block must describe the business owner's next move.
 - Use variation on purpose: alternate between consequence-first, trust-first, search-behavior-first, friction-first, and hidden-loss-first openings so the cluster does not sound templated.
 - Prefer operational language: agenda, orçamento, demanda, confiança, contato, indicação, margem, previsibilidade.
+- Use a modular structure. Keep only the sections the article actually needs to resolve intent and move the owner closer to action.
 
 ## Preferred section types
 
@@ -60,6 +64,12 @@ Use headings such as:
 - why the customer leaves before the first contact
 - what weak visibility costs in the real business
 - what to fix first without turning it into a giant project
+
+Avoid:
+
+- self-conscious "platform bridge" H2s
+- generic wrap-up H2s that could fit any article in the segment
+- section orders that feel copied from the previous article
 
 ## Final report
 

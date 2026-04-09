@@ -42,13 +42,17 @@ Usually anchor the rewrite in:
 ## Writing rules
 
 - Do not open with generic category explanation.
+- Do not open with softened filler like `Para muita gente...` or `Para muito motorista...` when the concrete symptom, loss, or risk can be named immediately.
 - Do not repeat the same broad opener pattern across adjacent articles (`muita gente`, `muito motorista`, `muito dono`, etc.). Rotate lead structures deliberately.
 - Do not use `Resposta rápida` as default first H2.
 - Do not write encyclopedia-style copy.
 - Do not leave cost logic implicit when the topic plausibly affects the wallet.
 - Do not repeat formulaic excerpt openings across related articles.
+- Do not force a reusable heading bundle such as `O que muda na pratica`, `Quanto isso custa`, `Erros mais comuns`, `Onde isso pega`, `Vale a pena`, or similar shells.
+- Do not use self-referential CTA bridges such as `Onde o Mercado Veiculos entra...`; the CTA block must state the driver's next move clearly.
 - Use variation on purpose: alternate between symptom-first, cost-first, urgency-first, mistake-first, and consequence-first openings so related articles do not read like one template.
 - Prefer language of real ownership: bolso, risco, atraso, urgência, diagnóstico, troca, custo evitável.
+- Use a modular structure. Keep only the sections needed to resolve intent, instead of imitating the last successful article.
 
 ## Preferred section behavior
 
@@ -60,6 +64,12 @@ Choose headings that express:
 - what makes the case cheaper or more expensive
 - when paying more is justified
 - what the reader should do next
+
+Avoid:
+
+- platform-self-introduction H2s
+- filler headings that exist only to "complete the template"
+- repeating the same section order across the cluster
 
 ## Final report
 

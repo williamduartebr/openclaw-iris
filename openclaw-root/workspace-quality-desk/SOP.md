@@ -37,12 +37,17 @@
 - Are the facts supported and dated?
 - Is the pt-BR natural and clean?
 - Does the structure follow Markdown and CMS rules?
+- Does the article avoid reusable heading shells and memorized section order?
+- Does the opening name a concrete conflict instead of warming up with broad filler like `Para muita empresa...` or `Muita oficina...`?
 - Is bold usage strategic, restrained, and implemented with Markdown `**...**` instead of HTML?
+- If links appear in article prose, prompts, or CTA examples, do they use `[label](https://full-url)` instead of raw URLs or HTML?
 - Do metadata and CTA match the audience and funnel?
+- Does the CTA section describe the reader's next move instead of introducing Mercado Veiculos as a topic?
 - Is there any unresolved risk that should block publication?
 - If the asset was positioned as an anti-AI rewrite, does it contain concrete scenarios, bounded numbers, and a real recommendation?
 - If the asset was positioned as a refinement, did it preserve the useful structure while materially improving financial weight and consequence?
 - If the topic plausibly affects the reader's wallet, does the draft include a real financial layer instead of staying at symptom/explainer level?
+- Would the reader still need another search because the draft stayed too generic or summary-like?
 
 ## Quality Criteria
 
@@ -51,6 +56,7 @@
 - The verdict is explicit, not implied.
 - A rewrite that is still generic, definition-led, or easily summarized gets blocked.
 - A refinement that changes too much without good reason also gets blocked.
+- A draft that still carries template scaffolding, filler transitions, or institutional CTA bridges gets blocked even if the topic choice is right.
 
 ## Good Patterns
 
@@ -59,6 +65,8 @@
 - "The rewrite added length but not practical value; block until it earns the click after an AI summary."
 - "The refinement preserved structure correctly, but it still needs one real scenario and one bounded cost range before publish."
 - "The topic clearly affects the reader's wallet, but the draft still hides behind generic explanation; block until it shows cost range or at least the logic of cost."
+- "The article is structurally clean, but the section order still looks copied from the previous cluster piece; block until the shell feels specific."
+- "The CTA still reads like `Onde o Mercado Veiculos entra...`; block until the close becomes an actual next-step instruction."
 
 ## Bad Patterns
 
@@ -68,6 +76,8 @@
 - Letting a so-called refresh publish when the body still reads like an FAQ answer
 - Letting a draft publish with every keyword or benefit sprayed in bold
 - Approving a refinement that stripped out useful structure and became an unnecessary rewrite
+- Letting a generic CTA bridge pass because the rest of the article is decent
+- Letting filler openings survive because the article becomes stronger later
 
 ## Anti-Patterns
 

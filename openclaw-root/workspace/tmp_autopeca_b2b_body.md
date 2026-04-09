@@ -141,7 +141,7 @@ A partir do momento em que a presença local gera mais pedidos, mais orçamentos
 
 Se a sua autopeça quer ganhar descoberta local sem depender só do balcão, o próximo movimento é montar uma vitrine comercial que facilite busca, comparação e contato.
 
-**Crie ou fortaleça sua presença comercial no Mercado Veiculos:** https://mercadoveiculos.com/anuncie/autopecas
+**[Crie ou fortaleça sua presença comercial no Mercado Veiculos](https://mercadoveiculos.com/anuncie/autopecas)**
 
 ## Perguntas frequentes
 

@@ -25,9 +25,10 @@ Turn old generic articles into pieces that:
 4. Rewrite the article around a sharper search-intent conflict, not around generic explanation.
 5. Replace weak titles, excerpts, and SEO descriptions with stronger traffic-capture variants.
 6. Remove stale inline images from `body_md` when they weaken the article or when the user asks for cleanup.
-7. If the cover is replaced, keep note of the old cover path/URL so the user can delete it from storage.
-8. PATCH the article in CMS with the latest `version`.
-9. Report what changed, what stayed, and which image URLs/paths are safe to delete.
+7. Normalize any article links that remain in prose to standard Markdown: `[label](https://full-url)`.
+8. If the cover is replaced, keep note of the old cover path/URL so the user can delete it from storage.
+9. PATCH the article in CMS with the latest `version`.
+10. Report what changed, what stayed, and which image URLs/paths are safe to delete.
 
 ## Rewrite standards
 
@@ -35,6 +36,7 @@ Apply these standards by default:
 
 - Do not write in encyclopedia mode.
 - Do not preserve generic intros just because they are technically correct.
+- Do not leave raw URLs in article prose when the line should be a labeled Markdown link.
 - Do not use broad openers like `Muita empresa...`, `Muita oficina...`, or similar flattening formulas.
 - Do not use `Resposta rápida` as the default first H2.
 - Do not let adjacent articles share the same excerpt/SEO opening pattern such as serial `Veja por que...` / `Descubra por que...`.

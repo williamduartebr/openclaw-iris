@@ -20,6 +20,11 @@ The goal is not to "make it longer." The goal is to make it materially harder to
 - Do not repeat obvious information the reader already expects.
 - Do not confuse correctness with usefulness.
 - Do not write a "safe" article that avoids taking a position.
+- Do not rewrite mainly to capture keyword variations while leaving the reader with the same weak value.
+- Do not add sections just to look complete or long enough.
+- Do not refresh years, dates, or topical framing without substantive editorial change.
+- Do not summarize what other pages already say unless the rewrite adds new decision value, sharper synthesis, or practical context.
+- Do not let titles, subtitles, excerpts, or SEO descriptions fall into repeated opener templates across a cluster such as `Veja o que...`, `Veja por que...`, `Descubra por que...`, or `Entenda como...` used mechanically. Rotate the construction on purpose.
 
 ## What The Upgraded Piece Must Add
 
@@ -41,18 +46,25 @@ The goal is not to "make it longer." The goal is to make it materially harder to
   - how much the wrong diagnosis, delay, or shortcut can cost
 - "No exact price available" is not a license to publish a financially empty article.
 
-## Mandatory Output Blocks
+## Modular Output Blocks
 
-Use these exact pt-BR block ideas in the publishable article whenever the task is a full rewrite:
+Use a modular structure, not a fixed heading ladder.
 
-1. Rewritten title
-2. Intro with a practical problem, tension, or consequence
-3. `O QUE MUDA NA PRATICA`
-4. `QUANTO ISSO CUSTA (NA VIDA REAL)`
-5. `ERROS MAIS COMUNS`
-6. `ONDE ISSO PEGA DE VERDADE`
-7. `VALE A PENA OU NAO?`
-8. Conclusion with practical impact
+- Every rewrite still needs:
+  - rewritten title
+  - intro with a practical problem, tension, or consequence
+  - conclusion or next-step close with practical impact
+- Then choose only the blocks the article genuinely needs. Typical useful modules include:
+  - what changes in real life
+  - what the reader is misreading
+  - when this becomes urgent
+  - what this costs in the real case
+  - what mistake makes the problem more expensive
+  - when paying more is justified
+  - what separates the good option from the weak one
+  - what the reader should do next
+- Never force the same reusable bundle across the whole cluster.
+- Headings must be article-specific. Portable packs such as `O que muda na pratica`, `Quanto isso custa (na vida real)`, `Erros mais comuns`, `Onde isso pega de verdade`, and `Vale a pena ou nao?` are blocked unless a specific page truly earns one of them.
 
 ## Anti-AI Layer
 
@@ -63,6 +75,15 @@ Every rewrite must include at least two of the following:
 - scenario comparison
 - user-error situations
 - experiential phrasing such as `na pratica`, `o que acontece e`, `no bolso`, `quando isso da errado`
+- a reason the reader would not be satisfied by a short summary alone
+
+## 2026+ SEO Guardrails
+
+- The rewrite must feel people-first, not search-engine-first.
+- It must target an existing Mercado Veiculos audience need, not a floating keyword by itself.
+- It must be satisfying enough that the reader should not need another search to get the practical answer.
+- Do not write to a preferred word count. Google does not reward that by itself.
+- Do not preserve or generate clusters of near-duplicate pages with only minor wording changes.
 
 ## Final Editorial Test
 

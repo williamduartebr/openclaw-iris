@@ -1,0 +1,13 @@
+{
+  "prompt": "Create a realistic documentary-style editorial hero image for a Brazilian automotive article about the difference between original and aftermarket car parts. Show a practical comparison scene in a Brazilian auto parts counter or workshop desk, with two boxed parts side by side, one attendant or mechanic analyzing them, shelves or workshop context in the background, authentic Brazilian setting, left-hand-drive vehicle context if visible, natural daylight, credible and utilitarian atmosphere, no glamour, no text, no logos, no watermark, landscape 1600x900.",
+  "provider": "google_gemini",
+  "model": "gemini-2.5-flash-image",
+  "style": "natural",
+  "quality": "high",
+  "width": 1600,
+  "height": 900,
+  "metadata": {
+    "usage": "cover_image",
+    "section": "editorial"
+  }
+}

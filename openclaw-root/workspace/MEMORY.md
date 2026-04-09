@@ -17,6 +17,7 @@ Mercado Veiculos should operate like the strongest automotive decision engine in
 - Internal operating files are written in English.
 - Publishable content is written in Brazilian Portuguese with full accents.
 - Use Markdown only, never HTML, for article bodies.
+- Use standard Markdown links everywhere the editorial system may hand text to article production: `[label](https://full-url)`.
 - The article body starts at `##`; subsections use `###`.
 - FAQ sections use `## Perguntas frequentes`.
 - FAQ items use `### FAQ: ...`.
@@ -134,11 +135,12 @@ Mercado Veiculos should operate like the strongest automotive decision engine in
 
 ## Durable CTA Decision
 
-- For driver-facing B2C articles whose next step is finding a provider, workshop, or service, default to a direct CTA block that points to `https://mercadoveiculos.com/busca`.
+- For driver-facing B2C articles whose next step is finding a provider, workshop, or service, default to a direct CTA block that points to [Buscar serviços no Mercado Veiculos](https://mercadoveiculos.com/busca).
 - That CTA should be action-led and specific about the next move. Prefer clear prompts to search, compare, and find providers now.
 - Avoid vague institutional bridges such as "Mercado Veiculos entra nessa decisão" or other generic platform-self-referential CTA copy.
 - This standard was applied after the published articles `48` (`checklist-carro-antes-de-viajar`) and `49` (`pneu-ruim-na-chuva-como-saber-a-hora-de-trocar`) were corrected to use the direct search CTA.
 - B2B acquisition content should explicitly invite businesses to create or claim a Mercado Veiculos profile, including free-profile entry points when relevant, before later upsell through the panel or other commercial motions.
+- When William specifies a destination article or page for the final CTA, use that exact Mercado Veiculos destination instead of defaulting to a broader institutional CTA.
 - For B2B commercial funnels around plans, profiles, or visibility products, prefer a laddered journey: broad TOFU by segment first, then MOFU article(s) about maturity, fit, and plan logic.
 - Do not over-concentrate TOFU feeders in the workshops/officinas niche. Build segment-diverse TOFU feeders across the wider automotive ecosystem, including transportadoras, guinchos, autoelétricas, autopeças, ar-condicionado automotivo, funilaria e pintura, estética automotiva, concessionárias/revendas, oficinas de moto, retíficas, and related operators when relevant.
 - For MOFU assets like `perfil-gratuito-vs-plano-pago-no-mercado-veiculos-quando-vale-fazer-upgrade`, treat them as shared commercial destinations fed by multiple segment-specific TOFUs rather than by one repeated niche alone.
@@ -148,11 +150,25 @@ Mercado Veiculos should operate like the strongest automotive decision engine in
 ## Durable Tool-Link Decision
 
 - Tool links are not limited to TOFU and MOFU by default; they are governed by editorial function first, then adjusted to funnel stage.
+- All links inside article bodies should use standard Markdown syntax: `[label](https://full-url)`.
+- Apply the same link standard to editorial prompts, refresh instructions, CTA examples, and operational docs that can be copied into article production.
+- Do not use HTML anchors, inverted link syntax, or unlabeled raw URLs inside normal body copy when a proper Markdown label can be used.
+- When preserving or inserting existing links during article refreshes, keep the canonical full URL inside `()` and use a readable label inside `[]`.
 - TOFU and MOFU are the easiest fit because tools add practical utility through triage, calculation, comparison, and scenario testing.
 - BOFU can still use tool links, but only when the tool prepares the reader to convert and does not steal the main CTA to search, compare providers, request a quote, or contact a business.
 - B2B and plan-acquisition assets may use tool references as ecosystem proof and value support, not as the primary operational CTA.
-- Use only production tool URLs under `https://mercadoveiculos.com/ferramentas`.
+- Use only production tool URLs under [Ferramentas Mercado Veiculos](https://mercadoveiculos.com/ferramentas).
 - Canonical tool slugs must match the live Mercado Veiculos routes; do not rely on guessed or legacy hyphenated variants.
+
+## Durable 2026 SEO Decision
+
+- Treat current Google Search guidance as people-first, helpful, reliable, and audience-led rather than keyword-led.
+- Every article must add original editorial value beyond a summary answer: scenario logic, tradeoff, local context, cost, operational detail, first-hand synthesis, or a sharper decision path.
+- Do not create or preserve content mainly to capture search traffic, hit an arbitrary word count, or keep clusters visually symmetrical.
+- Do not update years, dates, or "freshness" cues unless the body materially changed.
+- Do not mass-produce near-duplicate pages or section packs across a cluster just to target adjacent variations.
+- Avoid scaled-content behavior such as stitching together generic blocks, paraphrasing what others already said, or publishing many similar articles with little added value.
+- For YMYL-adjacent topics in automotive content such as cost, safety, documentation, legal obligations, or business acquisition decisions, trust is the priority signal: clarity, author credibility, bounded claims, and practical usefulness matter more than keyword coverage theater.
 
 ## Durable Heading Decision
 
@@ -163,16 +179,27 @@ Mercado Veiculos should operate like the strongest automotive decision engine in
 - Avoid mechanical heading sets such as repeated variations of `O que muda na prática`, `Quanto isso custa na vida real`, `Erros mais comuns`, `Onde isso pega de verdade`, and `Vale a pena ou não?` when related articles start sounding interchangeable.
 - Prefer headings that name the real reader decision, the main risk, the wallet impact, the use context, or the exact question that article resolves.
 - Block generic opening formulas that sound like reusable templates, especially constructions such as `Muita empresa automotiva...`, `Muita oficina...`, `Muita transportadora...`, or similar broad-start phrasing when they flatten the conflict.
+- Also block soft opening bridges such as `Para muita empresa...`, `Para muitos negocios...`, or similar filler transitions when they are only warming up the page instead of naming the real tension immediately.
+- Strongly block category-level openers such as `Muita oficina...`, `Muita empresa...`, `Muitos negocios...`, `Muita autopeca...` and close variants when they flatten the conflict instead of naming a real problem.
 - First paragraphs should open with a concrete tension, commercial loss, decision, friction, or operational consequence instead of broad category-level generalizations.
 - During final QA, actively scan the opening section for generic category phrases, repeated framing, and low-tension lead-ins; rewrite them before publish rather than accepting them as harmless.
-- Also vary excerpt and SEO-description openings across related articles. Do not let a cluster fall into repetitive starts like `Veja por que...`, `Descubra por que...`, or the same lead formula repeated across adjacent pieces; rotate structures so the cluster feels editorially alive rather than templated.
+- Also vary excerpt and SEO-description openings across related articles. Do not let a cluster fall into repetitive starts like `Veja por que...`, `Veja o que...`, `Descubra por que...`, `Entenda como...` repeated mechanically, or the same lead formula repeated across adjacent pieces; rotate structures so the cluster feels editorially alive rather than templated.
+- Treat title, subtitle, excerpt, and SEO-description openings as a rotation set. Deliberately alternate openings so adjacent articles do not sound mass-produced from one template.
 - Review pt-BR accentuation in headings before publish. `PRÁTICA` is acceptable; `PRATICA` is not.
 - Use all-caps headings only when there is a clear editorial reason. Default to natural Portuguese casing.
+- Heading order is not sacred. Use only the sections the article actually needs, in the order that best resolves intent, instead of imitating a memorized editorial shell.
+
+## Durable CTA Bridge Decision
+
+- CTA sections must be action-led and answer the reader's next move, not introduce Mercado Veiculos as if the platform itself were the topic.
+- Avoid self-referential H2s such as `Onde o Mercado Veiculos entra nessa etapa`, `Onde o Mercado Veiculos entra nessa decisao`, or close variants when they only serve as a generic bridge into promotion.
+- Avoid body transitions like `Para muita empresa, e ai que...` or `Para muitos negocios, esse e o momento...` when they only soften the CTA instead of clarifying who should act and why.
+- A strong CTA bridge names the current reader stage, the friction still unresolved, and the specific action that reduces that friction now.
 
 ## Publishing Truths
 
-- The publishing API runs at `https://mercadoveiculos.com/api/content`
-- The media API runs at `https://mercadoveiculos.com/api/media`
+- The publishing API runs at [Mercado Veiculos Content API](https://mercadoveiculos.com/api/content)
+- The media API runs at [Mercado Veiculos Media API](https://mercadoveiculos.com/api/media)
 - The project-root `.env.openclaw` file is the local source of truth for `CONTENT_API_KEY` and `MEDIA_API_KEY`
 - Keep publishing and media secrets in `.env.openclaw`, not in tracked documentation, article output, or prompt text returned to the user
 - If a credential changes, update `.env.openclaw` first and reload the OpenClaw container so specialists stop using stale local test values
@@ -215,3 +242,10 @@ Mercado Veiculos should operate like the strongest automotive decision engine in
   - Category slug: `autoeletrica-e-eletronica`
   - Funnel: `TOFU`
   - Notes: TOFU diagnostic explainer created through specialist flow; published successfully without cover image during CMS flow test; this passes technically but does not change the editorial standard that publish-ready packets should normally include hero imagery.
+
+## Durable Regional Expansion Decision
+
+- Regional, state, and city-level editorial scale is now a deliberate growth path for Mercado Veiculos when the territorial cut changes search behavior, trust, comparison, or conversion logic instead of only swapping place names.
+- Operate this machine separately under `editorial/artigos-2026/regionais-2026`.
+- Use a niche × territory × intent model for expansion.
+- Keep refactor queues for old URLs, territorial priority maps, and model-by-niche files so regional scale stays operational instead of ad hoc.

@@ -106,7 +106,7 @@ Se a sua empresa quer entender por que começar por uma presença simples e orga
 
 Se a sua transportadora ainda depende demais de rede conhecida e quer começar a organizar a forma como aparece para novos contatos, o passo mais lógico é montar uma presença comercial básica e bem feita.
 
-**Crie seu perfil no Mercado Veiculos:** https://mercadoveiculos.com/anuncie
+**[Crie seu perfil no Mercado Veiculos](https://mercadoveiculos.com/anuncie)**
 
 ## Perguntas frequentes
 

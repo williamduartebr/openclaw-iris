@@ -132,8 +132,9 @@ Evitar poluir a abertura.
 
 ## Regra de URL
 
-- Usar **somente links de produção** em `https://mercadoveiculos.com`.
-- Página geral de ferramentas: `https://mercadoveiculos.com/ferramentas`
+- Usar **somente links de produção** em [Mercado Veiculos](https://mercadoveiculos.com).
+- No corpo do artigo, nos exemplos e nas instruções editoriais, usar sempre o formato `[label](https://url-completa)`.
+- Página geral de ferramentas: [Ferramentas Mercado Veiculos](https://mercadoveiculos.com/ferramentas)
 - Não usar localhost, staging, rotas internas, nomes de controller ou slugs inventados.
 - Os slugs canônicos devem seguir as rotas atuais em `src/Tools/Routes/web.php`.
 
@@ -142,9 +143,9 @@ Evitar poluir a abertura.
 ### Documentação e impostos
 
 Ferramentas prioritárias:
-- `https://mercadoveiculos.com/ferramentas/calculadora-ipva`
-- `https://mercadoveiculos.com/ferramentas/recall-regularizacao`
-- `https://mercadoveiculos.com/ferramentas`
+- [Calculadora IPVA](https://mercadoveiculos.com/ferramentas/calculadora-ipva)
+- [Recall e Regularização](https://mercadoveiculos.com/ferramentas/recall-regularizacao)
+- [Todas as Ferramentas](https://mercadoveiculos.com/ferramentas)
 
 Boas funções:
 - simular valor
@@ -154,9 +155,9 @@ Boas funções:
 ### Diagnóstico automotivo amplo
 
 Ferramentas prioritárias:
-- `https://mercadoveiculos.com/ferramentas/diagnostico-automotivo`
-- `https://mercadoveiculos.com/ferramentas/codigo-obd2`
-- `https://mercadoveiculos.com/ferramentas/analise-ruido`
+- [Diagnóstico Automotivo](https://mercadoveiculos.com/ferramentas/diagnostico-automotivo)
+- [Códigos OBD2](https://mercadoveiculos.com/ferramentas/codigo-obd2)
+- [Analisador de Ruídos](https://mercadoveiculos.com/ferramentas/analise-ruido)
 
 Boas funções:
 - triagem inicial
@@ -166,9 +167,9 @@ Boas funções:
 ### Pneus, suspensão, alinhamento e vibração
 
 Ferramentas prioritárias:
-- `https://mercadoveiculos.com/ferramentas/alinhamento-balanceamento`
-- `https://mercadoveiculos.com/ferramentas/diagnostico-suspensao`
-- `https://mercadoveiculos.com/ferramentas/conversor-pneus`
+- [Alinhamento e Balanceamento](https://mercadoveiculos.com/ferramentas/alinhamento-balanceamento)
+- [Diagnóstico de Suspensão](https://mercadoveiculos.com/ferramentas/diagnostico-suspensao)
+- [Conversor de Pneus](https://mercadoveiculos.com/ferramentas/conversor-pneus)
 
 Boas funções:
 - separar alinhamento de suspensão
@@ -178,60 +179,60 @@ Boas funções:
 ### Freios
 
 Ferramentas prioritárias:
-- `https://mercadoveiculos.com/ferramentas/triagem-freios`
-- `https://mercadoveiculos.com/ferramentas/diagnostico-automotivo`
+- [Triagem de Freios](https://mercadoveiculos.com/ferramentas/triagem-freios)
+- [Diagnóstico Automotivo](https://mercadoveiculos.com/ferramentas/diagnostico-automotivo)
 
 ### Bateria, partida e elétrica
 
 Ferramentas prioritárias:
-- `https://mercadoveiculos.com/ferramentas/bateria-e-partida`
-- `https://mercadoveiculos.com/ferramentas/diagnostico-automotivo`
-- `https://mercadoveiculos.com/ferramentas/injecao-e-ignicao`
+- [Assistente de Bateria e Partida](https://mercadoveiculos.com/ferramentas/bateria-e-partida)
+- [Diagnóstico Automotivo](https://mercadoveiculos.com/ferramentas/diagnostico-automotivo)
+- [Assistente de Injeção e Ignição](https://mercadoveiculos.com/ferramentas/injecao-e-ignicao)
 
 ### Ar-condicionado
 
 Ferramentas prioritárias:
-- `https://mercadoveiculos.com/ferramentas/diagnostico-ar-condicionado`
+- [Diagnóstico de Ar-Condicionado](https://mercadoveiculos.com/ferramentas/diagnostico-ar-condicionado)
 
 ### Compra, preço e comparação
 
 Ferramentas prioritárias:
-- `https://mercadoveiculos.com/ferramentas/tabela-fipe`
-- `https://mercadoveiculos.com/ferramentas/comparador-veiculos`
-- `https://mercadoveiculos.com/ferramentas/avaliar-oferta`
-- `https://mercadoveiculos.com/ferramentas/custo-propriedade`
-- `https://mercadoveiculos.com/ferramentas/consultor-compra`
+- [Tabela FIPE](https://mercadoveiculos.com/ferramentas/tabela-fipe)
+- [Comparador de Veículos](https://mercadoveiculos.com/ferramentas/comparador-veiculos)
+- [Avaliador de Oferta](https://mercadoveiculos.com/ferramentas/avaliar-oferta)
+- [Custo Total de Propriedade](https://mercadoveiculos.com/ferramentas/custo-propriedade)
+- [Consultor de Compra](https://mercadoveiculos.com/ferramentas/consultor-compra)
 
 ### Viagem e manutenção sazonal
 
 Ferramentas prioritárias:
-- `https://mercadoveiculos.com/ferramentas/custo-viagem`
-- `https://mercadoveiculos.com/ferramentas/planejador-viagem`
-- `https://mercadoveiculos.com/ferramentas/manutencao-sazonal`
-- `https://mercadoveiculos.com/ferramentas/checklist-manutencao`
+- [Custo de Viagem](https://mercadoveiculos.com/ferramentas/custo-viagem)
+- [Planejador de Viagem](https://mercadoveiculos.com/ferramentas/planejador-viagem)
+- [Manutenção Sazonal](https://mercadoveiculos.com/ferramentas/manutencao-sazonal)
+- [Checklist de Manutenção](https://mercadoveiculos.com/ferramentas/checklist-manutencao)
 
 ## Estruturas recomendadas de CTA com ferramenta
 
 ### Modelo 1 - meio do artigo
 
-"Se você quiser organizar melhor os sintomas antes de procurar oficina, use a ferramenta X do Mercado Veiculos: URL"
+"Se você quiser organizar melhor os sintomas antes de procurar oficina, use a [Ferramenta X](https://url-completa)."
 
 ### Modelo 2 - final do artigo
 
 "Antes de sair pedindo orçamento no escuro, você também pode usar:
-- Ferramenta X
-- Ferramenta Y
-- Todas as ferramentas
+- [Ferramenta X](https://url-completa)
+- [Ferramenta Y](https://url-completa)
+- [Todas as Ferramentas](https://mercadoveiculos.com/ferramentas)
 
-Depois, compare serviços e encontre ajuda perto de você: URL"
+Depois, compare serviços e encontre ajuda perto de você em [Buscar serviços no Mercado Veiculos](https://mercadoveiculos.com/busca)."
 
 ### Modelo 3 - documentação
 
-"Antes de regularizar, vale calcular ou revisar a situação na ferramenta X: URL"
+"Antes de regularizar, vale calcular ou revisar a situação em [Ferramenta X](https://url-completa)."
 
 ### Modelo 4 - B2B
 
-"O perfil ou plano não funciona isolado. Ele faz parte de um ecossistema em que o usuário também encontra ferramentas, diagnósticos e comparações práticas no Mercado Veiculos: URL"
+"O perfil ou plano não funciona isolado. Ele faz parte de um ecossistema em que o usuário também encontra ferramentas, diagnósticos e comparações práticas em [Ferramenta X](https://url-completa)."
 
 ## O que evitar
 
@@ -245,6 +246,7 @@ Depois, compare serviços e encontre ajuda perto de você: URL"
 ## Regra técnica
 
 - No corpo do artigo, manter **Markdown limpo** e evitar HTML.
+- Links em artigo, prompt ou instrução editorial devem usar `[label](https://url-completa)`.
 - Não forçar `target="_blank"` dentro do `body_md`.
 - Se links em nova aba forem desejados, tratar no frontend ou renderizador.
 

@@ -126,10 +126,11 @@ Before acting, classify:
 1. Fetch live page and CMS article.
 2. Decide refresh type: B2B, B2C, or commercial funnel.
 3. Rewrite text with the correct specialized standard.
-4. Refresh cover unless `keep-media` was explicitly requested.
-5. Remove weak inline images if present and useful to clean.
-6. PATCH with latest version.
-7. Report article id, version, whether slug stayed the same, whether media changed, and old image URLs/paths for deletion.
+4. Run a mandatory `quality-desk` review before treating the article as final.
+5. Refresh cover unless `keep-media` was explicitly requested.
+6. Remove weak inline images if present and useful to clean.
+7. PATCH with latest version.
+8. Report article id, version, whether slug stayed the same, whether media changed, and old image URLs/paths for deletion.
 
 ### If route = media only
 
@@ -159,4 +160,5 @@ Always tell the user:
 - Default to replacing media, not preserving it.
 - If you preserve media, do it because the user explicitly requested it.
 - When routing text rewrites, enforce variation in openings and excerpt leads so adjacent updated articles do not repeat formulas like `muita empresa...`, `veja por que...`, or `descubra por que...` in sequence.
+- Also enforce `quality-desk` as a hard gate: if the review was not run, the output is still draft status, not final publication copy.
 - Keep the final report operational and deletion-friendly.

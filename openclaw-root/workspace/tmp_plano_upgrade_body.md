@@ -135,7 +135,7 @@ Essas respostas costumam mostrar se o upgrade é cedo, certo ou atrasado.
 
 Se sua empresa automotiva já saiu da fase de simplesmente existir e agora quer usar presença comercial para gerar mais comparação favorável e mais contato qualificado, vale conhecer as opções de plano do Mercado Veiculos.
 
-**Veja quando faz sentido evoluir do perfil gratuito para uma presença mais forte:** https://mercadoveiculos.com/anuncie
+**[Veja quando faz sentido evoluir do perfil gratuito para uma presença mais forte](https://mercadoveiculos.com/anuncie)**
 
 ## Perguntas frequentes
 

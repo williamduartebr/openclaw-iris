@@ -203,4 +203,4 @@ Se o sintoma for leve, algumas pessoas ainda circulam por um tempo, mas **não �
 
 Se o seu carro está puxando para um lado, a melhor decisão é **não presumir a causa sem checagem**. Pode ser algo relativamente simples, como pressão ou alinhamento, mas também pode indicar desgaste em pneu, suspensão ou freio.
 
-**Compare oficinas, auto centers e especialistas em pneus, suspensão e freios perto de você no Mercado Veiculos. Veja opções da sua região e escolha onde diagnosticar o problema com mais critério:** https://mercadoveiculos.com/busca
+**[Compare oficinas, auto centers e especialistas em pneus, suspensão e freios perto de você no Mercado Veiculos. Veja opções da sua região e escolha onde diagnosticar o problema com mais critério](https://mercadoveiculos.com/busca)**

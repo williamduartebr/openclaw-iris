@@ -2,9 +2,9 @@
 
 ## Publishing Stack
 
-- Publishing API base: `https://mercadoveiculos.com/api/content`
+- Publishing API base: [Mercado Veiculos Content API](https://mercadoveiculos.com/api/content)
 - Auth header: `Authorization: Bearer $CONTENT_API_KEY`
-- Media API base: `https://mercadoveiculos.com/api/media`
+- Media API base: [Mercado Veiculos Media API](https://mercadoveiculos.com/api/media)
 - Media auth header: `Authorization: Bearer $MEDIA_API_KEY`
 - Local credential source: project-root `.env.openclaw`
 - Keep API keys in `.env.openclaw` only; never paste raw secrets into tracked docs, prompts, or article output
@@ -22,6 +22,10 @@
 - Use `## Perguntas frequentes` for the FAQ section heading
 - FAQ entries must use `### FAQ: ...`
 - Never emit HTML for article bodies
+- All article links must use standard Markdown link syntax: `[label](https://full-url)`
+- Apply the same Markdown-link rule to `body_md`, editorial prompts, refresh instructions, CTA examples, and operational guidance that may be copied into article work
+- Never use inverted or nonstandard link forms such as `()[]`, bare URLs when a labeled link is appropriate, or HTML `<a>` tags in article bodies
+- When preserving or adding links inside article copy, prefer descriptive labels and keep the full canonical URL inside `()`
 - Use Markdown `**bold**` strategically for scanability: usually 1 to 3 highlights per text block when emphasis truly helps
 - Prioritize bold on key terms, benefits, problems, solutions, local modifiers, short answers, price ranges, and decision phrases; never bold whole paragraphs or repeat the same keyword mechanically
 - Use Brazilian Portuguese with full accents in publishable content
@@ -31,7 +35,7 @@
 
 - B2B automotive growth content should point to `/anuncie` or the most relevant `/anuncie/{segment}`
 - B2C BOFU assets should drive to directory pages, profiles, or direct WhatsApp contact
-- For driver-facing discovery and provider-choice articles, default the CTA block to `https://mercadoveiculos.com/busca`
+- For driver-facing discovery and provider-choice articles, default the CTA block to [Buscar serviços no Mercado Veiculos](https://mercadoveiculos.com/busca)
 - Make the CTA promise the next action clearly; avoid generic lines such as "Mercado Veiculos entra nessa decisão"
 - B2B acquisition articles can invite businesses to create or claim a Mercado Veiculos profile, including free entry points when that is the right first conversion
 - Mention Mercado Veiculos naturally, never as forced keyword stuffing
@@ -43,7 +47,7 @@
 - MOFU is a strong fit for comparison, scenario testing, and reducing decision error before service or purchase
 - BOFU can use a tool only when it prepares the reader to convert; never let a tool compete with the primary CTA to search, compare providers, view a profile, or contact now
 - B2B and plan-acquisition content can mention tools as ecosystem proof or value support, but the primary CTA still points to `/anuncie` or the correct commercial landing page
-- Use production URLs only: `https://mercadoveiculos.com/ferramentas` and the live tool slugs defined in the Mercado Veiculos tools routes
+- Use production URLs only: [Ferramentas Mercado Veiculos](https://mercadoveiculos.com/ferramentas) and the live tool slugs defined in the Mercado Veiculos tools routes
 - Do not guess, translate, or hyphenate tool slugs from memory; use the canonical route
 
 ## Delivery Rules

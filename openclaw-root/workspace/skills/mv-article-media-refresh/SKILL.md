@@ -21,8 +21,9 @@ Keep the article URL stable while improving the visual package and cleaning obso
    - whether the user wants to keep or replace the cover
 4. If replacing the cover, generate or attach a stronger editorial image aligned to Brazilian reality.
 5. Remove obsolete inline images from `body_md` when requested or when they weaken the article.
-6. PATCH with latest version.
-7. Report old image path(s)/URL(s) that can be deleted from storage.
+6. If article prose still contains raw URLs, normalize them to `[label](https://full-url)` before the CMS update.
+7. PATCH with latest version.
+8. Report old image path(s)/URL(s) that can be deleted from storage.
 
 ## Media rules
 

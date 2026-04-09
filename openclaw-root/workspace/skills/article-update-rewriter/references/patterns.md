@@ -29,6 +29,7 @@ Stronger:
 ## Preferred section behavior
 
 Use H2s that name the real conflict, not empty topic buckets.
+Build the article modularly; do not force the same section pack into every refresh.
 
 Prefer:
 - `Onde o marketing digital ruim machuca a oficina de verdade`
@@ -41,7 +42,10 @@ Avoid:
 - `Conclusão`
 - `Panorama geral`
 - `Resposta rápida`
+- `Onde o Mercado Veiculos entra nessa etapa`
+- fixed bundles like `O que muda na pratica` + `Quanto isso custa` + `Erros mais comuns` + `Vale a pena` copied in sequence
 - all-caps mechanical blocks by default
+- opening transitions such as `Para muita empresa...` when they only soften the lead instead of naming the conflict
 
 ## Excerpt rotation patterns
 
