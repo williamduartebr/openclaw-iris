@@ -165,6 +165,7 @@ Mercado Veiculos should operate like the strongest automotive decision engine in
 - Block generic opening formulas that sound like reusable templates, especially constructions such as `Muita empresa automotiva...`, `Muita oficina...`, `Muita transportadora...`, or similar broad-start phrasing when they flatten the conflict.
 - First paragraphs should open with a concrete tension, commercial loss, decision, friction, or operational consequence instead of broad category-level generalizations.
 - During final QA, actively scan the opening section for generic category phrases, repeated framing, and low-tension lead-ins; rewrite them before publish rather than accepting them as harmless.
+- Also vary excerpt and SEO-description openings across related articles. Do not let a cluster fall into repetitive starts like `Veja por que...`, `Descubra por que...`, or the same lead formula repeated across adjacent pieces; rotate structures so the cluster feels editorially alive rather than templated.
 - Review pt-BR accentuation in headings before publish. `PRÁTICA` is acceptable; `PRATICA` is not.
 - Use all-caps headings only when there is a clear editorial reason. Default to natural Portuguese casing.
 
