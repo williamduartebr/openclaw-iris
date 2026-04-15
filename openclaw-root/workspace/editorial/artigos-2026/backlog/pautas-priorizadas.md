@@ -11,6 +11,18 @@
 - Como uma oficina pequena pode começar a organizar atendimento e retorno sem virar refém de improviso
 - Vale a pena ter perfil no Mercado Veiculos se sua oficina já recebe cliente por indicação?
 
+## Nova frente profissional — Funilaria e pintura | descoberta, confiança e perda antes do contato
+
+- Sua funilaria aparece nas indicações, mas some na hora em que o cliente pesquisa?
+- Funilaria boa nem sempre é a mais lembrada: o custo de ficar invisível fora do boca a boca
+- Quando a indicação deixa de bastar para uma funilaria que quer crescer com mais previsibilidade
+- Por que sua funilaria pode estar perdendo orçamento antes mesmo do primeiro contato
+
+## Trilha funilaria e pintura — próximos TOFUs amplos
+
+- Para-choque riscado, trincado ou soltando: quando isso é só acabamento e quando já pede reparo
+- Porta amassada ou riscada: quando vale só retoque, quando vale funilaria e o que observar antes de pedir orçamento
+
 ## Prioridade média
 
 - Pastilha, disco ou fluido: o que costuma pesar mais no custo do freio e o que não vale adiar

@@ -18,3 +18,8 @@
 ## 2026-04-07
 - ID 56 — Carro puxando para um lado: pode ser alinhamento, pneu, suspensão ou freio?
 - ID 57 — IPVA atrasado em 2026: o que acontece, quais custos podem aparecer e como regularizar sem se enrolar
+
+## 2026-04-10
+- ID 76 — Vale a pena ter perfil no Mercado Veiculos se sua funilaria já recebe cliente por indicação?
+- ID 77 — Funilaria e pintura: quando vale reparar, quando vale só corrigir o visual e quanto isso pode variar
+- ID 78 — Arranhão, ralado ou amassado leve: quando isso é só estética e quando pode esconder algo maior
