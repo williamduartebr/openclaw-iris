@@ -1,19 +1,14 @@
 {
   "meta": {
-    "lastTouchedVersion": "2026.3.12"
-  },
-  "auth": {
-    "profiles": {
-      "openai-codex:default": {
-        "provider": "openai-codex",
-        "mode": "oauth"
-      }
-    }
+    "lastTouchedVersion": "2026.4.2"
   },
   "agents": {
     "defaults": {
       "model": {
-        "primary": "openai-codex/gpt-5.4"
+        "primary": "nvidia/z-ai/glm-5.1"
+      },
+      "models": {
+        "nvidia/z-ai/glm-5.1": {}
       },
       "workspace": "/root/.openclaw/workspace",
       "compaction": {
@@ -125,6 +120,42 @@
         }
       }
     ]
+  },
+  "models": {
+    "mode": "merge",
+    "providers": {
+      "nvidia": {
+        "baseUrl": "https://integrate.api.nvidia.com/v1",
+        "apiKey": {
+          "source": "env",
+          "provider": "default",
+          "id": "NVIDIA_API_KEY"
+        },
+        "auth": "token",
+        "api": "openai-completions",
+        "models": [
+          {
+            "id": "z-ai/glm-5.1",
+            "name": "GLM 5.1",
+            "api": "openai-completions",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "maxTokens": 16384,
+            "compat": {
+              "supportsDeveloperRole": false,
+              "supportsTools": true,
+              "supportsReasoningEffort": false,
+              "supportsUsageInStreaming": true,
+              "supportsStrictMode": false,
+              "maxTokensField": "max_tokens",
+              "thinkingFormat": "zai"
+            }
+          }
+        ]
+      }
+    }
   },
   "tools": {
     "profile": "coding",

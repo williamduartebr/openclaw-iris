@@ -24,7 +24,14 @@ OpenClaw setup for Mercado Veiculos with an editorial orchestrator (`Iris Prime`
 
 This repository ignores live runtime state, sessions, device pairings, credentials, and tokens.
 
-To bootstrap a fresh environment, copy `openclaw-root/openclaw.json.example` to `openclaw-root/openclaw.json`, fill in the required secrets, and then run:
+To bootstrap a fresh environment:
+
+1. Copy `.env.openclaw.example` to `.env.openclaw`
+2. Copy `openclaw-root/openclaw.json.example` to `openclaw-root/openclaw.json`
+3. Fill in the required secrets and tokens
+4. Start the stack
+
+The example config uses NVIDIA's OpenAI-compatible endpoint with `nvidia/z-ai/glm-5.1` as the default agent model.
 
 ```bash
 docker compose up -d
